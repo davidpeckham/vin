@@ -1,4 +1,5 @@
-"""get a list of manufacturers and WMIs from NHTSA Product Information Catalog Vehicle Listing (vPIC) API
+"""get a list of manufacturers and WMIs from NHTSA Product Information
+Catalog Vehicle Listing (vPIC) API
 
 Run this periodically to discover new manufacturers and WMIs.
 
@@ -88,31 +89,6 @@ def main():
     manufacturers = json.loads(Path("data/manufacturers.json").read_text(encoding="UTF-8"))
     wmi_map = build_wmi_mapping(manufacturers)
     Path("vin/wmi.json").write_text(json.dumps(wmi_map, indent=2, sort_keys=True))
-
-
-# https://vpic.nhtsa.dot.gov/api/vehicles/getvehiclevariablevalueslist/Vehicle%20Type?format=json
-
-# vehicle_types = {
-#     "Count": 9,
-#     "Message": "Results returned successfully",
-#     "SearchCriteria": "Variable:Vehicle Type",
-#     "Results": [
-#         {"ElementName": "Vehicle Type", "Id": 1, "Name": "Motorcycle"},
-#         {"ElementName": "Vehicle Type", "Id": 2, "Name": "Passenger Car"},
-#         {"ElementName": "Vehicle Type", "Id": 3, "Name": "Truck"},
-#         {"ElementName": "Vehicle Type", "Id": 5, "Name": "Bus"},
-#         {"ElementName": "Vehicle Type", "Id": 6, "Name": "Trailer"},
-#         {
-#             "ElementName": "Vehicle Type",
-#             "Id": 7,
-#             "Name": "Multipurpose Passenger Vehicle (MPV)",
-#         },
-#         {"ElementName": "Vehicle Type", "Id": 9, "Name": "Low Speed Vehicle (LSV)"},
-#         {"ElementName": "Vehicle Type", "Id": 10, "Name": "Incomplete Vehicle"},
-#         {"ElementName": "Vehicle Type", "Id": 13, "Name": "Off Road Vehicle"},
-#     ],
-# }
-#
 
 
 if __name__ == "__main__":

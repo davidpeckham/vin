@@ -11,14 +11,13 @@ from importlib.resources import files
 
 import pendulum
 
-from vin.constants import (
-    VIN_CHARACTER_VALUES,
-    VIN_CHARACTERS,
-    VIN_CHECK_DIGIT_CHARACTERS,
-    VIN_CHECK_DIGIT_POSITION,
-    VIN_LENGTH,
-    VIN_POSITION_WEIGHTS,
-)
+from vin.constants import VIN_CHARACTER_VALUES
+from vin.constants import VIN_CHARACTERS
+from vin.constants import VIN_CHECK_DIGIT_CHARACTERS
+from vin.constants import VIN_CHECK_DIGIT_POSITION
+from vin.constants import VIN_LENGTH
+from vin.constants import VIN_POSITION_WEIGHTS
+
 
 WMI = json.loads(files("vin").joinpath("wmi.json").read_text(encoding="UTF-8"))
 
