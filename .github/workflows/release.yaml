@@ -1,13 +1,17 @@
-name: publish
+name: release
 
 on:
   push:
     tags: ["*"]
 
 jobs:
-  deploy:
+  pypi-publish:
+    name: upload release to PyPI
     runs-on: ubuntu-latest
     environment: release
+    permissions:
+      # IMPORTANT: this permission is mandatory for trusted publishing
+      id-token: write
     steps:
       - uses: actions/checkout@v4.1.1
       - name: Set up Python
@@ -21,9 +25,8 @@ jobs:
           pip install hatch-vcs
           pip install hatch-fancy-pypi-readme
       - name: Build and publish
-        env:
-          HATCH_INDEX_USER: ${{ secrets.PYPI_USERNAME }}
-          HATCH_INDEX_AUTH: ${{ secrets.PYPI_PASSWORD }}
         run: |
           hatch build
-          hatch publish
+          # hatch publish
+      - name: Publish package distributions to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
