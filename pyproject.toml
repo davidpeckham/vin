@@ -22,7 +22,7 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
-dependencies = ['pendulum']
+dependencies = ['pendulum', 'requests']
 
 [project.urls]
 Documentation = "https://github.com/davidpeckham/vin#readme"
