@@ -47,7 +47,9 @@ def get_manufacturers() -> list[dict]:
     manufacturers = []
     endpoint = f"{BASE_URL}/GetAllManufacturers"
     params = {"format": "json", "page": 1}
-    while results := requests.get(endpoint, params=params, timeout=30).json()["Results"]:
+    while results := requests.get(endpoint, params=params, timeout=30).json()[
+        "Results"
+    ]:
         for result in results:
             if wmi_codes := get_wmi(manufacturer_id=result["Mfr_ID"]):
                 common_name = result["Mfr_CommonName"] or result["Mfr_Name"]
@@ -58,7 +60,10 @@ def get_manufacturers() -> list[dict]:
                     "wmi": wmi_codes,
                 }
                 manufacturers.append(manufacturer)
-                if "toyota" in common_name.lower() or "toyota" in manufacturer["name"].lower():
+                if (
+                    "toyota" in common_name.lower()
+                    or "toyota" in manufacturer["name"].lower()
+                ):
                     print(manufacturer)
 
         print(f"{len(manufacturers)} manufacturers after {params['page']} pages")
@@ -84,7 +89,9 @@ def main():
     #     json.dumps(manufacturers, indent=2, sort_keys=True), encoding="UTF-8"
     # )
 
-    manufacturers = json.loads(Path("data/manufacturers.json").read_text(encoding="UTF-8"))
+    manufacturers = json.loads(
+        Path("data/manufacturers.json").read_text(encoding="UTF-8")
+    )
     wmi_map = build_wmi_mapping(manufacturers)
     Path("vin/wmi.json").write_text(json.dumps(wmi_map, indent=2, sort_keys=True))
 
