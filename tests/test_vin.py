@@ -46,25 +46,22 @@ vehicles = [
 
 @pytest.mark.parametrize("vin", [12, None, object(), 123456789])
 def test_invalid_vin_string(vin: Any) -> None:
-    with pytest.raises(TypeError) as error:
+    with pytest.raises(TypeError, match="VIN must be a string"):
         VIN(vin)
-    assert error.match("VIN must be a string")
 
 
 @pytest.mark.parametrize("vin", ["", "4T1B", "JM3KE4BY6G06"])
 def test_invalid_vin_length(vin: Any) -> None:
-    with pytest.raises(ValueError) as error:
+    with pytest.raises(ValueError, match="VIN must be exactly 17 characters long"):
         VIN(vin)
-    assert error.match("VIN must be exactly 17 characters long")
 
 
 # @pytest.mark.parametrize(
 #     "vin", ["AM3KE4BY6G0636881", "JM3KE4DY6G0636881", "JM6TE4BY6G0636881", "1FMKE4BY6G0636881"]
 # )
 # def test_invalid_vin(vin: Any) -> None:
-#     with pytest.raises(ValueError) as error:
+#     with pytest.raises(ValueError, match="Incorrect vehicle identification number"):
 #         VIN(vin)
-#     assert error.match("Incorrect vehicle identification number")
 
 
 @pytest.mark.parametrize(
@@ -77,9 +74,8 @@ def test_invalid_vin_length(vin: Any) -> None:
     ],
 )
 def test_invalid_check_digit(vin: Any) -> None:
-    with pytest.raises(ValueError) as error:
+    with pytest.raises(ValueError, match="VIN check digit is incorrect"):
         VIN(vin)
-    assert error.match("VIN check digit is incorrect")
 
 
 @pytest.mark.parametrize(

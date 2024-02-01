@@ -4,17 +4,21 @@
 
 """A Vehicle Identification Number (VIN)"""
 
+# ruff: noqa: TRY003, EM101, EM102
+
 import json
 from importlib.resources import files
 
+import pendulum
+
 from vin.constants import (
-    VIN_CHARACTERS,
     VIN_CHARACTER_VALUES,
-    VIN_CHECKDIGIT_CHARACTERS,
+    VIN_CHARACTERS,
+    VIN_CHECK_DIGIT_CHARACTERS,
+    VIN_CHECK_DIGIT_POSITION,
+    VIN_LENGTH,
     VIN_POSITION_WEIGHTS,
 )
-
-import pendulum
 
 WMI = json.loads(files("vin").joinpath("wmi.json").read_text(encoding="UTF-8"))
 
@@ -51,7 +55,7 @@ class VIN:
     Use :class:`ULID`-object by calling the default constructor with the
     17-character VIN string. To encode the VIN, convert it to a string:
 
-        >>> vin = VIN('4T1BE46K19U856421')
+        >>> vin = VIN("4T1BE46K19U856421")
         >>> str(vin)
         '4T1BE46K19U856421'
 
@@ -66,8 +70,8 @@ class VIN:
         if not isinstance(vehicle_identification_number, str):
             raise TypeError("VIN must be a string")
         self.vin: str = vehicle_identification_number
-        if len(self.vin) != 17:
-            raise ValueError("VIN must be exactly 17 characters long")
+        if len(self.vin) != VIN_LENGTH:
+            raise ValueError(f"VIN must be exactly {VIN_LENGTH} characters long")
         if self.is_vin_character(self.vin):
             raise ValueError(f"VIN must have only these characters {VIN_CHARACTERS}")
         if self.vin[8:9] != self.check_digit:
@@ -103,9 +107,7 @@ class VIN:
             >>> vin("YT9NN1U14KA007175").wmi
             YT9007
         """
-        return (
-            f"{self.vin[:3]}{self.vin[11:14]}" if self.vin[2] == "9" else self.vin[:3]
-        )
+        return f"{self.vin[:3]}{self.vin[11:14]}" if self.vin[2] == "9" else self.vin[:3]
 
     @property
     def manufacturer(self) -> str:
@@ -193,12 +195,12 @@ class VIN:
     def check_digit(self) -> str:
         """Calculate and return the VIN check digit"""
         total = 0
-        for n in range(17):
-            if n == 8:
+        for n in range(VIN_LENGTH):
+            if n == VIN_CHECK_DIGIT_POSITION:
                 continue
             letter = self.vin[n]
             total = total + VIN_CHARACTER_VALUES[letter] * VIN_POSITION_WEIGHTS[n]
-        return VIN_CHECKDIGIT_CHARACTERS[total % 11]
+        return VIN_CHECK_DIGIT_CHARACTERS[total % 11]
 
     def __repr__(self) -> str:
         return f"VIN({self!s})"

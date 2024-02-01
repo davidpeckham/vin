@@ -1,3 +1,6 @@
+VIN_LENGTH: int = 17
+VIN_CHECK_DIGIT_POSITION: int = 8
+
 VIN_CHARACTER_VALUES: dict[str, int] = {
     "0": 0,
     "1": 1,
@@ -77,4 +80,4 @@ VIN_MODEL_YEAR_CODES: dict[int, str] = {
     2039: "9",
 }
 
-VIN_CHECKDIGIT_CHARACTERS: str = "0123456789X"
+VIN_CHECK_DIGIT_CHARACTERS: str = "0123456789X"

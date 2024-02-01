@@ -4,11 +4,11 @@ Run this periodically to discover new manufacturers and WMIs.
 
 """
 
-import requests
-import time
 import json
+import time
 from pathlib import Path
 
+import requests
 
 BASE_URL = "https://vpic.nhtsa.dot.gov/api/vehicles"
 
@@ -18,7 +18,7 @@ def get_wmi(manufacturer_id: int) -> list[str]:
 
     params = {"format": "json"}
     endpoint = f"{BASE_URL}/GetWMIsForManufacturer/{manufacturer_id}"
-    response = requests.get(endpoint, params=params)
+    response = requests.get(endpoint, params=params, timeout=30)
     results = response.json()["Results"]
     wmi = []
     for result in results:
@@ -47,7 +47,7 @@ def get_manufacturers() -> list[dict]:
     manufacturers = []
     endpoint = f"{BASE_URL}/GetAllManufacturers"
     params = {"format": "json", "page": 1}
-    while results := requests.get(endpoint, params=params).json()["Results"]:
+    while results := requests.get(endpoint, params=params, timeout=30).json()["Results"]:
         for result in results:
             if wmi_codes := get_wmi(manufacturer_id=result["Mfr_ID"]):
                 common_name = result["Mfr_CommonName"] or result["Mfr_Name"]
@@ -58,10 +58,7 @@ def get_manufacturers() -> list[dict]:
                     "wmi": wmi_codes,
                 }
                 manufacturers.append(manufacturer)
-                if (
-                    "toyota" in common_name.lower()
-                    or "toyota" in manufacturer["name"].lower()
-                ):
+                if "toyota" in common_name.lower() or "toyota" in manufacturer["name"].lower():
                     print(manufacturer)
 
         print(f"{len(manufacturers)} manufacturers after {params['page']} pages")
@@ -74,11 +71,11 @@ def get_manufacturers() -> list[dict]:
 def build_wmi_mapping(manufacturers: list[dict]) -> dict:
     """map WMI to manufacturer for lookup in vin.py"""
 
-    map = {}
+    wmi_map = {}
     for manufacturer in manufacturers:
         for wmi in manufacturer["wmi"]:
-            map[wmi["wmi"]] = manufacturer["common_name"]
-    return map
+            wmi_map[wmi["wmi"]] = manufacturer["common_name"]
+    return wmi_map
 
 
 def main():
@@ -88,8 +85,8 @@ def main():
     # )
 
     manufacturers = json.loads(Path("data/manufacturers.json").read_text(encoding="UTF-8"))
-    map = build_wmi_mapping(manufacturers)
-    Path("vin/wmi.json").write_text(json.dumps(map, indent=2, sort_keys=True))
+    wmi_map = build_wmi_mapping(manufacturers)
+    Path("vin/wmi.json").write_text(json.dumps(wmi_map, indent=2, sort_keys=True))
 
 
 # https://vpic.nhtsa.dot.gov/api/vehicles/getvehiclevariablevalueslist/Vehicle%20Type?format=json
