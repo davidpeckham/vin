@@ -5,7 +5,7 @@ from datetime import datetime
 
 sys.path.insert(0, os.path.abspath("../.."))
 
-import vin  # noqa
+from vin import __about__  # noqa
 
 
 copyright = f"{datetime.now().year}, David Peckham"
@@ -14,7 +14,7 @@ master_doc = "index"
 source_suffix = [".rst", ".md"]
 
 # The full version, including alpha/beta/rc tags
-release = vin.__version__
+release = __about__.__version__
 version = release.rsplit(".", 1)[0]
 
 # Add any Sphinx extension module names here, as strings. They can be

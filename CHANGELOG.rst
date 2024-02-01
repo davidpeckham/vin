@@ -5,6 +5,13 @@ Changelog
 
 Versions follow `Semantic Versioning <http://www.semver.org>`_
 
+`0.1.0`_ - 2024-02-01
+---------------------
+
+Changed
+~~~~~~~
+* docs/source/conf.py now uses Hatch version from vin/__about__.py
+
 `0.0.2`_ - 2024-02-01
 ---------------------
 
