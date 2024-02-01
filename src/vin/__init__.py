@@ -39,10 +39,10 @@ class VIN:
                           |-----------|     |---------------------|
                                VDS                    VIS
 
-    The World Manufacturer Identifier (WMI) holds the country, region, and
-    name of the vehicle manufacturer. Mass-market manufacturers are assigned
-    a three-character WMI. Specialized manufacturers are assigned a six-
-    character WMI (positions 1-3 and 12-14)
+    The World Manufacturer Identifier (WMI) holds the country, region,
+    and name of the vehicle manufacturer. Mass-market manufacturers are
+    assigned a three-character WMI. Specialized manufacturers are assigned
+    a six-character WMI (positions 1-3 and 12-14)
 
     The Vehicle Description Section (VDS) is defined by manufacturers to
     identify the vehicle make, model, body type, engine type, restraints,
