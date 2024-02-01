@@ -128,7 +128,7 @@ class VIN:
         return WMI[self.wmi]
 
     @property
-    def vds(self) -> str | None:
+    def vds(self) -> str:
         """The Vehicle Description Section (VDS) from the VIN
 
         Examples:
@@ -139,7 +139,7 @@ class VIN:
         return self.vin[3:8]
 
     @property
-    def vis(self) -> str | None:
+    def vis(self) -> str:
         """The Vehicle Identification Section (VIS) from the VIN
 
         Examples:
@@ -159,7 +159,7 @@ class VIN:
     #         return descriptor[:11]
 
     @property
-    def model_year(self):
+    def model_year(self) -> int:
         """The vehicle model year
 
         Examples:
