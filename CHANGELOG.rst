@@ -5,6 +5,14 @@ Changelog
 
 Versions follow `Semantic Versioning <http://www.semver.org>`_
 
+`0.1.1`_ - 2024-02-01
+---------------------
+
+Changed
+~~~~~~~
+* Removed None from return annotation for :meth:`.VIN.vds` and :meth:`.VIN.vis`
+* Annotated :meth:`.VIN.model_year` to show that it returns int
+
 `0.1.0`_ - 2024-02-01
 ---------------------
 
