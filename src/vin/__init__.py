@@ -51,7 +51,7 @@ class VIN:
     The Vehicle Identification Section (VIS) identifies the model year,
     plant where the vehicle was made, and the vehicle's serial number.
 
-    Use :class:`ULID`-object by calling the default constructor with the
+    Use :class:`VIN`-object by calling the default constructor with the
     17-character VIN string. To encode the VIN, convert it to a string:
 
         >>> vin = VIN("4T1BE46K19U856421")
