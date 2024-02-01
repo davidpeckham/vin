@@ -124,5 +124,7 @@ def test_model_year(vehicle: dict) -> None:
 
 
 def test_raises_error_when_not_a_string() -> None:
-    with pytest.raises(ValueError, match="VIN contains non-VIN characters"):
+    with pytest.raises(
+        ValueError, match="VIN must have only these characters 0123456789ABCDEFGHJKLMNPRSTUVWXYZ"
+    ):
         VIN("5FQYF5H59HBO1I946")

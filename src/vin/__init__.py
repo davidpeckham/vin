@@ -64,22 +64,29 @@ class VIN:
 
     """
 
-    def __init__(self, vehicle_identification_number: str) -> None:
+    def __init__(self, vin: str) -> None:
         """create a VIN"""
-        if not isinstance(vehicle_identification_number, str):
+        if not isinstance(vin, str):
             raise TypeError("VIN must be a string")
-        self.vin: str = vehicle_identification_number
-        if len(self.vin) != VIN_LENGTH:
+        if len(vin) != VIN_LENGTH:
             raise ValueError(f"VIN must be exactly {VIN_LENGTH} characters long")
-        if self.is_vin_character(self.vin):
+        if not all(c in VIN_CHARACTERS for c in vin):
             raise ValueError(f"VIN must have only these characters {VIN_CHARACTERS}")
-        if self.vin[8:9] != self.check_digit:
+        if vin[8:9] != self.calculate_check_digit(vin):
             raise ValueError("VIN check digit is incorrect")
+        self.vin: str = vin
         return
 
-    def is_vin_character(self, vin) -> bool:
-        """ "return True if vin only has VIN characters"""
-        return all(c in VIN_CHARACTERS for c in vin)
+    @classmethod
+    def calculate_check_digit(cls, vin: str) -> str:
+        """Calculate and return the VIN check digit"""
+        total = 0
+        for n in range(VIN_LENGTH):
+            if n == VIN_CHECK_DIGIT_POSITION:
+                continue
+            letter = vin[n]
+            total = total + VIN_CHARACTER_VALUES[letter] * VIN_POSITION_WEIGHTS[n]
+        return VIN_CHECK_DIGIT_CHARACTERS[total % 11]
 
     @property
     def wmi(self) -> str:
@@ -188,17 +195,6 @@ class VIN:
             model_year = model_year - 30
 
         return model_year
-
-    @property
-    def check_digit(self) -> str:
-        """Calculate and return the VIN check digit"""
-        total = 0
-        for n in range(VIN_LENGTH):
-            if n == VIN_CHECK_DIGIT_POSITION:
-                continue
-            letter = self.vin[n]
-            total = total + VIN_CHARACTER_VALUES[letter] * VIN_POSITION_WEIGHTS[n]
-        return VIN_CHECK_DIGIT_CHARACTERS[total % 11]
 
     def __repr__(self) -> str:
         return f"VIN({self!s})"

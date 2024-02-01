@@ -15,8 +15,9 @@ Added
 Changed
 ~~~~~~~
 * Renamed GitHub workflows as .yml (from .yaml)
-* The method :meth:`.VIN.is_vin_character` now returns False instead of raising ValueError
-* Fixed VIN_CHARACTERS assignment in constants.py
+* Inlined :meth:`.VIN.is_vin_character` in the default constructor
+* Converted property :meth:`.VIN.check_digit` to class method  :meth:`.VIN.calculate_check_digit`
+* Converted ``constants.VIN_CHARACTERS`` from list to string
 
 `0.0.1`_ - 2024-01-31
 ---------------------
