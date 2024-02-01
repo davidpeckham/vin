@@ -7,7 +7,7 @@ dependencies = [
 
 [envs.default.scripts]
 test = "pytest {args:.}"
-cov-test = "pytest --cov {args:ulid} --cov-report=term-missing --cov-report=xml"
+cov-test = "pytest --cov {args:vin} --cov-report=term-missing --cov-report=xml"
 
 [envs.lint]
 dependencies = [
@@ -17,7 +17,7 @@ dependencies = [
 ]
 
 [envs.lint.scripts]
-typing = "mypy --install-types --non-interactive {args:ulid}"
+typing = "mypy --install-types --non-interactive {args:src/vin}"
 style = [
   "black --check --diff {args:.}",
   "ruff {args:.}",

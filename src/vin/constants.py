@@ -37,7 +37,7 @@ VIN_CHARACTER_VALUES: dict[str, int] = {
     "Z": 9,
 }
 
-VIN_CHARACTERS: list[str] = VIN_CHARACTER_VALUES.keys()
+VIN_CHARACTERS: list[str] = list(VIN_CHARACTER_VALUES.keys())
 
 VIN_POSITION_WEIGHTS: list[int] = [8, 7, 6, 5, 4, 3, 2, 10, 0, 9, 8, 7, 6, 5, 4, 3, 2]
 

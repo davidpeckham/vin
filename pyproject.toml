@@ -1,5 +1,5 @@
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling", "hatch-vcs", "hatch-fancy-pypi-readme"]
 build-backend = "hatchling.build"
 
 [project]
@@ -89,7 +89,6 @@ exclude_lines = [
 line-length = 100
 
 [tool.ruff]
-target-version = "py39"
 line-length = 100
 select = ["A", "B", "C", "C4", "E", "F", "I", "N", "PT", "Q", "RUF", "S", "SIM", "T10", "UP", "W", "YTT"]
 fixable = ["RUF100", "I001"]
@@ -116,3 +115,10 @@ line_length = 100
 
 [tool.doc8]
 max-line-length = 100
+
+[tool.hatch.metadata.hooks.fancy-pypi-readme]
+content-type = "text/x-rst"
+
+[[tool.hatch.metadata.hooks.fancy-pypi-readme.fragments]]
+path = "README.rst"
+start-after = ".. teaser-begin"

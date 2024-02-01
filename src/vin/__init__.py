@@ -65,7 +65,7 @@ class VIN:
     """
 
     def __init__(self, vehicle_identification_number: str) -> None:
-        """return a VIN"""
+        """create a VIN"""
         if not isinstance(vehicle_identification_number, str):
             raise TypeError("VIN must be a string")
         self.vin: str = vehicle_identification_number
@@ -75,12 +75,11 @@ class VIN:
             raise ValueError(f"VIN must have only these characters {VIN_CHARACTERS}")
         if self.vin[8:9] != self.check_digit:
             raise ValueError("VIN check digit is incorrect")
+        return
 
     def is_vin_character(self, vin) -> bool:
         """ "return True if vin only has VIN characters"""
-        for c in vin:
-            if c not in VIN_CHARACTERS:
-                raise ValueError("VIN contains non-VIN characters")
+        return all(c in VIN_CHARACTERS for c in vin)
 
     @property
     def wmi(self) -> str:
