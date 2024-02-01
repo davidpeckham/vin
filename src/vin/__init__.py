@@ -107,7 +107,9 @@ class VIN:
             >>> vin("YT9NN1U14KA007175").wmi
             YT9007
         """
-        return f"{self.vin[:3]}{self.vin[11:14]}" if self.vin[2] == "9" else self.vin[:3]
+        return (
+            f"{self.vin[:3]}{self.vin[11:14]}" if self.vin[2] == "9" else self.vin[:3]
+        )
 
     @property
     def manufacturer(self) -> str:
