@@ -25,7 +25,7 @@ classifiers = [
 dependencies = ['pendulum', 'requests']
 
 [project.urls]
-Documentation = "https://github.com/davidpeckham/vin#readme"
+Documentation = "https://vin.readthedocs.io/en/latest/index.html"
 Issues = "https://github.com/davidpeckham/vin/issues"
 Source = "https://github.com/davidpeckham/vin"
 
