@@ -181,8 +181,6 @@ class VIN:
             model_year = 2010 + ord(year_code) - ord("A") - 4
         elif year_code in "123456789":
             model_year = 2031 + ord(year_code) - ord("1")
-        else:
-            return None
 
         if self.vin[6].isdigit():
             # cars and light trucks manufactured on or before April 30, 2009 (1980 to 2009)

@@ -5,6 +5,13 @@ Changelog
 
 Versions follow `Semantic Versioning <http://www.semver.org>`_
 
+`0.1.2`_ - 2024-02-01
+---------------------
+
+Changed
+~~~~~~~
+* Removed the case that allowed :meth:`.VIN.model_year` to return None
+
 `0.1.1`_ - 2024-02-01
 ---------------------
 
