@@ -94,16 +94,15 @@ class VIN:
 
         Mass-market manufacturers are assigned a three-character WMI. For
         example, some Honda cars have WMI 5FN:
-        ```
-        5FNYF5H59HB011946
-        ---
-        ```
-        Specialty manufacturers are assigned six-character WMI. For example,
+
+          5FNYF5H59HB011946
+          ---
+
+        Specialized manufacturers are assigned six-character WMI. For example,
         Koenigsegg cars have WMI YT9007:
-        ```
-        YT9NN1U14KA007175
-        ---        ---
-        ```
+
+          YT9NN1U14KA007175
+          ---        ---
 
         Examples:
 
