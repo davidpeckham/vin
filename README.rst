@@ -1,3 +1,20 @@
+
+.. image:: https://img.shields.io/pypi/v/vin.svg?style=flat-square
+    :target: https://pypi.python.org/pypi/vin
+    :alt: PyPI
+.. image:: https://img.shields.io/codecov/c/github/davidpeckham/vin.svg?style=flat-square
+    :target: https://codecov.io/gh/davidpeckham/vin
+    :alt: Code Coverage
+.. image:: https://img.shields.io/github/actions/workflow/status/davidpeckham/vin/lint-and-test.yml?style=flat-square&brach=main
+    :target: https://github.com/davidpeckham/vin/actions?query=workflow%3Alint-and-test
+    :alt: Lint and Test
+.. image:: https://readthedocs.org/projects/vin/badge/?version=latest&style=flat-square
+    :target: https://vin.readthedocs.io
+    :alt: Documentation
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square
+    :target: https://black.readthedocs.io/en/stable/index.html
+    :alt: Black
+
 .. begin-html-header
 
 .. raw:: html
@@ -36,8 +53,8 @@
 A ``VIN`` is a *unique 17-character Vehicle Identification Number*.
 
 * Assigned by vehicle manufacturers
+* Uniquely identifies vehicles manufactured for sale or use in the United States since 1980
 * Governed by the U.S. National Highway Traffic Safety Administration (NHTSA)
-* Uniquely identifies vehicles manufacture for sale or use in the United States since 1980
 
 The structure of the VIN is:
 

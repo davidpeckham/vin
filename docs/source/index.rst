@@ -16,9 +16,6 @@ Release v\ |release| (:ref:`What's new <changelog>`)
    :start-after: usage-begin
    :end-before: usage-end
 
-.. include:: ../../README.rst
-   :start-after: cli-begin
-   :end-before: cli-end
 
 API documentation
 -----------------
@@ -32,4 +29,3 @@ API documentation
    :maxdepth: 1
 
    changelog
-
