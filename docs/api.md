@@ -1,4 +1,4 @@
-# VPIC API
+# API
 
 ::: vin.VIN
     options:

@@ -8,6 +8,7 @@ Run this periodically to discover new manufacturers and WMIs.
 import json
 import time
 from pathlib import Path
+from typing import Any
 
 import requests
 
@@ -15,7 +16,7 @@ import requests
 BASE_URL = "https://vpic.nhtsa.dot.gov/api/vehicles"
 
 
-def get_wmi(manufacturer_id: int) -> list[str]:
+def get_wmi(manufacturer_id: int) -> list[dict[str, Any]]:
     """get the WMI details for a manufacturer"""
 
     params = {"format": "json"}

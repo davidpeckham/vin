@@ -4,39 +4,20 @@ site_author: David Peckham
 site_url: https://vin.readthedocs.io
 repo_name: davidpeckham/vin
 repo_url: https://github.com/davidpeckham/vin
-# edit_uri: blob/master/docs
 copyright: 'Copyright &copy; David Peckham 2024'
+
+# https://www.mkdocs.org/user-guide/configuration/#validation
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
 
 docs_dir: docs
 site_dir: site
 theme:
   name: material
-  # custom_dir: docs/.overrides
   language: en
-  # favicon: assets/images/logo.svg
-  # icon:
-  #   repo: fontawesome/brands/github-alt
-  #   logo: material/egg
-  # font:
-  #   text: Roboto
-  #   code: Roboto Mono
-  # palette:
-  #   - media: "(prefers-color-scheme: dark)"
-  #     scheme: slate
-  #     primary: indigo
-  #     accent: indigo
-  #     toggle:
-  #       icon: material/weather-night
-  #       name: Switch to light mode
-  #   - media: "(prefers-color-scheme: light)"
-  #     scheme: default
-  #     primary: indigo
-  #     accent: indigo
-  #     toggle:
-  #       icon: material/weather-sunny
-  #       name: Switch to dark mode
   features:
-    - content.action.edit
     - content.code.copy
     - content.tabs.link
     - content.tooltips
@@ -48,22 +29,17 @@ theme:
     - navigation.tabs.sticky
 
 nav:
-  - Home:
+  - Get Started:
     - About: index.md
     - API: api.md
-    - VPIC:
-      - About: vpic/about.md
+    - Help: help.md
+    - Changelog: changelog.md
 
 watch:
 - src/vin
 
-# hooks:
-# - docs/.hooks/plugin_register.py
-
 plugins:
-  # Built-in
   search: {}
-  # Extra
   glightbox: {}
   minify:
     minify_html: true
@@ -76,89 +52,44 @@ plugins:
       python:
         paths: [src]
         options:
-          show_root_heading: true
-          show_root_full_path: false
-          show_if_no_docstring: true
-          show_signature_annotations: true
+          filters: ["!^_", "^__init__$"]
+          members_order: source
+          group_by_category: true
+          separate_signature: true
           show_bases: false
+          show_category_heading: true
+          show_if_no_docstring: true
+          show_root_full_path: false
+          show_root_heading: true
+          show_signature_annotations: true
+          docstring_options:
+            ignore_init_summary: true
+          merge_init_into_class: true
+  mkdocs-simple-hooks:
+    hooks:
+      on_pre_build: 'docs.hooks:copy_history'
 
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-
-# markdown_extensions:
-#   # Built-in
-#   - markdown.extensions.abbr:
-#   - markdown.extensions.admonition:
-#   - markdown.extensions.attr_list:
-#   - markdown.extensions.footnotes:
-#   - markdown.extensions.md_in_html:
-#   - markdown.extensions.meta:
-#   - markdown.extensions.tables:
-#   - markdown.extensions.toc:
-#       permalink: true
-#   # Extra
-#   - mkdocs-click:
-#   - pymdownx.arithmatex:
-#   - pymdownx.betterem:
-#       smart_enable: all
-#   - pymdownx.caret:
-#   - pymdownx.critic:
-#   - pymdownx.details:
-#   - pymdownx.emoji:
-#       # https://github.com/twitter/twemoji
-#       # https://raw.githubusercontent.com/facelessuser/pymdown-extensions/master/pymdownx/twemoji_db.py
-#       emoji_index: !!python/name:material.extensions.emoji.twemoji
-#       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-#   - pymdownx.highlight:
-#       guess_lang: false
-#       linenums_style: pymdownx-inline
-#       use_pygments: true
-#   - pymdownx.inlinehilite:
-#   - pymdownx.keys:
-#   - pymdownx.magiclink:
-#       repo_url_shortener: true
-#       repo_url_shorthand: true
-#       social_url_shortener: true
-#       social_url_shorthand: true
-#       normalize_issue_symbols: true
-#       provider: github
-#       user: pypa
-#       repo: hatch
-#   - pymdownx.mark:
-#   - pymdownx.progressbar:
-#   - pymdownx.saneheaders:
-#   - pymdownx.smartsymbols:
-#   - pymdownx.snippets:
-#       check_paths: true
-#       base_path:
-#         - docs/.snippets
-#       auto_append:
-#         - links.txt
-#         - abbrs.txt
-#   - pymdownx.superfences:
-#   - pymdownx.tabbed:
-#       alternate_style: true
-#       slugify: !!python/object/apply:pymdownx.slugs.slugify
-#         kwds:
-#           case: lower
-#   - pymdownx.tasklist:
-#       custom_checkbox: true
-#   - pymdownx.tilde:
-
-# extra:
-#   version:
-#     provider: mike
-#   social:
-#     - icon: fontawesome/brands/github-alt
-#       link: https://github.com/ofek
-#     - icon: fontawesome/solid/blog
-#       link: https://ofek.dev/words/
-#     - icon: fontawesome/brands/twitter
-#       link: https://twitter.com/Ofekmeister
-#     - icon: fontawesome/brands/linkedin
-#       link: https://www.linkedin.com/in/ofeklev/
-# extra_css:
-#   - assets/css/custom.css
-#   - https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      guess_lang: false
+      linenums_style: pymdownx-inline
+      use_pygments: true
+  - pymdownx.inlinehilite:
+  - pymdownx.keys:
+  - pymdownx.magiclink:
+      repo_url_shortener: true
+      repo_url_shorthand: true
+      social_url_shortener: true
+      social_url_shorthand: true
+      normalize_issue_symbols: true
+      provider: github
+      user: davidpeckham
+      repo: vin
+  - pymdownx.mark:

@@ -76,7 +76,7 @@ class VIN:
         Raises:
             TypeError: `vin` is not a string.
             ValueError: `vin` is not 17 characters
-            ValueError: `vin` has characters that aren't allowed in a VIN
+            ValueError: `vin` has characters that aren't allowed in a Vehicle Identification Number
             ValueError: `vin` check digit isn't correct
 
         """
