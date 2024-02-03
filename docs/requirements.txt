@@ -2,7 +2,6 @@ mkdocs ~= 1.5.3
 mkdocs-material ~= 9.5.1
 mkdocs-minify-plugin ~= 0.7.1
 mkdocs-git-revision-date-localized-plugin ~= 1.2.1
-mkdocs-git-committers-plugin-2 ~= 2.2. 2
 mkdocs-simple-hooks
 mkdocstrings-python ~= 1.8.0
 mkdocs-redirects ~= 1.2.1
