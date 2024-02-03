@@ -7,14 +7,6 @@
 
 -----
 
-**Contents**
-
-- [Why use VIN?](#why-use-vin)
-- [Vehicle Identification Number](#vehicle-identification-number)
-- [Vehicle Data](#vehicle-data)
-- [Installation](#installation)
-- [License](#license)
-
 VIN validates Vehicle Identification Numbers and decodes the vehicle's manufacturer, make, model, and model year.
 
     >>> from vin import VIN
@@ -78,4 +70,5 @@ Vehicle data is provided by the U.S. National Highway Traffic Safety Administrat
 
 ## License
 
-`VIN` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+VIN is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+

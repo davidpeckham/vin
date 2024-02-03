@@ -1,0 +1,95 @@
+site_name: VIN
+site_description: A Python library for validating and using Vehicle Identification Numbers
+site_author: David Peckham
+site_url: https://vin.readthedocs.io
+repo_name: davidpeckham/vin
+repo_url: https://github.com/davidpeckham/vin
+copyright: 'Copyright &copy; David Peckham 2024'
+
+# https://www.mkdocs.org/user-guide/configuration/#validation
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+
+docs_dir: docs
+site_dir: site
+theme:
+  name: material
+  language: en
+  features:
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    - navigation.expand
+    - navigation.footer
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+nav:
+  - Get Started:
+    - About: index.md
+    - API: api.md
+    - Help: help.md
+    - Changelog: changelog.md
+
+watch:
+- src/vin
+
+plugins:
+  search: {}
+  glightbox: {}
+  minify:
+    minify_html: true
+  git-revision-date-localized:
+    type: date
+    strict: false
+  mkdocstrings:
+    default_handler: python
+    handlers:
+      python:
+        paths: [src]
+        options:
+          filters: ["!^_", "^__init__$"]
+          members_order: source
+          group_by_category: true
+          separate_signature: true
+          show_bases: false
+          show_category_heading: true
+          show_if_no_docstring: true
+          show_root_full_path: false
+          show_root_heading: true
+          show_signature_annotations: true
+          docstring_options:
+            ignore_init_summary: true
+          merge_init_into_class: true
+  mkdocs-simple-hooks:
+    hooks:
+      on_pre_build: 'docs.hooks:copy_history'
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      guess_lang: false
+      linenums_style: pymdownx-inline
+      use_pygments: true
+  - pymdownx.inlinehilite:
+  - pymdownx.keys:
+  - pymdownx.magiclink:
+      repo_url_shortener: true
+      repo_url_shorthand: true
+      social_url_shortener: true
+      social_url_shorthand: true
+      normalize_issue_symbols: true
+      provider: github
+      user: davidpeckham
+      repo: vin
+  - pymdownx.mark:

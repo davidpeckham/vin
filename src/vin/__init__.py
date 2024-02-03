@@ -2,7 +2,9 @@
 #
 # SPDX-License-Identifier: MIT
 
-"""A Vehicle Identification Number (VIN)"""
+"""A Vehicle Identification Number (VIN).
+
+"""
 
 # ruff: noqa: TRY003, EM101, EM102
 
@@ -20,24 +22,23 @@ from vin.constants import VIN_POSITION_WEIGHTS
 
 
 WMI = json.loads(files("vin").joinpath("wmi.json").read_text(encoding="UTF-8"))
+"""Maps WMI to manufacturer name"""
 
 
 class VIN:
     """
-    The :class:`VIN` object is a unique 17-character Vehicle Identification Number.
+    The `VIN` object is a unique 17-character Vehicle Identification Number.
 
     Manufacturers assign the VIN, which uniquely identifies vehicles
     manufactured since 1980 for sale or use in the United States.
 
-    .. code-block:: text
-
-                                        model year
-                                            |
-                   WMI          check digit | plant
-                 |-----|                 |  |  |  |--- serial ----|
-      Position   1  2  3  4  5  6  7  8  9  10 11 12 13 14 15 16 17
-                          |-----------|     |---------------------|
-                               VDS                    VIS
+                                          model year
+                                              |
+                     WMI          check digit | plant
+                   |-----|                 |  |  |  |--- serial ----|
+        Position   1  2  3  4  5  6  7  8  9  10 11 12 13 14 15 16 17
+                            |-----------|     |---------------------|
+                                 VDS                    VIS
 
     The World Manufacturer Identifier (WMI) holds the country, region,
     and name of the vehicle manufacturer. Mass-market manufacturers are
@@ -51,8 +52,8 @@ class VIN:
     The Vehicle Identification Section (VIS) identifies the model year,
     plant where the vehicle was made, and the vehicle's serial number.
 
-    Use :class:`VIN`-object by calling the default constructor with the
-    17-character VIN string. To encode the VIN, convert it to a string:
+    Use `VIN` by calling the default constructor with the 17-character
+    VIN string. To encode the VIN, convert it to a string:
 
         >>> vin = VIN("4T1BE46K19U856421")
         >>> str(vin)
@@ -64,22 +65,49 @@ class VIN:
 
     """
 
-    def __init__(self, vin: str) -> None:
-        """create a VIN"""
+    def __init__(self, vin: str, fix_check_digit: bool = False) -> None:
+        """Initialize a VIN.
+
+        Args:
+            vin: The 17-digit Vehicle Identification Number.
+            fix_check_digit: If True, fix an incorrect check digit
+                instead of raising a ValueError.
+
+        Raises:
+            TypeError: `vin` is not a string.
+            ValueError: `vin` is not 17 characters
+            ValueError: `vin` has characters that aren't allowed in a Vehicle Identification Number
+            ValueError: `vin` check digit isn't correct
+
+        """
         if not isinstance(vin, str):
             raise TypeError("VIN must be a string")
         if len(vin) != VIN_LENGTH:
             raise ValueError(f"VIN must be exactly {VIN_LENGTH} characters long")
         if not all(c in VIN_CHARACTERS for c in vin):
             raise ValueError(f"VIN must have only these characters {VIN_CHARACTERS}")
-        if vin[8:9] != self.calculate_check_digit(vin):
-            raise ValueError("VIN check digit is incorrect")
-        self.vin: str = vin
+
+        check_digit = self.calculate_check_digit(vin)
+        if vin[8:9] != check_digit:
+            if fix_check_digit:
+                vin = f"{vin[:8]}{check_digit}{vin[9:]}"
+            else:
+                raise ValueError("VIN check digit is incorrect")
+
+        self._vin: str = vin
         return
 
     @classmethod
     def calculate_check_digit(cls, vin: str) -> str:
-        """Calculate and return the VIN check digit"""
+        """Calculate and return the VIN check digit.
+
+        Args:
+            vin: The 17-digit Vehicle Identification Number.
+
+        Returns:
+            The calculated check digit character.
+
+        """
         total = 0
         for n in range(VIN_LENGTH):
             if n == VIN_CHECK_DIGIT_POSITION:
@@ -95,18 +123,18 @@ class VIN:
         Mass-market manufacturers are assigned a three-character WMI. For
         example, some Honda cars have WMI 5FN:
 
-        .. code-block:: text
-
-          5FNYF5H59HB011946
-          ^^^
+            5FNYF5H59HB011946
+            ^^^
 
         Specialized manufacturers are assigned six-character WMI. For example,
         Koenigsegg cars have WMI YT9007:
 
-        .. code-block:: text
+            YT9NN1U14KA007175
+            ^^^        ^^^
 
-          YT9NN1U14KA007175
-          ^^^        ^^^
+        Returns:
+            The 3-character WMI for a mass-market manufacturer, or 6-character
+                WMI for a specialized manufacturer.
 
         Examples:
 
@@ -115,11 +143,14 @@ class VIN:
             >>> vin("YT9NN1U14KA007175").wmi
             YT9007
         """
-        return f"{self.vin[:3]}{self.vin[11:14]}" if self.vin[2] == "9" else self.vin[:3]
+        return f"{self._vin[:3]}{self._vin[11:14]}" if self._vin[2] == "9" else self._vin[:3]
 
     @property
     def manufacturer(self) -> str:
         """The name of the vehicle manufacturer.
+
+        Returns:
+            The name of the vehicle manufacturer.
 
         Examples:
 
@@ -132,31 +163,37 @@ class VIN:
 
     @property
     def vds(self) -> str:
-        """The Vehicle Description Section (VDS) from the VIN
+        """The Vehicle Description Section (VDS) from the VIN.
+
+        Returns:
+            The Vehicle Description Section (VDS) from the VIN.
 
         Examples:
 
             >>> vin("5FNYF5H59HB011946").vds
             'YF5H5'
         """
-        return self.vin[3:8]
+        return self._vin[3:8]
 
     @property
     def vis(self) -> str:
         """The Vehicle Identification Section (VIS) from the VIN
+
+        Returns:
+            The Vehicle Identification Section (VIS) from the VIN
 
         Examples:
 
             >>> vin("5FNYF5H59HB011946").vis
             'HB011946'
         """
-        return self.vin[9:]
+        return self._vin[9:]
 
     # @property
     # def descriptor(self) -> str:
-    #     descriptor = self.vin.ljust(17, "*")
+    #     descriptor = self._vin.ljust(17, "*")
     #     descriptor = descriptor[:8] + "*" + descriptor[9:]
-    #     if self.vin[2] == "9":
+    #     if self._vin[2] == "9":
     #         return descriptor[:14]
     #     else:
     #         return descriptor[:11]
@@ -165,12 +202,15 @@ class VIN:
     def model_year(self) -> int:
         """The vehicle model year
 
+        Returns:
+            The vehicle model year.
+
         Examples:
 
             >>> vin("5FNYF5H59HB011946").model_year
             2017
         """
-        year_code = self.vin[9]
+        year_code = self._vin[9]
 
         if year_code in "ABCDEFGH":
             model_year = 2010 + ord(year_code) - ord("A")
@@ -185,10 +225,10 @@ class VIN:
         elif year_code in "123456789":
             model_year = 2031 + ord(year_code) - ord("1")
 
-        if self.vin[6].isdigit():
+        if self._vin[6].isdigit():
             # cars and light trucks manufactured on or before April 30, 2009 (1980 to 2009)
             model_year = model_year - 30
-        elif self.vin[6].isalpha():
+        elif self._vin[6].isalpha():
             # cars and light trucks manufactured after April 30, 2009 (2010 to 2039)
             pass
 
@@ -201,4 +241,4 @@ class VIN:
         return f"VIN({self!s})"
 
     def __str__(self) -> str:
-        return self.vin
+        return self._vin

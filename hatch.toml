@@ -1,8 +1,8 @@
 [envs.default]
 dependencies = [
-  "freezegun==1.2.*",
-  "pytest-cov==4.1.*",
-  "pytest==7.3.*",
+    "freezegun==1.2.*",
+    "pytest-cov==4.1.*",
+    "pytest==7.3.*",
 ]
 
 [envs.default.scripts]
@@ -11,18 +11,50 @@ cov-test = "pytest --cov {args:vin} --cov-report=term-missing --cov-report=xml"
 
 [envs.lint]
 dependencies = [
-  "ruff==0.0.290",
-  "black==23.9.*",
-  "mypy==1.5.*",
+    "ruff==0.0.290",
+    "black==23.9.*",
+    "mypy==1.5.*",
 ]
 
 [envs.lint.scripts]
 typing = "mypy --install-types --non-interactive {args:src/vin}"
 style = [
-  "black --check --diff {args:.}",
-  "ruff {args:.}",
+    "black --check --diff {args:.}",
+    "ruff {args:.}",
 ]
 fmt = [
-  "black {args:.}",
-  "ruff --fix {args:.}",
+    "black {args:.}",
+    "ruff --fix {args:.}",
+]
+
+[envs.docs]
+dependencies = [
+    "mkdocs~=1.5.3",
+    "mkdocs-material~=9.5.1",
+    # Plugins
+    "mkdocs-minify-plugin~=0.7.1",
+    "mkdocs-git-revision-date-localized-plugin~=1.2.1",
+    "mkdocs-git-committers-plugin-2~=2.2.2",
+    "mkdocs-simple-hooks",
+    "mkdocstrings-python~=1.8.0",
+    "mkdocs-redirects~=1.2.1",
+    "mkdocs-glightbox~=0.3.5",
+    "mike~=2.0.0",
+    # Extensions
+    "mkdocs-click~=0.8.1",
+    "pymdown-extensions~=10.5.0",
+    # Necessary for syntax highlighting in code blocks
+    "pygments~=2.17.2",
+    # Validation
+    # https://github.com/linkchecker/linkchecker/pull/669#issuecomment-1267236287
+    "linkchecker @ git+https://github.com/linkchecker/linkchecker.git@d9265bb71c2054bf57b8c5734a4825d62505c779",
+]
+[envs.docs.scripts]
+build = "mkdocs build --clean --strict"
+serve = "mkdocs serve --dev-addr localhost:8000"
+validate = "linkchecker --config .linkcheckerrc site"
+# https://github.com/linkchecker/linkchecker/issues/678
+build-check = [
+    "build --no-directory-urls",
+    "validate",
 ]
