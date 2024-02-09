@@ -2,8 +2,6 @@ import logging
 import re
 import sqlite3
 from collections import namedtuple
-from pathlib import Path
-from warnings import warn
 
 
 log = logging.getLogger(__name__)
@@ -20,7 +18,7 @@ def regex(value, pattern):
 
 
 class VehicleDatabase:
-    def __init__(self, path: Path = Path("database.sqlite3")):
+    def __init__(self, path):
         """return a SQLite3 database connection"""
         assert path.exists()
         self._path = path
@@ -45,9 +43,7 @@ class VehicleDatabase:
         self._connection.commit()
         self._connection.close()
 
-    def query(
-        self, sql: str, args: tuple = (), first: bool = False
-    ) -> sqlite3.Row | list[sqlite3.Row] | None:
+    def query(self, sql: str, args: tuple = ()) -> list[sqlite3.Row]:
         """insert rows and return rowcount"""
         cursor = self._connection.cursor()
         results = cursor.execute(sql, args).fetchall()
@@ -57,7 +53,7 @@ class VehicleDatabase:
         for result in results:
             print(dict(result))
 
-        return (results[0] if results else None) if first else results
+        return results
 
     def lookup_vehicle(self, wmi: str, vds: str, model_year: int) -> Vehicle:
         """get vehicle details

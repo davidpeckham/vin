@@ -63,9 +63,9 @@ class VIN:
 
     """
 
-    CARS_AND_LIGHT_TRUCKS: Final[list[str]] = [
+    CARS_AND_LIGHT_TRUCKS: Final[list[str]] = (
         files("vin").joinpath("cars-and-light-trucks.csv").read_text().splitlines()
-    ]
+    )
     """WMI that make cars and light trucks (used to determine model year)"""
 
     def __init__(self, vin: str, fix_check_digit: bool = False) -> None:
@@ -213,7 +213,7 @@ class VIN:
             >>> vin("YT9NN1U14KA007175").manufacturer
             Koenigsegg
         """
-        return self._vehicle["series"]
+        return self._vehicle.series
 
     @property
     def vehicle_type(self) -> str:
@@ -303,7 +303,7 @@ class VIN:
         """
         year_code = self._vin[9]
         assert year_code in VIN_MODEL_YEAR_CHARACTERS
-        model_year = None
+        model_year = 0
 
         if year_code in "ABCDEFGH":
             model_year = 2010 + ord(year_code) - ord("A")

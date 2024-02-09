@@ -87,7 +87,9 @@ def test_invalid_check_digit(vin: Any) -> None:
     ],
 )
 def test_invalid_model_year_code(vin: Any) -> None:
-    with pytest.raises(ValueError, match="VIN model year character must be one of these characters "):
+    with pytest.raises(
+        ValueError, match="VIN model year character must be one of these characters "
+    ):
         VIN(vin)
 
 
