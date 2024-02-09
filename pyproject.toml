@@ -22,7 +22,7 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
-dependencies = ['pendulum', 'requests']
+dependencies = []
 
 [project.urls]
 Documentation = "https://vin.readthedocs.io/en/latest/index.html"

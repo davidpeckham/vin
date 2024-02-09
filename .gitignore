@@ -162,3 +162,4 @@ cython_debug/
 #.idea/
 vin/.DS_Store
 docs/changelog.md
+src/.DS_Store

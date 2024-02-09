@@ -8,21 +8,19 @@
 
 # ruff: noqa: TRY003, EM101, EM102
 
-import json
+from datetime import date
 from importlib.resources import files
-
-import pendulum
+from typing import Final
 
 from vin.constants import VIN_CHARACTER_VALUES
 from vin.constants import VIN_CHARACTERS
 from vin.constants import VIN_CHECK_DIGIT_CHARACTERS
 from vin.constants import VIN_CHECK_DIGIT_POSITION
 from vin.constants import VIN_LENGTH
+from vin.constants import VIN_MODEL_YEAR_CHARACTERS
 from vin.constants import VIN_POSITION_WEIGHTS
-
-
-WMI = json.loads(files("vin").joinpath("wmi.json").read_text(encoding="UTF-8"))
-"""Maps WMI to manufacturer name"""
+from vin.database import Vehicle
+from vin.database import VehicleDatabase
 
 
 class VIN:
@@ -65,6 +63,11 @@ class VIN:
 
     """
 
+    CARS_AND_LIGHT_TRUCKS: Final[list[str]] = [
+        files("vin").joinpath("cars-and-light-trucks.csv").read_text().splitlines()
+    ]
+    """WMI that make cars and light trucks (used to determine model year)"""
+
     def __init__(self, vin: str, fix_check_digit: bool = False) -> None:
         """Initialize a VIN.
 
@@ -84,6 +87,11 @@ class VIN:
             raise TypeError("VIN must be a string")
         if len(vin) != VIN_LENGTH:
             raise ValueError(f"VIN must be exactly {VIN_LENGTH} characters long")
+        if vin[9] not in VIN_MODEL_YEAR_CHARACTERS:
+            raise ValueError(
+                "VIN model year character must be one of these characters "
+                f"{VIN_MODEL_YEAR_CHARACTERS}"
+            )
         if not all(c in VIN_CHARACTERS for c in vin):
             raise ValueError(f"VIN must have only these characters {VIN_CHARACTERS}")
 
@@ -95,7 +103,21 @@ class VIN:
                 raise ValueError("VIN check digit is incorrect")
 
         self._vin: str = vin
+        self._vehicle = self._lookup_vehicle()
         return
+
+    def _lookup_vehicle(self) -> Vehicle:
+        """get vehicle details
+
+        Args:
+            vin: The 17-digit Vehicle Identification Number.
+
+        Returns:
+            Vehicle: the vehicle details
+        """
+        db_path = files("vin").joinpath("vehicle.db")
+        with VehicleDatabase(path=db_path) as db:
+            return db.lookup_vehicle(self.wmi, self.vds, self.model_year)
 
     @classmethod
     def calculate_check_digit(cls, vin: str) -> str:
@@ -147,10 +169,10 @@ class VIN:
 
     @property
     def manufacturer(self) -> str:
-        """The name of the vehicle manufacturer.
+        """The vehicle manufacturer name.
 
         Returns:
-            The name of the vehicle manufacturer.
+            The manufacturer name.
 
         Examples:
 
@@ -159,11 +181,71 @@ class VIN:
             >>> vin("YT9NN1U14KA007175").manufacturer
             Koenigsegg
         """
-        return WMI[self.wmi]
+        return self._vehicle.manufacturer
+
+    @property
+    def make(self) -> str:
+        """The vehicle make name.
+
+        Returns:
+            The make name.
+
+        Examples:
+
+            >>> vin("5FNYF5H59HB011946").manufacturer
+            Honda
+            >>> vin("YT9NN1U14KA007175").manufacturer
+            Koenigsegg
+        """
+        return self._vehicle.make
+
+    @property
+    def series(self) -> str:
+        """The vehicle series name.
+
+        Returns:
+            The series name.
+
+        Examples:
+
+            >>> vin("5FNYF5H59HB011946").manufacturer
+            Honda
+            >>> vin("YT9NN1U14KA007175").manufacturer
+            Koenigsegg
+        """
+        return self._vehicle["series"]
+
+    @property
+    def vehicle_type(self) -> str:
+        """The vehicle type.
+
+        This is one of:
+
+        * bus
+        * car
+        * incomplete
+        * lowspeed
+        * motorcycle
+        * mpv
+        * offroad
+        * trailer
+        * truck
+
+        Returns:
+            The vehicle type.
+
+        Examples:
+
+            >>> vin("5FNYF5H59HB011946").manufacturer
+            MPV
+            >>> vin("YT9NN1U14KA007175").manufacturer
+            Car
+        """
+        return self._vehicle.vehicle_type
 
     @property
     def vds(self) -> str:
-        """The Vehicle Description Section (VDS) from the VIN.
+        """The Vehicle Description Section (VDS) of the VIN.
 
         Returns:
             The Vehicle Description Section (VDS) from the VIN.
@@ -177,10 +259,10 @@ class VIN:
 
     @property
     def vis(self) -> str:
-        """The Vehicle Identification Section (VIS) from the VIN
+        """The Vehicle Identification Section (VIS) of the VIN
 
         Returns:
-            The Vehicle Identification Section (VIS) from the VIN
+            The Vehicle Identification Section (VIS)
 
         Examples:
 
@@ -189,14 +271,23 @@ class VIN:
         """
         return self._vin[9:]
 
-    # @property
-    # def descriptor(self) -> str:
-    #     descriptor = self._vin.ljust(17, "*")
-    #     descriptor = descriptor[:8] + "*" + descriptor[9:]
-    #     if self._vin[2] == "9":
-    #         return descriptor[:14]
-    #     else:
-    #         return descriptor[:11]
+    @property
+    def descriptor(self) -> str:
+        """The part of the VIN used to lookup make, model, and other
+        vehicle attributes in NHTSA vPIC.
+
+        The descriptor is 11 characters for a mass-market manufacturer.
+        For specialized manufacturers, the descriptor is 14 characters so
+        that it includes the second half of the WMI.
+
+        Returns:
+            str: the 11- or 14-character descriptor for this VIN
+        """
+        descriptor = self._vin[:8] + "*" + self._vin[9:]
+        if self._vin[2] == "9":
+            return descriptor[:14]
+        else:
+            return descriptor[:11]
 
     @property
     def model_year(self) -> int:
@@ -211,6 +302,8 @@ class VIN:
             2017
         """
         year_code = self._vin[9]
+        assert year_code in VIN_MODEL_YEAR_CHARACTERS
+        model_year = None
 
         if year_code in "ABCDEFGH":
             model_year = 2010 + ord(year_code) - ord("A")
@@ -220,20 +313,17 @@ class VIN:
             model_year = 2023
         elif year_code in "RST":
             model_year = 2010 + ord(year_code) - ord("A") - 3
-        elif year_code in "VXY":
+        elif year_code in "VWXY":
             model_year = 2010 + ord(year_code) - ord("A") - 4
         elif year_code in "123456789":
             model_year = 2031 + ord(year_code) - ord("1")
 
-        if self._vin[6].isdigit():
+        if self._vin[6].isdigit() and self.wmi in self.CARS_AND_LIGHT_TRUCKS:
             # cars and light trucks manufactured on or before April 30, 2009 (1980 to 2009)
-            model_year = model_year - 30
-        elif self._vin[6].isalpha():
-            # cars and light trucks manufactured after April 30, 2009 (2010 to 2039)
-            pass
+            model_year -= 30
 
-        if model_year > pendulum.today().add(months=9).year:
-            model_year = model_year - 30
+        if model_year > date.today().year + 1:
+            model_year -= 30
 
         return model_year
 

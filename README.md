@@ -37,8 +37,8 @@ VIN validates Vehicle Identification Numbers and decodes the vehicle's manufactu
 
 A ``VIN`` is a unique 17-character Vehicle Identification Number.
 
-* Assigned by vehicle manufacturers
 * Uniquely identifies vehicles manufactured for sale or use in the United States since 1980
+* Assigned by vehicle manufacturers
 * Governed by the U.S. National Highway Traffic Safety Administration (NHTSA)
 
 The structure of the VIN is:

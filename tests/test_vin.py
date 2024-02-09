@@ -7,37 +7,43 @@ from vin import VIN
 vehicles = [
     {
         "vin": "5FNYF5H59HB011946",
-        "manufacturer": "Honda",
+        "manufacturer": "American Honda Motor Co., Inc.",
+        "make": "Honda",
         "model": "Pilot EX-L",
         "year": 2017,
     },
     {
         "vin": "3FAHP0JA0AR281181",
-        "manufacturer": "Ford",
+        "manufacturer": "Ford Motor Company, Mexico",
+        "make": "Ford",
         "model": "Fusion",
         "year": 2010,
     },
     {
         "vin": "4T1BE46K19U856421",
-        "manufacturer": "Toyota",
+        "manufacturer": "Toyota Motor Manufacturing, Kentucky, Inc.",
+        "make": "Toyota",
         "model": "Camry",
         "year": 2009,
     },
     {
         "vin": "JM3KE4BY6G0636881",
-        "manufacturer": "Mazda",
+        "manufacturer": "Mazda Motor Corporation",
+        "make": "Mazda",
         "model": "CX-5",
         "year": 2016,
     },
     {
         "vin": "5YFB4MDE8PP030258",
-        "manufacturer": "Toyota",
+        "manufacturer": "Toyota Motor Manufacturing, Mississippi, Inc.",
+        "make": "Toyota",
         "model": "Corolla LE",
         "year": 2023,
     },
     {
         "vin": "YT9NN1U14KA007175",
-        "manufacturer": "Koenigsegg",
+        "manufacturer": "Koenigsegg Automotive Ab",
+        "make": "Koenigsegg",
         "model": "Regera",
         "year": 2019,
     },
@@ -56,14 +62,6 @@ def test_invalid_vin_length(vin: Any) -> None:
         VIN(vin)
 
 
-# @pytest.mark.parametrize(
-#     "vin", ["AM3KE4BY6G0636881", "JM3KE4DY6G0636881", "JM6TE4BY6G0636881", "1FMKE4BY6G0636881"]
-# )
-# def test_invalid_vin(vin: Any) -> None:
-#     with pytest.raises(ValueError, match="Incorrect vehicle identification number"):
-#         VIN(vin)
-
-
 @pytest.mark.parametrize(
     "vin",
     [
@@ -75,6 +73,21 @@ def test_invalid_vin_length(vin: Any) -> None:
 )
 def test_invalid_check_digit(vin: Any) -> None:
     with pytest.raises(ValueError, match="VIN check digit is incorrect"):
+        VIN(vin)
+
+
+@pytest.mark.parametrize(
+    "vin",
+    [
+        "5FNYF5H50IB011946",
+        "3FAHP0JA8OR281181",
+        "4T1BE46K2UU856421",
+        "JM3KE4BY1Q0636881",
+        "JM3KE4BY1Z0636881",
+    ],
+)
+def test_invalid_model_year_code(vin: Any) -> None:
+    with pytest.raises(ValueError, match="VIN model year character must be one of these characters "):
         VIN(vin)
 
 
@@ -93,6 +106,15 @@ def test_valid_vin(vehicle: str) -> None:
 def test_manufacturer(vehicle: str) -> None:
     vin = VIN(vehicle["vin"])
     assert vin.manufacturer == vehicle["manufacturer"]
+
+
+@pytest.mark.parametrize(
+    "vehicle",
+    vehicles,
+)
+def test_make(vehicle: str) -> None:
+    vin = VIN(vehicle["vin"])
+    assert vin.make == vehicle["make"]
 
 
 @pytest.mark.parametrize(
