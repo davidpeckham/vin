@@ -6,12 +6,14 @@ from collections import namedtuple
 
 log = logging.getLogger(__name__)
 
-Vehicle = namedtuple("Vehicle", "manufacturer make model series country vehicle_type truck_type")
+Vehicle = namedtuple(
+    "Vehicle", "manufacturer model_year make1 make2 model series country vehicle_type truck_type"
+)
 
 
 def regex(value, pattern):
-    """REGEXP implementation for SQLite version that don't have it already"""
-    rex = re.compile(pattern)
+    """REGEXP shim for SQLite versions that lack it"""
+    rex = re.compile("^" + pattern)
     found = rex.search(value) is not None
     print(f"{value=} {pattern=} {'found' if found else '---'}")
     return found
@@ -55,7 +57,7 @@ class VehicleDatabase:
 
         return results
 
-    def lookup_vehicle(self, wmi: str, vds: str, model_year: int) -> Vehicle:
+    def lookup_vehicle(self, wmi: str, vds: str, model_year: int) -> Vehicle | None:
         """get vehicle details
 
         Args:
@@ -64,37 +66,37 @@ class VehicleDatabase:
         Returns:
             Vehicle: the vehicle details
         """
-        results = self.query(sql=LOOKUP_VEHICLE_SQL, args=(wmi, model_year, vds))
-        assert len(results) in [1, 2]  # one match for model and optionally one for series
-
-        details = {"series": None}
-        for row in results:
-            if row["model"] is not None:
-                for attr in [
-                    "manufacturer",
-                    "make",
-                    "model",
-                    "vehicle_type",
-                    "truck_type",
-                    "country",
-                ]:
-                    details[attr] = row[attr]
-            elif row["series"] is not None:
-                details["series"] = row["series"]
-            else:
-                raise Exception(
-                    f"expected model and series WMI {wmi} VDS {vds} "
-                    f"model year {model_year}, but got {row}"
-                )
-
-        return Vehicle(**details)
+        if results := self.query(sql=LOOKUP_VEHICLE_SQL, args=(wmi, model_year, vds)):
+            details = {"series": None, "model_year": model_year}
+            for row in results:
+                if row["model"] is not None:
+                    for attr in [
+                        "manufacturer",
+                        "make1",
+                        "make2",
+                        "model",
+                        "vehicle_type",
+                        "truck_type",
+                        "country",
+                    ]:
+                        details[attr] = row[attr]
+                elif row["series"] is not None:
+                    details["series"] = row["series"]
+                else:
+                    raise Exception(
+                        f"expected model and series WMI {wmi} VDS {vds} "
+                        f"model year {model_year}, but got {row}"
+                    )
+            return Vehicle(**details)
+        return None
 
 
 LOOKUP_VEHICLE_SQL = """
 select
     pattern.vds,
     manufacturer.name as manufacturer,
-    make.name as make,
+    make1.name as make1,
+    make2.name as make2,
     model.name as model,
     series.name as series,
     pattern.from_year,
@@ -105,7 +107,9 @@ select
 from
     pattern
     join manufacturer on manufacturer.id = pattern.manufacturer_id
-    left join make on make.id = pattern.make_id
+    left join make make1 on make1.id = pattern.make_id
+    left join make_model on make_model.model_id = pattern.model_id
+    left join make make2 on make2.id = make_model.make_id
     left join model on model.id = pattern.model_id
     left join series on series.id = pattern.series_id
     join wmi on wmi.code = pattern.wmi

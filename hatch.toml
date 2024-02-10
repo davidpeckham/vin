@@ -3,6 +3,7 @@ dependencies = [
     "freezegun==1.2.*",
     "pytest-cov==4.1.*",
     "pytest==7.3.*",
+    "parametrize_from_file"
 ]
 
 [envs.default.scripts]

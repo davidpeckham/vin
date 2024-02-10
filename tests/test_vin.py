@@ -147,6 +147,11 @@ def test_model_year(vehicle: dict) -> None:
     assert VIN(vin).model_year == year
 
 
+def test_inconclusive_model_year() -> None:
+    """This 1995 Chevy truck VIN doesn't conclusively identify the model year"""
+    assert VIN("2GCEC19Z0S1245490").model_year == -2025
+
+
 def test_raises_error_when_not_a_string() -> None:
     with pytest.raises(
         ValueError, match="VIN must have only these characters 0123456789ABCDEFGHJKLMNPRSTUVWXYZ"

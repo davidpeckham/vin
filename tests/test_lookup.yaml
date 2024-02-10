@@ -1,0 +1,393 @@
+test_lookup:
+  - vin: JH4DC4340RS003205
+    model_year: 1994
+    make: Acura
+    model: Integra
+  - vin: 1FMCU14T3JU402061
+    model_year: 1988
+    make: Ford
+    model: Bronco II
+  - vin: 5N3ZA0NE1AN908084
+    model_year: 2010
+    make: Infiniti
+    model: QX56
+  - vin: 1G8ZF52801Z322733
+    model_year: 2001
+    make: Saturn
+    model: SL
+  - vin: 1N6SD16S6NC347945
+    model_year: 1992
+    make: Nissan
+    model: Pickup
+  - vin: 1N6SD16S3NC346350
+    model_year: 1992
+    make: Nissan
+    model: Pickup
+  - vin: JH4KA2635HC013743
+    model_year: 1987
+    make: Acura
+    model: Legend
+  - vin: 4A3AK24F36E026691
+    model_year: 2006
+    make: Mitsubishi
+    model: Eclipse
+  - vin: 1GKLVKED6AJ152841
+    model_year: 2010
+    make: GMC
+    model: Acadia
+  - vin: WAULFAFR6DA001366
+    model_year: 2013
+    make: Audi
+    model: A5
+  - vin: 1G8ZH1278XZ108219
+    model_year: 1999
+    make: Saturn
+    model: SC2
+  - vin: WP0CB29874U669313
+    model_year: 2004
+    make: Porsche
+    model: Boxster
+  - vin: WBSPM9C52BE209978
+    model_year: 2011
+    make: BMW
+    model: M3
+  - vin: 4T1BB3EK5AU118081
+    model_year: 2010
+    make: Toyota
+    model: Camry
+  - vin: 5NPEB4AC9DH571382
+    model_year: 2013
+    make: Hyundai
+    model: Sonata
+  - vin: JH4DB1668NS001887
+    model_year: 1992
+    make: Acura
+    model: Integra
+  - vin: 1C41JUEJ7NC002943
+    model_year: 2022
+    make: Jeep
+    model: Grand Wagoneer
+  - vin: 5XYZUDLB3DG001966
+    model_year: 2013
+    make: Hyundai
+    model: Santa Fe Sport
+  - vin: 1GCEC14W6TZ228585
+    model_year: 1996
+    make: Chevrolet
+    model: GMT-400
+  - vin: 2C3CCACG6CH275007
+    model_year: 2012
+    make: Chrysler
+    model: '300'
+  - vin: 1JCMR7849JT185834
+    model_year: 1988
+    make: Jeep
+    model: Cherokee
+  - vin: JTKKU4B40C1028652
+    model_year: 2012
+    make: Toyota
+    model: Scion xD
+  - vin: JH4DA3344KS007957
+    model_year: 1989
+    make: Acura
+    model: Integra
+  - vin: 1J4BA3H12AL171413
+    model_year: 2010
+    make: Jeep
+    model: Wrangler
+  - vin: JH4KA453XKC037671
+    model_year: 1989
+    make: Acura
+    model: Legend
+  - vin: JH4KA3171KC014556
+    model_year: 1989
+    make: Acura
+    model: Legend
+  - vin: JH4DA1842JS002851
+    model_year: 1988
+    make: Acura
+    model: Integra
+  - vin: 1J4BA3H11AL173573
+    model_year: 2010
+    make: Jeep
+    model: Wrangler
+  - vin: JH4DB1664NS003880
+    model_year: 1992
+    make: Acura
+    model: Integra
+  - vin: KM8JN72D07U585496
+    model_year: 2007
+    make: Hyundai
+    model: Tucson
+  - vin: 5N1AL0MM8DC306971
+    model_year: 2013
+    make: Infiniti
+    model: JX35
+  - vin: 1G8ZH1274XZ108296
+    model_year: 1999
+    make: Saturn
+    model: SC2
+  - vin: 1B4HS28N51F542134
+    model_year: 2001
+    make: Dodge
+    model: Durango
+  - vin: JH4KA465XJC001719
+    model_year: 1988
+    make: Acura
+    model: Legend
+  - vin: 2GCEC19Z0S1245490
+    model_year: 1995
+    make: Chevrolet
+    model: GMT-400
+  - vin: 1GCHK29U11E231511
+    model_year: 2001
+    make: Chevrolet
+    model: Silverado 2500HD
+  - vin: TRUWT28N251018665
+    model_year: 2005
+    make: Audi
+    model: TT
+  - vin: JH4KA4552JC049099
+    model_year: 1988
+    make: Acura
+    model: Legend
+  - vin: SCFAC23302B508524
+    model_year: 2002
+    make: Aston Martin
+    model: V12 Vanquish
+  - vin: 1C41JUEJ6NC004408
+    model_year: 2022
+    make: Jeep
+    model: Grand Wagoneer
+  - vin: 1FTJW36F9TEA02868
+    model_year: 1996
+    make: Ford
+    model: F-350
+  - vin: 1HD1MAM20DB857910
+    model_year: 2013
+    make: Harley Harley
+    model: Flhtcutg
+  - vin: 1J4BA3H14AL172837
+    model_year: 2010
+    make: Jeep
+    model: Wrangler
+  - vin: 4JGAB54E11A277331
+    model_year: 2001
+    make: Mercedes-Benz
+    model: M-Class
+  - vin: JN8AZ28R59T128050
+    model_year: 2009
+    make: Nissan
+    model: Cube
+  - vin: 2C3CCACG9CH273929
+    model_year: 2012
+    make: Chrysler
+    model: '300'
+  - vin: 2D8GP44L05R217097
+    model_year: 2005
+    make: Dodge
+    model: Grand Caravan
+  - vin: 1G8ZH5283YZ266971
+    model_year: 2000
+    make: Saturn
+    model: SL1
+  - vin: TRUWT28N251015796
+    model_year: 2005
+    make: Audi
+    model: TT
+  - vin: 4JGAB54E91A271941
+    model_year: 2001
+    make: Mercedes-Benz
+    model: M-Class
+  - vin: WP0CB29804U662557
+    model_year: 2004
+    make: Porsche
+    model: Boxster
+  - vin: 3VWSD29M41M067176
+    model_year: 2001
+    make: Volkswagen
+    model: Jetta
+  - vin: KM8JN72DX7U583688
+    model_year: 2007
+    make: Hyundai
+    model: Tucson
+  - vin: JH4KA3248JC013536
+    model_year: 1988
+    make: Acura
+    model: Legend
+  - vin: JH4DC4347RS007557
+    model_year: 1994
+    make: Acura
+    model: Integra
+  - vin: 1C4GJWAG3DL544796
+    model_year: 2013
+    make: Jeep
+    model: Wrangler
+  - vin: 1FMCU14T5JU402756
+    model_year: 1988
+    make: Ford
+    model: Bronco II
+  - vin: JH4DB1666NS007784
+    model_year: 1992
+    make: Acura
+    model: Integra
+  - vin: 1FMCU14T5JU402336
+    model_year: 1988
+    make: Ford
+    model: Bronco II
+  - vin: JH4DA3344JS014129
+    model_year: 1988
+    make: Acura
+    model: Integra
+  - vin: JH4DB7568SS006474
+    model_year: 1995
+    make: Acura
+    model: Integra
+  - vin: 1FTJW36F5TEA07453
+    model_year: 1996
+    make: Ford
+    model: F-350
+  - vin: JH4KA7536MC014019
+    model_year: 1991
+    make: Acura
+    model: Legend
+  - vin: 1B4GP54RXVB379372
+    model_year: 1997
+    make: Dodge
+    model: Grand Caravan
+  - vin: 1GCHK29U21E231713
+    model_year: 2001
+    make: Chevrolet
+    model: Silverado 2500HD
+  - vin: 1FTEF14N5KNB35920
+    model_year: 1989
+    make: Ford
+    model: F-150
+  - vin: 2T1BR30E36C599972
+    model_year: 2006
+    make: Toyota
+    model: Corolla
+  - vin: 2GCEC19Z1S1243263
+    model_year: 1995
+    make: Chevrolet
+    model: GMT-400
+  - vin: JH4DA9368PS006502
+    model_year: 1993
+    make: Acura
+    model: Integra
+  - vin: 1J4FA29P3YP729948
+    model_year: 2000
+    make: Jeep
+    model: Wrangler
+  - vin: JTHFE2C23A2509749
+    model_year: 2010
+    make: Lexus
+    model: IS 350C
+  - vin: JH4KA3248JC018641
+    model_year: 1988
+    make: Acura
+    model: Legend
+  - vin: 1B7HF16Y4TS518710
+    model_year: 1996
+    make: Dodge
+    model: Ram Pickup 1500
+  - vin: 5FNRL38297B007384
+    model_year: 2007
+    make: Honda
+    model: Odyssey
+  - vin: 2T1BR30E46C591864
+    model_year: 2006
+    make: Toyota
+    model: Corolla
+  - vin: 5FNRL38247B006367
+    model_year: 2007
+    make: Honda
+    model: Odyssey
+  - vin: 1C4GJ25372B521864
+    model_year: 2002
+    make: Chrysler
+    model: Voyager
+  - vin: JM1FE173540134610
+    model_year: 2004
+    make: Mazda
+    model: RX-8
+  - vin: 1JCMR7846JT184561
+    model_year: 1988
+    make: Jeep
+    model: Cherokee
+  - vin: JNKCV51F54M711589
+    model_year: 2004
+    make: Infiniti
+    model: G35
+  - vin: JH4DB7544RS009803
+    model_year: 1994
+    make: Acura
+    model: Integra
+  - vin: 1B4HS28N41F549124
+    model_year: 2001
+    make: Dodge
+    model: Durango
+  - vin: 1GCHK29U11E239270
+    model_year: 2001
+    make: Chevrolet
+    model: Silverado 2500HD
+  - vin: JM1FE173140136855
+    model_year: 2004
+    make: Mazda
+    model: RX-8
+  - vin: WAULF78K19N037307
+    model_year: 2009
+    make: Audi
+    model: A4
+  - vin: 1JCMR7841JT187822
+    model_year: 1988
+    make: Jeep
+    model: Cherokee
+  - vin: 1G8ZH528XYZ262643
+    model_year: 2000
+    make: Saturn
+    model: SL1
+  - vin: 1G4GD5ED5BF334614
+    model_year: 2011
+    make: Buick
+    model: LaCrosse
+  - vin: JH4DB1576LS806648
+    model_year: 1990
+    make: Acura
+    model: Integra
+  - vin: 5XYKTCA62DG346197
+    model_year: 2013
+    make: Kia
+    model: Sorento
+  - vin: 5N3ZA0NE8AN903142
+    model_year: 2010
+    make: Infiniti
+    model: QX56
+  - vin: JH4KA2541HC021008
+    model_year: 1987
+    make: Acura
+    model: Legend
+  - vin: 1G1JC1440PZ215164
+    model_year: 1993
+    make: Chevrolet
+    model: Cavalier VL RS
+  - vin: JH4DB7568SS009360
+    model_year: 1995
+    make: Acura
+    model: Integra
+  - vin: WAULFAFR8DA002471
+    model_year: 2013
+    make: Audi
+    model: A5
+  - vin: JH4KA3172KC019247
+    model_year: 1989
+    make: Acura
+    model: Legend
+  - vin: 1JCMR7848JT183928
+    model_year: 1988
+    make: Jeep
+    model: Cherokee
+  - vin: W06VR52R6WR227722
+    model_year: 1998
+    make: Cadillac
+    model: Catera

@@ -23,6 +23,17 @@ from vin.database import Vehicle
 from vin.database import VehicleDatabase
 
 
+class DecodingFailedError(Exception):
+    """A property is not available when you choose not to decode the VIN"""
+
+    pass
+
+class DecodingRequiredError(Exception):
+    """A property is not available when you choose not to decode the VIN"""
+
+    pass
+
+
 class VIN:
     """
     The `VIN` object is a unique 17-character Vehicle Identification Number.
@@ -68,11 +79,12 @@ class VIN:
     )
     """WMI that make cars and light trucks (used to determine model year)"""
 
-    def __init__(self, vin: str, fix_check_digit: bool = False) -> None:
+    def __init__(self, vin: str, decode=True, fix_check_digit=False) -> None:
         """Initialize a VIN.
 
         Args:
             vin: The 17-digit Vehicle Identification Number.
+            decode: Decode vehicle details from the NHTSA vPIC database
             fix_check_digit: If True, fix an incorrect check digit
                 instead of raising a ValueError.
 
@@ -103,21 +115,29 @@ class VIN:
                 raise ValueError("VIN check digit is incorrect")
 
         self._vin: str = vin
-        self._vehicle = self._lookup_vehicle()
+        if decode:
+            self._decode_vin()
         return
 
-    def _lookup_vehicle(self) -> Vehicle:
-        """get vehicle details
+    def _decode_vin(self) -> None:
+        """decode the VIN to get manufacturer, make, model, and other vehicle details
 
         Args:
             vin: The 17-digit Vehicle Identification Number.
-
-        Returns:
-            Vehicle: the vehicle details
         """
+        self._vehicle: Vehicle = None
         db_path = files("vin").joinpath("vehicle.db")
         with VehicleDatabase(path=db_path) as db:
-            return db.lookup_vehicle(self.wmi, self.vds, self.model_year)
+            model_year = self._decode_model_year()
+            if model_year > 0:
+                vehicle = db.lookup_vehicle(self.wmi, self.vds, model_year)
+            else:
+                vehicle = db.lookup_vehicle(self.wmi, self.vds, abs(model_year))
+                if not vehicle:
+                    vehicle = db.lookup_vehicle(self.wmi, self.vds, abs(model_year) - 30)
+        if vehicle is None:
+            raise DecodingFailedError()
+        self._vehicle = vehicle
 
     @classmethod
     def calculate_check_digit(cls, vin: str) -> str:
@@ -160,9 +180,9 @@ class VIN:
 
         Examples:
 
-            >>> vin("5FNYF5H59HB011946").wmi
+            >>> VIN("5FNYF5H59HB011946").wmi
             5FN
-            >>> vin("YT9NN1U14KA007175").wmi
+            >>> VIN("YT9NN1U14KA007175").wmi
             YT9007
         """
         return f"{self._vin[:3]}{self._vin[11:14]}" if self._vin[2] == "9" else self._vin[:3]
@@ -174,13 +194,19 @@ class VIN:
         Returns:
             The manufacturer name.
 
+        Raises:
+            DecodingRequiredError: This property is only available when you choose to
+                decode the VIN. See VIN.__init__(..., decode=True).
+
         Examples:
 
-            >>> vin("5FNYF5H59HB011946").manufacturer
-            Honda
-            >>> vin("YT9NN1U14KA007175").manufacturer
-            Koenigsegg
+            >>> VIN("5FNYF5H59HB011946").manufacturer
+            American Honda Motor Co., Inc.
+            >>> VIN("YT9NN1U14KA007175").manufacturer
+            Koenigsegg Automotive Ab
         """
+        if self._vehicle is None:
+            raise DecodingRequiredError()
         return self._vehicle.manufacturer
 
     @property
@@ -190,14 +216,64 @@ class VIN:
         Returns:
             The make name.
 
+        Raises:
+            DecodingRequiredError: This property is only available when you choose to
+                decode the VIN. See VIN.__init__(..., decode=True).
+
         Examples:
 
-            >>> vin("5FNYF5H59HB011946").manufacturer
+            >>> VIN("5FNYF5H59HB011946").make
             Honda
-            >>> vin("YT9NN1U14KA007175").manufacturer
+            >>> VIN("YT9NN1U14KA007175").make
             Koenigsegg
         """
-        return self._vehicle.make
+        if self._vehicle is None:
+            raise DecodingRequiredError()
+        return self._vehicle.make2
+
+    @property
+    def model(self) -> str:
+        """The vehicle model name.
+
+        Returns:
+            The model name.
+
+        Raises:
+            DecodingRequiredError: This property is only available when you choose to
+                decode the VIN. See VIN.__init__(..., decode=True).
+
+        Examples:
+
+            >>> VIN("5FNYF5H59HB011946").model
+            Pilot
+            >>> VIN("YT9NN1U14KA007175").model
+            Regera
+        """
+        if self._vehicle is None:
+            raise DecodingRequiredError()
+        return self._vehicle.model
+
+    @property
+    def model_year(self) -> int:
+        """The vehicle model year
+
+        Returns:
+            The vehicle model year.
+
+        Raises:
+            DecodingRequiredError: This property is only available when you choose to
+                decode the VIN. See VIN.__init__(..., decode=True).
+
+        Examples:
+
+            >>> VIN("5FNYF5H59HB011946").model_year
+            2017
+            >>> VIN("2GCEC19Z0S1245490").model_year
+            1995
+        """
+        if self._vehicle is None:
+            raise DecodingRequiredError()
+        return self._vehicle.model_year
 
     @property
     def series(self) -> str:
@@ -206,13 +282,19 @@ class VIN:
         Returns:
             The series name.
 
+        Raises:
+            DecodingRequiredError: This property is only available when you choose to
+                decode the VIN. See VIN.__init__(..., decode=True).
+
         Examples:
 
-            >>> vin("5FNYF5H59HB011946").manufacturer
-            Honda
-            >>> vin("YT9NN1U14KA007175").manufacturer
-            Koenigsegg
+            >>> VIN("5FNYF5H59HB011946").series
+            EXL
+            >>> VIN("YT9NN1U14KA007175").series
+            None
         """
+        if self._vehicle is None:
+            raise DecodingRequiredError()
         return self._vehicle.series
 
     @property
@@ -234,13 +316,19 @@ class VIN:
         Returns:
             The vehicle type.
 
+        Raises:
+            DecodingRequiredError: This property is only available when you choose to
+                decode the VIN. See VIN.__init__(..., decode=True).
+
         Examples:
 
-            >>> vin("5FNYF5H59HB011946").manufacturer
-            MPV
-            >>> vin("YT9NN1U14KA007175").manufacturer
+            >>> VIN("5FNYF5H59HB011946").vehicle_type
+            Pass
+            >>> VIN("YT9NN1U14KA007175").vehicle_type
             Car
         """
+        if self._vehicle is None:
+            raise DecodingRequiredError()
         return self._vehicle.vehicle_type
 
     @property
@@ -252,7 +340,7 @@ class VIN:
 
         Examples:
 
-            >>> vin("5FNYF5H59HB011946").vds
+            >>> VIN("5FNYF5H59HB011946").vds
             'YF5H5'
         """
         return self._vin[3:8]
@@ -266,7 +354,7 @@ class VIN:
 
         Examples:
 
-            >>> vin("5FNYF5H59HB011946").vis
+            >>> VIN("5FNYF5H59HB011946").vis
             'HB011946'
         """
         return self._vin[9:]
@@ -289,21 +377,34 @@ class VIN:
         else:
             return descriptor[:11]
 
-    @property
-    def model_year(self) -> int:
-        """The vehicle model year
+    def _decode_model_year(self) -> int:
+        """The model year as encoded in the VIN.
+
+        Every VIN has a single character that identifies the vehicle model year.
+        That means that the same model year character is used to represent 1995
+        and 2025. We can't know for sure which is the correct model year simply
+        by looking at the VIN. To know for sure, you can decode the VIN, which
+        uses information from NHTSA vPIC to determine the actual model year.
 
         Returns:
-            The vehicle model year.
+            The vehicle model year. May be negative if the VIN alone isn't
+            sufficient to determine the model year. When this happens, the
+            actual model year is likely the absolute value of this model year,
+            or 30 years earlier. To find the actual model year, look up the VIN
+            VIN details first with the later model year and then the earlier
+            model year -- only one of these is likely to return a result.
 
         Examples:
 
-            >>> vin("5FNYF5H59HB011946").model_year
+            >>> VIN("5FNYF5H59HB011946")._decode_model_year()
             2017
+            >>> VIN("2GCEC19Z0S1245490")._decode_model_year()
+            -2025
         """
         year_code = self._vin[9]
         assert year_code in VIN_MODEL_YEAR_CHARACTERS
         model_year = 0
+        conclusive = False
 
         if year_code in "ABCDEFGH":
             model_year = 2010 + ord(year_code) - ord("A")
@@ -318,14 +419,19 @@ class VIN:
         elif year_code in "123456789":
             model_year = 2031 + ord(year_code) - ord("1")
 
-        if self._vin[6].isdigit() and self.wmi in self.CARS_AND_LIGHT_TRUCKS:
-            # cars and light trucks manufactured on or before April 30, 2009 (1980 to 2009)
-            model_year -= 30
+        assert model_year > 0
+
+        if self.wmi in self.CARS_AND_LIGHT_TRUCKS:
+            if self._vin[6].isdigit():
+                # cars and light trucks manufactured on or before April 30, 2009 (1980 to 2009)
+                model_year -= 30
+            conclusive = True
 
         if model_year > date.today().year + 1:
             model_year -= 30
+            conclusive = True
 
-        return model_year
+        return model_year if conclusive else -model_year
 
     def __repr__(self) -> str:
         return f"VIN({self!s})"
