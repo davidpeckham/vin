@@ -19,14 +19,15 @@ from vin.constants import VIN_CHECK_DIGIT_POSITION
 from vin.constants import VIN_LENGTH
 from vin.constants import VIN_MODEL_YEAR_CHARACTERS
 from vin.constants import VIN_POSITION_WEIGHTS
-from vin.database import Vehicle
+from vin.database import DecodedVehicle
 from vin.database import VehicleDatabase
 
 
-class DecodingFailedError(Exception):
+class DecodingError(Exception):
     """A property is not available when you choose not to decode the VIN"""
 
     pass
+
 
 class DecodingRequiredError(Exception):
     """A property is not available when you choose not to decode the VIN"""
@@ -124,8 +125,11 @@ class VIN:
 
         Args:
             vin: The 17-digit Vehicle Identification Number.
+
+        Raises:
+            DecodingError: Unable to decode VIN using NHTSA vPIC.
         """
-        self._vehicle: Vehicle = None
+        self._vehicle: DecodedVehicle = None
         db_path = files("vin").joinpath("vehicle.db")
         with VehicleDatabase(path=db_path) as db:
             model_year = self._decode_model_year()
@@ -136,7 +140,7 @@ class VIN:
                 if not vehicle:
                     vehicle = db.lookup_vehicle(self.wmi, self.vds, abs(model_year) - 30)
         if vehicle is None:
-            raise DecodingFailedError()
+            raise DecodingError()
         self._vehicle = vehicle
 
     @classmethod

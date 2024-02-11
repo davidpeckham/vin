@@ -1,0 +1,5 @@
+test_decode:
+  - vin: 1HD1MAM20DB857910
+    model_year: 2013
+    make: Harley Davidson
+    model: FLHTCUTG

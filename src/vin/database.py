@@ -1,14 +1,42 @@
 import logging
+from operator import concat
 import re
 import sqlite3
 from collections import namedtuple
+from dataclasses import dataclass
 
 
 log = logging.getLogger(__name__)
 
 Vehicle = namedtuple(
-    "Vehicle", "manufacturer model_year make1 make2 model series country vehicle_type truck_type"
+    "Vehicle",
+    "manufacturer model_year make1 make2 model series trim country vehicle_type truck_type",
 )
+
+
+@dataclass
+class DecodedVehicle:
+    manufacturer: str
+    model_year: str
+    make1: str
+    make2: str
+    model: str
+    series: str
+    trim: str
+    country: str
+    vehicle_type: str
+    truck_type: str
+
+    @property
+    def name(self) -> str:
+        name = " ".join(
+            [
+                str(getattr(self, p))
+                for p in ["model_year", "make2", "model", "series", "trim"]
+                if getattr(self, p) is not None
+            ]
+        )
+        return name
 
 
 def regex(value, pattern):
@@ -51,13 +79,14 @@ class VehicleDatabase:
         results = cursor.execute(sql, args).fetchall()
         cursor.close()
 
-        print(f"{sql} {args}")
+        # print(sql)
+        print(args)
         for result in results:
             print(dict(result))
 
         return results
 
-    def lookup_vehicle(self, wmi: str, vds: str, model_year: int) -> Vehicle | None:
+    def lookup_vehicle(self, wmi: str, vds: str, model_year: int) -> DecodedVehicle | None:
         """get vehicle details
 
         Args:
@@ -67,7 +96,7 @@ class VehicleDatabase:
             Vehicle: the vehicle details
         """
         if results := self.query(sql=LOOKUP_VEHICLE_SQL, args=(wmi, model_year, vds)):
-            details = {"series": None, "model_year": model_year}
+            details = {"series": None, "trim": None, "model_year": model_year}
             for row in results:
                 if row["model"] is not None:
                     for attr in [
@@ -82,12 +111,14 @@ class VehicleDatabase:
                         details[attr] = row[attr]
                 elif row["series"] is not None:
                     details["series"] = row["series"]
+                elif row["trim"] is not None:
+                    details["trim"] = row["trim"]
                 else:
                     raise Exception(
                         f"expected model and series WMI {wmi} VDS {vds} "
                         f"model year {model_year}, but got {row}"
                     )
-            return Vehicle(**details)
+            return DecodedVehicle(**details)
         return None
 
 
@@ -99,6 +130,7 @@ select
     make2.name as make2,
     model.name as model,
     series.name as series,
+    trim.name as trim,
     pattern.from_year,
     pattern.to_year,
     vehicle_type.name as vehicle_type,
@@ -112,6 +144,7 @@ from
     left join make make2 on make2.id = make_model.make_id
     left join model on model.id = pattern.model_id
     left join series on series.id = pattern.series_id
+    left join trim on trim.id = pattern.trim_id
     join wmi on wmi.code = pattern.wmi
     join vehicle_type on vehicle_type.id = wmi.vehicle_type_id
     left join truck_type on truck_type.id = wmi.truck_type_id
