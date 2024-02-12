@@ -1,42 +1,23 @@
 import logging
-from operator import concat
 import re
 import sqlite3
-from collections import namedtuple
 from dataclasses import dataclass
 
 
 log = logging.getLogger(__name__)
-
-Vehicle = namedtuple(
-    "Vehicle",
-    "manufacturer model_year make1 make2 model series trim country vehicle_type truck_type",
-)
 
 
 @dataclass
 class DecodedVehicle:
     manufacturer: str
     model_year: str
-    make1: str
-    make2: str
+    make: str
     model: str
     series: str
     trim: str
     country: str
     vehicle_type: str
     truck_type: str
-
-    @property
-    def name(self) -> str:
-        name = " ".join(
-            [
-                str(getattr(self, p))
-                for p in ["model_year", "make2", "model", "series", "trim"]
-                if getattr(self, p) is not None
-            ]
-        )
-        return name
 
 
 def regex(value, pattern):
@@ -99,16 +80,19 @@ class VehicleDatabase:
             details = {"series": None, "trim": None, "model_year": model_year}
             for row in results:
                 if row["model"] is not None:
-                    for attr in [
-                        "manufacturer",
-                        "make1",
-                        "make2",
-                        "model",
-                        "vehicle_type",
-                        "truck_type",
-                        "country",
-                    ]:
-                        details[attr] = row[attr]
+                    details.update(
+                        {
+                            k: row[k]
+                            for k in [
+                                "manufacturer",
+                                "make",
+                                "model",
+                                "vehicle_type",
+                                "truck_type",
+                                "country",
+                            ]
+                        }
+                    )
                 elif row["series"] is not None:
                     details["series"] = row["series"]
                 elif row["trim"] is not None:
@@ -124,24 +108,19 @@ class VehicleDatabase:
 
 LOOKUP_VEHICLE_SQL = """
 select
-    pattern.vds,
     manufacturer.name as manufacturer,
-    make1.name as make1,
-    make2.name as make2,
+    make.name as make,
     model.name as model,
     series.name as series,
     trim.name as trim,
-    pattern.from_year,
-    pattern.to_year,
     vehicle_type.name as vehicle_type,
     truck_type.name as truck_type,
     country.name as country
 from
     pattern
     join manufacturer on manufacturer.id = pattern.manufacturer_id
-    left join make make1 on make1.id = pattern.make_id
     left join make_model on make_model.model_id = pattern.model_id
-    left join make make2 on make2.id = make_model.make_id
+    left join make on make.id = make_model.make_id
     left join model on model.id = pattern.model_id
     left join series on series.id = pattern.series_id
     left join trim on trim.id = pattern.trim_id

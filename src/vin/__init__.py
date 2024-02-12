@@ -129,7 +129,6 @@ class VIN:
         Raises:
             DecodingError: Unable to decode VIN using NHTSA vPIC.
         """
-        self._vehicle: DecodedVehicle = None
         db_path = files("vin").joinpath("vehicle.db")
         with VehicleDatabase(path=db_path) as db:
             model_year = self._decode_model_year()
@@ -141,7 +140,16 @@ class VIN:
                     vehicle = db.lookup_vehicle(self.wmi, self.vds, abs(model_year) - 30)
         if vehicle is None:
             raise DecodingError()
-        self._vehicle = vehicle
+
+        self._manufacturer = vehicle.manufacturer
+        self._model_year = vehicle.model_year
+        self._make = vehicle.make
+        self._model = vehicle.model
+        self._series = vehicle.series
+        self._trim = vehicle.trim
+        self._vehicle_type = vehicle.vehicle_type
+        self._truck_type = vehicle.truck_type
+        self._country = vehicle.country
 
     @classmethod
     def calculate_check_digit(cls, vin: str) -> str:
@@ -209,9 +217,9 @@ class VIN:
             >>> VIN("YT9NN1U14KA007175").manufacturer
             Koenigsegg Automotive Ab
         """
-        if self._vehicle is None:
+        if self._manufacturer is None:
             raise DecodingRequiredError()
-        return self._vehicle.manufacturer
+        return self._manufacturer
 
     @property
     def make(self) -> str:
@@ -231,9 +239,9 @@ class VIN:
             >>> VIN("YT9NN1U14KA007175").make
             Koenigsegg
         """
-        if self._vehicle is None:
+        if self._make is None:
             raise DecodingRequiredError()
-        return self._vehicle.make2
+        return self._make
 
     @property
     def model(self) -> str:
@@ -253,9 +261,9 @@ class VIN:
             >>> VIN("YT9NN1U14KA007175").model
             Regera
         """
-        if self._vehicle is None:
+        if self._model is None:
             raise DecodingRequiredError()
-        return self._vehicle.model
+        return self._model
 
     @property
     def model_year(self) -> int:
@@ -275,9 +283,9 @@ class VIN:
             >>> VIN("2GCEC19Z0S1245490").model_year
             1995
         """
-        if self._vehicle is None:
+        if self._model_year is None:
             raise DecodingRequiredError()
-        return self._vehicle.model_year
+        return self._model_year
 
     @property
     def series(self) -> str:
@@ -297,9 +305,7 @@ class VIN:
             >>> VIN("YT9NN1U14KA007175").series
             None
         """
-        if self._vehicle is None:
-            raise DecodingRequiredError()
-        return self._vehicle.series
+        return self._series
 
     @property
     def vehicle_type(self) -> str:
@@ -331,9 +337,9 @@ class VIN:
             >>> VIN("YT9NN1U14KA007175").vehicle_type
             Car
         """
-        if self._vehicle is None:
+        if self._vehicle_type is None:
             raise DecodingRequiredError()
-        return self._vehicle.vehicle_type
+        return self._vehicle_type
 
     @property
     def vds(self) -> str:
@@ -375,11 +381,11 @@ class VIN:
         Returns:
             str: the 11- or 14-character descriptor for this VIN
         """
-        descriptor = self._vin[:8] + "*" + self._vin[9:]
-        if self._vin[2] == "9":
-            return descriptor[:14]
-        else:
-            return descriptor[:11]
+        return f"{self._vin[3:9]}|{self._vin[9:]}"
+        # if self._vin[2] == "9":
+        #     return descriptor[:14]
+        # else:
+        #     return descriptor[:11]
 
     def _decode_model_year(self) -> int:
         """The model year as encoded in the VIN.
@@ -436,6 +442,16 @@ class VIN:
             conclusive = True
 
         return model_year if conclusive else -model_year
+
+    @property
+    def description(self) -> str:
+        return " ".join(
+            [
+                str(getattr(self, property))
+                for property in ["_model_year", "_make", "_model", "_series", "_trim"]
+                if getattr(self, property) is not None
+            ]
+        )
 
     def __repr__(self) -> str:
         return f"VIN({self!s})"
