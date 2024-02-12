@@ -2,9 +2,25 @@ import logging
 import re
 import sqlite3
 from dataclasses import dataclass
+from importlib.resources import files
 
 
 log = logging.getLogger(__name__)
+
+DATABASE_PATH = files("vin").joinpath("vehicle.db")
+
+
+def regex(value, pattern) -> bool:
+    """REGEXP shim for SQLite versions bundled with Python 3.11 and earlier"""
+    return re.match(pattern, value) is not None
+    # found = re.match(pattern, value) is not None
+    # print(f"{value=} {pattern=} {'found' if found else '---'}")
+    # return found
+
+
+connection = sqlite3.connect(DATABASE_PATH, detect_types=sqlite3.PARSE_DECLTYPES)
+connection.row_factory = sqlite3.Row
+connection.create_function("REGEXP", 2, regex)
 
 
 @dataclass
@@ -20,88 +36,57 @@ class DecodedVehicle:
     truck_type: str
 
 
-def regex(value, pattern):
-    """REGEXP shim for SQLite versions bundled with Python 3.11 and earlier"""
-    found = re.match(pattern, value) is not None
-    print(f"{value=} {pattern=} {'found' if found else '---'}")
-    return found
+def query(sql: str, args: tuple = ()) -> list[sqlite3.Row]:
+    """insert rows and return rowcount"""
+    cursor = connection.cursor()
+    results = cursor.execute(sql, args).fetchall()
+    cursor.close()
+
+    # print(sql)
+    print(args)
+    for result in results:
+        print(dict(result))
+
+    return results
 
 
-class VehicleDatabase:
-    def __init__(self, path):
-        """return a SQLite3 database connection"""
-        assert path.exists()
-        self._path = path
+def lookup_vehicle(wmi: str, vds: str, model_year: int) -> DecodedVehicle | None:
+    """get vehicle details
 
-    def __enter__(self) -> "VehicleDatabase":
-        """connect to the database
+    Args:
+        vin: The 17-digit Vehicle Identification Number.
 
-        Build the database and schema if requested.
-        """
-        log.debug(f"Opening database {self._path.absolute()}")
-        connection = sqlite3.connect(self._path, detect_types=sqlite3.PARSE_DECLTYPES)
-        connection.row_factory = sqlite3.Row
-        # version = sqlite3.sqlite_version_info
-        connection.create_function("REGEXP", 2, regex)
-        self._connection = connection
-        return self
-
-    def __exit__(self, exc_type, exc_val, exc_tb):
-        if self._connection.in_transaction:
-            log.debug("Auto commit")
-        self._connection.commit()
-        self._connection.close()
-
-    def query(self, sql: str, args: tuple = ()) -> list[sqlite3.Row]:
-        """insert rows and return rowcount"""
-        cursor = self._connection.cursor()
-        results = cursor.execute(sql, args).fetchall()
-        cursor.close()
-
-        # print(sql)
-        print(args)
-        for result in results:
-            print(dict(result))
-
-        return results
-
-    def lookup_vehicle(self, wmi: str, vds: str, model_year: int) -> DecodedVehicle | None:
-        """get vehicle details
-
-        Args:
-            vin: The 17-digit Vehicle Identification Number.
-
-        Returns:
-            Vehicle: the vehicle details
-        """
-        if results := self.query(sql=LOOKUP_VEHICLE_SQL, args=(wmi, model_year, vds)):
-            details = {"series": None, "trim": None, "model_year": model_year}
-            for row in results:
-                if row["model"] is not None:
-                    details.update(
-                        {
-                            k: row[k]
-                            for k in [
-                                "manufacturer",
-                                "make",
-                                "model",
-                                "vehicle_type",
-                                "truck_type",
-                                "country",
-                            ]
-                        }
-                    )
-                elif row["series"] is not None:
-                    details["series"] = row["series"]
-                elif row["trim"] is not None:
-                    details["trim"] = row["trim"]
-                else:
-                    raise Exception(
-                        f"expected model and series WMI {wmi} VDS {vds} "
-                        f"model year {model_year}, but got {row}"
-                    )
-            return DecodedVehicle(**details)
-        return None
+    Returns:
+        Vehicle: the vehicle details
+    """
+    if results := query(sql=LOOKUP_VEHICLE_SQL, args=(wmi, model_year, vds)):
+        details = {"series": None, "trim": None, "model_year": model_year}
+        for row in results:
+            if row["model"] is not None:
+                details.update(
+                    {
+                        k: row[k]
+                        for k in [
+                            "manufacturer",
+                            "make",
+                            "model",
+                            "vehicle_type",
+                            "truck_type",
+                            "country",
+                        ]
+                    }
+                )
+            elif row["series"] is not None:
+                details["series"] = row["series"]
+            elif row["trim"] is not None:
+                details["trim"] = row["trim"]
+            else:
+                raise Exception(
+                    f"expected model and series WMI {wmi} VDS {vds} "
+                    f"model year {model_year}, but got {row}"
+                )
+        return DecodedVehicle(**details)
+    return None
 
 
 LOOKUP_VEHICLE_SQL = """

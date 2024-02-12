@@ -20,7 +20,7 @@ from vin.constants import VIN_LENGTH
 from vin.constants import VIN_MODEL_YEAR_CHARACTERS
 from vin.constants import VIN_POSITION_WEIGHTS
 from vin.database import DecodedVehicle
-from vin.database import VehicleDatabase
+from vin.database import lookup_vehicle
 
 
 class DecodingError(Exception):
@@ -130,15 +130,13 @@ class VIN:
             DecodingError: Unable to decode VIN using NHTSA vPIC.
         """
         vehicle: DecodedVehicle = None
-        db_path = files("vin").joinpath("vehicle.db")
-        with VehicleDatabase(path=db_path) as db:
-            model_year = self._decode_model_year()
-            if model_year > 0:
-                vehicle = db.lookup_vehicle(self.wmi, self.descriptor, model_year)
-            else:
-                vehicle = db.lookup_vehicle(self.wmi, self.descriptor, abs(model_year))
-                if not vehicle:
-                    vehicle = db.lookup_vehicle(self.wmi, self.descriptor, abs(model_year) - 30)
+        model_year = self._decode_model_year()
+        if model_year > 0:
+            vehicle = lookup_vehicle(self.wmi, self.descriptor, model_year)
+        else:
+            vehicle = lookup_vehicle(self.wmi, self.descriptor, abs(model_year))
+            if not vehicle:
+                vehicle = lookup_vehicle(self.wmi, self.descriptor, abs(model_year) - 30)
         if vehicle is None:
             raise DecodingError()
 
