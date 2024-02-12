@@ -13,3 +13,8 @@ def test_inconclusive_model_year() -> None:
     identify the model year, but we can decode it using vPIC data.
     """
     assert VIN("2GCEC19Z0S1245490").model_year == 1995
+
+
+def test_chevy_silverado() -> None:
+    v = VIN("1GCHK29U21E231713")
+    assert v.description == "2001 Chevrolet Silverado 2500 3/4 Ton"

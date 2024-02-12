@@ -129,15 +129,16 @@ class VIN:
         Raises:
             DecodingError: Unable to decode VIN using NHTSA vPIC.
         """
+        vehicle: DecodedVehicle = None
         db_path = files("vin").joinpath("vehicle.db")
         with VehicleDatabase(path=db_path) as db:
             model_year = self._decode_model_year()
             if model_year > 0:
-                vehicle = db.lookup_vehicle(self.wmi, self.vds, model_year)
+                vehicle = db.lookup_vehicle(self.wmi, self.descriptor, model_year)
             else:
-                vehicle = db.lookup_vehicle(self.wmi, self.vds, abs(model_year))
+                vehicle = db.lookup_vehicle(self.wmi, self.descriptor, abs(model_year))
                 if not vehicle:
-                    vehicle = db.lookup_vehicle(self.wmi, self.vds, abs(model_year) - 30)
+                    vehicle = db.lookup_vehicle(self.wmi, self.descriptor, abs(model_year) - 30)
         if vehicle is None:
             raise DecodingError()
 
@@ -381,7 +382,7 @@ class VIN:
         Returns:
             str: the 11- or 14-character descriptor for this VIN
         """
-        return f"{self._vin[3:9]}|{self._vin[9:]}"
+        return f"{self._vin[3:8]}|{self._vin[9:]}"
         # if self._vin[2] == "9":
         #     return descriptor[:14]
         # else:

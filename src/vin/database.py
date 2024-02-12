@@ -21,9 +21,8 @@ class DecodedVehicle:
 
 
 def regex(value, pattern):
-    """REGEXP shim for SQLite versions that lack it"""
-    rex = re.compile("^" + pattern)
-    found = rex.search(value) is not None
+    """REGEXP shim for SQLite versions bundled with Python 3.11 and earlier"""
+    found = re.match(pattern, value) is not None
     print(f"{value=} {pattern=} {'found' if found else '---'}")
     return found
 
@@ -40,10 +39,9 @@ class VehicleDatabase:
         Build the database and schema if requested.
         """
         log.debug(f"Opening database {self._path.absolute()}")
-        connection = sqlite3.connect(
-            self._path, isolation_level="DEFERRED", detect_types=sqlite3.PARSE_DECLTYPES
-        )
+        connection = sqlite3.connect(self._path, detect_types=sqlite3.PARSE_DECLTYPES)
         connection.row_factory = sqlite3.Row
+        # version = sqlite3.sqlite_version_info
         connection.create_function("REGEXP", 2, regex)
         self._connection = connection
         return self
