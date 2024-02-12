@@ -19,7 +19,6 @@ from vin.constants import VIN_CHECK_DIGIT_POSITION
 from vin.constants import VIN_LENGTH
 from vin.constants import VIN_MODEL_YEAR_CHARACTERS
 from vin.constants import VIN_POSITION_WEIGHTS
-from vin.database import DecodedVehicle
 from vin.database import lookup_vehicle
 
 
@@ -129,7 +128,6 @@ class VIN:
         Raises:
             DecodingError: Unable to decode VIN using NHTSA vPIC.
         """
-        vehicle: DecodedVehicle = None
         model_year = self._decode_model_year()
         if model_year > 0:
             vehicle = lookup_vehicle(self.wmi, self.descriptor, model_year)
@@ -140,15 +138,15 @@ class VIN:
         if vehicle is None:
             raise DecodingError()
 
-        self._manufacturer = vehicle.manufacturer
-        self._model_year = vehicle.model_year
-        self._make = vehicle.make
-        self._model = vehicle.model
-        self._series = vehicle.series
-        self._trim = vehicle.trim
-        self._vehicle_type = vehicle.vehicle_type
-        self._truck_type = vehicle.truck_type
-        self._country = vehicle.country
+        self._manufacturer = vehicle.get("manufacturer", None)
+        self._model_year = vehicle.get("model_year", None)
+        self._make = vehicle.get("make", None)
+        self._model = vehicle.get("model", None)
+        self._series = vehicle.get("series", None)
+        self._trim = vehicle.get("trim", None)
+        self._vehicle_type = vehicle.get("vehicle_type", None)
+        self._truck_type = vehicle.get("truck_type", None)
+        self._country = vehicle.get("country", None)
 
     @classmethod
     def calculate_check_digit(cls, vin: str) -> str:

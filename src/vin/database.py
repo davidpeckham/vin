@@ -1,13 +1,12 @@
 import logging
 import re
 import sqlite3
-from dataclasses import dataclass
 from importlib.resources import files
 
 
 log = logging.getLogger(__name__)
 
-DATABASE_PATH = files("vin").joinpath("vehicle.db")
+DATABASE_PATH = str(files("vin").joinpath("vehicle.db"))
 
 
 def regex(value, pattern) -> bool:
@@ -21,19 +20,6 @@ def regex(value, pattern) -> bool:
 connection = sqlite3.connect(DATABASE_PATH, detect_types=sqlite3.PARSE_DECLTYPES)
 connection.row_factory = sqlite3.Row
 connection.create_function("REGEXP", 2, regex)
-
-
-@dataclass
-class DecodedVehicle:
-    manufacturer: str
-    model_year: str
-    make: str
-    model: str
-    series: str
-    trim: str
-    country: str
-    vehicle_type: str
-    truck_type: str
 
 
 def query(sql: str, args: tuple = ()) -> list[sqlite3.Row]:
@@ -50,7 +36,7 @@ def query(sql: str, args: tuple = ()) -> list[sqlite3.Row]:
     return results
 
 
-def lookup_vehicle(wmi: str, vds: str, model_year: int) -> DecodedVehicle | None:
+def lookup_vehicle(wmi: str, vds: str, model_year: int) -> dict | None:
     """get vehicle details
 
     Args:
@@ -85,7 +71,7 @@ def lookup_vehicle(wmi: str, vds: str, model_year: int) -> DecodedVehicle | None
                     f"expected model and series WMI {wmi} VDS {vds} "
                     f"model year {model_year}, but got {row}"
                 )
-        return DecodedVehicle(**details)
+        return details
     return None
 
 
