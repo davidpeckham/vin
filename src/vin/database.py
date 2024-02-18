@@ -48,29 +48,22 @@ def lookup_vehicle(wmi: str, vds: str, model_year: int) -> dict | None:
     if results := query(sql=LOOKUP_VEHICLE_SQL, args=(wmi, model_year, vds)):
         details = {"series": None, "trim": None, "model_year": model_year}
         for row in results:
-            if row["model"] is not None:
-                details.update(
-                    {
-                        k: row[k]
-                        for k in [
-                            "manufacturer",
-                            "make",
-                            "model",
-                            "vehicle_type",
-                            "truck_type",
-                            "country",
-                        ]
-                    }
-                )
-            elif row["series"] is not None:
-                details["series"] = row["series"]
-            elif row["trim"] is not None:
-                details["trim"] = row["trim"]
-            else:
-                raise Exception(
-                    f"expected model and series WMI {wmi} VDS {vds} "
-                    f"model year {model_year}, but got {row}"
-                )
+            details.update(
+                {
+                    k: row[k]
+                    for k in [
+                        "manufacturer",
+                        "make",
+                        "model",
+                        "series",
+                        "trim",
+                        "vehicle_type",
+                        "truck_type",
+                        "country",
+                    ]
+                    if row[k] is not None
+                }
+            )
         return details
     return None
 

@@ -270,7 +270,7 @@ test_decode:
   - vin: JH4DA9368PS006502
     model_year: 1993
     make: Acura
-    model: Integra with EPS (Electric Power Steering)
+    model: Integra GS w/Moonroof
   - vin: 1J4FA29P3YP729948
     model_year: 2000
     make: Jeep
