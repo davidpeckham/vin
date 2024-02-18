@@ -30,15 +30,15 @@ test_decode:
   - vin: 4A3AK24F36E026691
     model_year: 2006
     make: Mitsubishi
-    model: Eclipse LOW
+    model: Eclipse Low
   - vin: 1GKLVKED6AJ152841
     model_year: 2010
     make: GMC
-    model: Acadia 1/2 Ton SLE-1
+    model: Acadia 1/2 ton SLE-1
   - vin: WAULFAFR6DA001366
     model_year: 2013
     make: Audi
-    model: A5 Premium Plus Quattro
+    model: A5 Premium Plus quattro
   - vin: 1G8ZH1278XZ108219
     model_year: 1999
     make: Saturn
@@ -374,7 +374,7 @@ test_decode:
   - vin: WAULFAFR8DA002471
     model_year: 2013
     make: Audi
-    model: A5 Premium Plus Quattro
+    model: A5 Premium Plus quattro
   - vin: JH4KA3172KC019247
     model_year: 1989
     make: Acura
