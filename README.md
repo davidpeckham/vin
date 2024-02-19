@@ -7,35 +7,52 @@
 
 -----
 
-**Contents**
-
-- [Why use VIN?](#why-use-vin)
-- [Vehicle Identification Number](#vehicle-identification-number)
-- [Vehicle Data](#vehicle-data)
-- [Installation](#installation)
-- [License](#license)
-
-VIN validates Vehicle Identification Numbers and decodes the vehicle's manufacturer, make, model, and model year.
+``VIN`` validates Vehicle Identification Numbers and decodes the vehicle's manufacturer, make, model, series, trim, and model year.
 
     >>> from vin import VIN
+
+    >>> VIN('KNDCE3LG2L5073161').description
+    '2020 Kia Niro EX Premium'
 
     >>> vin("5FNYF5H59HB011946").manufacturer
     Honda
 
-    >>> vin("YT9NN1U14KA007175").manufacturer
-    Koenigsegg
-
     >>> vin("5FNYF5H59HB011946").model_year
     2017
 
+    >>> vin("YT9NN1U14KA007175").manufacturer
+    Koenigsegg
+
+``VIN`` supports passenger vehicles manufactured since 1980:
+
+* Passenger Cars
+* Multipurpose Passenger Vehicle (MPV)
+* Light Trucks
+
+``VIN`` does not currently support:
+
+* Buses
+* Heavy Trucks
+* Incomplete Vehicles
+* Low Speed Vehicles (LSV)
+* Motorcycles
+* Off Road Vehicles
+* Trailers
+
 ## Why use VIN?
 
-- **Accurate** &mdash; Vehicle information is provided by the National Highway Traffic Safety Administration.
-- **Fast** &mdash; Vehicle data is included and periodically updated, so validation and decoding are fast.
+- **Accurate** &mdash; Uses U.S. National Highway Traffic Safety Administration vehicle data.
+- **Fast** &mdash; Validate and decode 1,500 VINs per second.
+
+## Installation
+
+Use ``pip`` to install the library:
+
+    $ pip install vin
 
 ## Vehicle Identification Number
 
-A ``VIN`` is a unique 17-character Vehicle Identification Number.
+A ```VIN``` is a unique 17-character Vehicle Identification Number.
 
 * Uniquely identifies vehicles manufactured for sale or use in the United States since 1980
 * Assigned by vehicle manufacturers
@@ -65,17 +82,10 @@ plant where the vehicle was made, and the vehicle's serial number.
 
 For more information, see the [VIN specification](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-V/part-565).
 
-Installation
-------------
-
-Use ``pip`` to install the library:
-
-    $ pip install vin
-
 ## Vehicle Data
 
 Vehicle data is provided by the U.S. National Highway Traffic Safety Administration (NHTSA) [Product Information Catalog and Vehicle Listing (vPIC)](https://vpic.nhtsa.dot.gov).
 
 ## License
 
-`VIN` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+``VIN`` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

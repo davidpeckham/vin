@@ -9,9 +9,8 @@
 # ruff: noqa: TRY003, EM101, EM102
 
 from datetime import date
-from importlib.resources import files
-from typing import Final
 
+from vin.constants import CARS_AND_LIGHT_TRUCKS
 from vin.constants import VIN_CHARACTER_VALUES
 from vin.constants import VIN_CHARACTERS
 from vin.constants import VIN_CHECK_DIGIT_CHARACTERS
@@ -74,13 +73,8 @@ class VIN:
 
     """
 
-    CARS_AND_LIGHT_TRUCKS: Final[list[str]] = (
-        files("vin").joinpath("cars-and-light-trucks.csv").read_text().splitlines()
-    )
-    """WMI that make cars and light trucks (used to determine model year)"""
-
-    def __init__(self, vin: str, decode=True, fix_check_digit=False) -> None:
-        """Initialize a VIN.
+    def __init__(self, vin: str, decode: bool = True, fix_check_digit: bool = False) -> None:
+        """Validates the VIN and decodes vehicle information.
 
         Args:
             vin: The 17-digit Vehicle Identification Number.
@@ -160,11 +154,9 @@ class VIN:
 
         """
         total = 0
-        for n in range(VIN_LENGTH):
-            if n == VIN_CHECK_DIGIT_POSITION:
-                continue
-            letter = vin[n]
-            total = total + VIN_CHARACTER_VALUES[letter] * VIN_POSITION_WEIGHTS[n]
+        for position, letter in enumerate(vin):
+            if position != VIN_CHECK_DIGIT_POSITION:
+                total += VIN_CHARACTER_VALUES[letter] * VIN_POSITION_WEIGHTS[position]
         return VIN_CHECK_DIGIT_CHARACTERS[total % 11]
 
     @property
@@ -371,18 +363,10 @@ class VIN:
         """The part of the VIN used to lookup make, model, and other
         vehicle attributes in NHTSA vPIC.
 
-        The descriptor is 11 characters for a mass-market manufacturer.
-        For specialized manufacturers, the descriptor is 14 characters so
-        that it includes the second half of the WMI.
-
         Returns:
-            str: the 11- or 14-character descriptor for this VIN
+            str: the 14-character descriptor for this VIN
         """
         return f"{self._vin[3:8]}|{self._vin[9:]}"
-        # if self._vin[2] == "9":
-        #     return descriptor[:14]
-        # else:
-        #     return descriptor[:11]
 
     def _decode_model_year(self) -> int:
         """The model year as encoded in the VIN.
@@ -394,11 +378,11 @@ class VIN:
         uses information from NHTSA vPIC to determine the actual model year.
 
         Returns:
-            The vehicle model year. May be negative if the VIN alone isn't
-            sufficient to determine the model year. When this happens, the
-            actual model year is likely the absolute value of this model year,
-            or 30 years earlier. To find the actual model year, look up the VIN
-            VIN details first with the later model year and then the earlier
+            The vehicle model year. May be negative if the VIN alone isn't \
+            sufficient to determine the model year. When this happens, the \
+            actual model year is likely the absolute value of this model year, \
+            or 30 years earlier. To find the actual model year, look up the VIN \
+            VIN details first with the later model year and then the earlier \
             model year -- only one of these is likely to return a result.
 
         Examples:
@@ -428,7 +412,7 @@ class VIN:
 
         assert model_year > 0
 
-        if self.wmi in self.CARS_AND_LIGHT_TRUCKS:
+        if self.wmi in CARS_AND_LIGHT_TRUCKS:
             if self._vin[6].isdigit():
                 # cars and light trucks manufactured on or before April 30, 2009 (1980 to 2009)
                 model_year -= 30

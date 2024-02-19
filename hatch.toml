@@ -2,12 +2,13 @@
 dependencies = [
     "freezegun==1.2.*",
     "pytest-cov==4.1.*",
+    "pytest-benchmark==4.0.*",
     "pytest==7.3.*",
     "parametrize_from_file"
 ]
 
 [envs.default.scripts]
-test = "pytest {args:.}"
+test = "pytest {args:.} --benchmark-autosave"
 cov-test = "pytest --cov {args:vin} --cov-report=term-missing --cov-report=xml"
 
 [envs.lint]
@@ -49,6 +50,7 @@ dependencies = [
     # Validation
     # https://github.com/linkchecker/linkchecker/pull/669#issuecomment-1267236287
     "linkchecker @ git+https://github.com/linkchecker/linkchecker.git@d9265bb71c2054bf57b8c5734a4825d62505c779",
+    "black"
 ]
 [envs.docs.scripts]
 build = "mkdocs build --clean --strict"

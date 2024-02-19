@@ -1,3 +1,8 @@
+from typing import Final
+
+from vin.database import get_wmis_for_cars_and_light_trucks
+
+
 VIN_LENGTH: int = 17
 VIN_CHECK_DIGIT_POSITION: int = 8
 
@@ -83,3 +88,6 @@ VIN_MODEL_YEAR_CODES: dict[int, str] = {
 VIN_MODEL_YEAR_CHARACTERS = list(set(VIN_MODEL_YEAR_CODES.values()))
 
 VIN_CHECK_DIGIT_CHARACTERS: str = "0123456789X"
+
+CARS_AND_LIGHT_TRUCKS: Final[list[str]] = get_wmis_for_cars_and_light_trucks()
+"""WMI that make cars and light trucks (used to determine model year)"""

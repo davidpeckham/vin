@@ -12,9 +12,6 @@ DATABASE_PATH = str(files("vin").joinpath("vehicle.db"))
 def regex(value, pattern) -> bool:
     """REGEXP shim for SQLite versions bundled with Python 3.11 and earlier"""
     return re.match(pattern, value) is not None
-    # found = re.match(pattern, value) is not None
-    # print(f"{value=} {pattern=} {'found' if found else '---'}")
-    # return found
 
 
 connection = sqlite3.connect(DATABASE_PATH, detect_types=sqlite3.PARSE_DECLTYPES)
@@ -27,13 +24,16 @@ def query(sql: str, args: tuple = ()) -> list[sqlite3.Row]:
     cursor = connection.cursor()
     results = cursor.execute(sql, args).fetchall()
     cursor.close()
-
-    # print(sql)
-    print(args)
-    for result in results:
-        print(dict(result))
-
     return results
+
+
+def get_wmis_for_cars_and_light_trucks() -> list[str]:
+    """Return a list of WMIs that manufacture cars and light trucks
+
+    Returns:
+        list[str]: WMIs that make cars and light trucks
+    """
+    return [result["wmi"] for result in query(sql=GET_WMI_FOR_CARS_AND_LIGHT_TRUCKS)]
 
 
 def lookup_vehicle(wmi: str, vds: str, model_year: int) -> dict | None:
@@ -94,4 +94,20 @@ where
     pattern.wmi = ?
     and ? between pattern.from_year and pattern.to_year
     and REGEXP(?, pattern.vds);
+"""
+
+
+GET_WMI_FOR_CARS_AND_LIGHT_TRUCKS = """
+select
+    wmi.code as wmi
+from
+    wmi
+where
+    vehicle_type_id in (2, 7) -- Cars and MPVs
+    or ( -- light trucks
+        wmi.vehicle_type_id = 3
+        and wmi.truck_type_id = 1
+    )
+order by
+    wmi.code;
 """

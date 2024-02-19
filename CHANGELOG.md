@@ -1,5 +1,19 @@
 # Changelog
 
+## v0.3.0 (2024-02-19)
+
+[GitHub release](https://github.com/davidpeckham/vin/releases/tag/v0.3.0)
+
+### New Features
+
+* Decode the make, model, series, and trim
+* Supports passenger cars, multipurpose vehicles, and light trucks manufactured since 1980
+* Performance benchmarks
+
+### Fixes
+
+* Correctly determines the model year for older vehicles
+
 ## v0.2.0 (2024-02-03)
 
 [GitHub release](https://github.com/davidpeckham/vin/releases/tag/v0.2.0)
