@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.41 (2024-02-21)
+
+[GitHub release](https://github.com/davidpeckham/vin/releases/tag/v0.4.1)
+
+### Fixes
+
+* Most properties that are missing after decoding now return empty string instead of raising a DecodingRequiredError (https://github.com/davidpeckham/vin/issues/3, sshane).
+* VIN.body_style is now VIN.body_class to be consistent with vPIC naming (sshane).
+* Corrected several examples in the documentation.
+* Models with trims that vary only by capitalization now return the correct trim name (LAREDO versus Laredo).
+
 ## v0.4.0 (2024-02-20)
 
 [GitHub release](https://github.com/davidpeckham/vin/releases/tag/v0.4.0)
