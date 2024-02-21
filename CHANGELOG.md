@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.4.0 (2024-02-20)
+
+[GitHub release](https://github.com/davidpeckham/vin/releases/tag/v0.4.0)
+
+### New Features
+
+* Decodes body style and electrification level
+
+### Fixes
+
+* Fixed vehicle_type names in the documentation
+
 ## v0.3.0 (2024-02-19)
 
 [GitHub release](https://github.com/davidpeckham/vin/releases/tag/v0.3.0)
