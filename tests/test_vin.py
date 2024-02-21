@@ -159,5 +159,5 @@ def test_kia_niro_bev():
     assert vin.model_year == 2020
     assert vin.make == "Kia"
     assert vin.model == "Niro"
-    assert vin.body_style == "Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)"
+    assert vin.body_class == "Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)"
     assert vin.electrification_level == "BEV (Battery Electric Vehicle)"

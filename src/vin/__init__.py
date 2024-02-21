@@ -114,8 +114,8 @@ class VIN:
         return
 
     @property
-    def body_style(self) -> str:
-        """The body style.
+    def body_class(self) -> str:
+        """The body class.
 
         This is one of:
 
@@ -201,25 +201,30 @@ class VIN:
 
         Examples:
 
-            >>> VIN("KNDCE3LG2L5073161").body_style
+            >>> VIN("KNDCE3LG2L5073161").body_class
             'Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)'
         """
-        if self._body_style is None:
+        if self._body_class is None:
             raise DecodingRequiredError()
-        return self._body_style
+        return self._body_class
 
     @property
     def description(self) -> str:
         """returns a one-line summary of the vehicle
 
         Returns:
-            str: the model year, make, model, series, and trim
+            str: the model year, make, model, and series
+
+        Examples:
+
+            >>> VIN('KNDCE3LG2L5073161').description
+            '2020 Kia Niro EX Premium'
         """
         return " ".join(
             [
                 str(getattr(self, property))
                 for property in ["_model_year", "_make", "_model", "_series", "_trim"]
-                if getattr(self, property) is not None
+                if getattr(self, property)
             ]
         )
 
@@ -276,9 +281,9 @@ class VIN:
         Examples:
 
             >>> VIN("5FNYF5H59HB011946").make
-            Honda
+            'Honda'
             >>> VIN("YT9NN1U14KA007175").make
-            Koenigsegg
+            'Koenigsegg'
         """
         if self._make is None:
             raise DecodingRequiredError()
@@ -298,9 +303,9 @@ class VIN:
         Examples:
 
             >>> VIN("5FNYF5H59HB011946").manufacturer
-            American Honda Motor Co., Inc.
+            'American Honda Motor Co., Inc.'
             >>> VIN("YT9NN1U14KA007175").manufacturer
-            Koenigsegg Automotive Ab
+            'Koenigsegg Automotive Ab'
         """
         if self._manufacturer is None:
             raise DecodingRequiredError()
@@ -320,9 +325,9 @@ class VIN:
         Examples:
 
             >>> VIN("5FNYF5H59HB011946").model
-            Pilot
+            'Pilot'
             >>> VIN("YT9NN1U14KA007175").model
-            Regera
+            'Regera'
         """
         if self._model is None:
             raise DecodingRequiredError()
@@ -366,9 +371,27 @@ class VIN:
             >>> VIN("5FNYF5H59HB011946").series
             'EXL'
             >>> VIN("YT9NN1U14KA007175").series
-            None
+            ''
         """
         return self._series
+
+    @property
+    def trim(self) -> str:
+        """The vehicle trim name.
+
+        Returns:
+            The trim name.
+
+        Raises:
+            DecodingRequiredError: This property is only available when you choose to
+                decode the VIN. See VIN.__init__(..., decode=True).
+
+        Examples:
+
+            >>> VIN("5FNYF5H59HB011946").trim
+            ''
+        """
+        return self._trim
 
     @property
     def vds(self) -> str:
@@ -455,9 +478,9 @@ class VIN:
         Examples:
 
             >>> VIN("5FNYF5H59HB011946").wmi
-            5FN
+            '5FN'
             >>> VIN("YT9NN1U14KA007175").wmi
-            YT9007
+            'YT9007'
         """
         return f"{self._vin[:3]}{self._vin[11:14]}" if self._vin[2] == "9" else self._vin[:3]
 
@@ -555,15 +578,15 @@ class VIN:
 
         self._manufacturer = vehicle.get("manufacturer", None)
         self._model_year = vehicle.get("model_year", None)
-        self._make = vehicle.get("make", None)
-        self._model = vehicle.get("model", None)
-        self._series = vehicle.get("series", None)
-        self._trim = vehicle.get("trim", None)
-        self._vehicle_type = vehicle.get("vehicle_type", None)
-        self._truck_type = vehicle.get("truck_type", None)
-        self._country = vehicle.get("country", None)
-        self._body_style = vehicle.get("body_style", None)
-        self._electrification_level = vehicle.get("electrification_level", None)
+        self._make = vehicle.get("make", "")
+        self._model = vehicle.get("model", "")
+        self._series = vehicle.get("series", "")
+        self._trim = vehicle.get("trim", "")
+        self._vehicle_type = vehicle.get("vehicle_type", "")
+        self._truck_type = vehicle.get("truck_type", "")
+        self._country = vehicle.get("country", "")
+        self._body_class = vehicle.get("body_class", "")
+        self._electrification_level = vehicle.get("electrification_level", "")
 
     def __repr__(self) -> str:
         return f"VIN({self!s})"

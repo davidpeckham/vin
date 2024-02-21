@@ -11,7 +11,9 @@ DATABASE_PATH = str(files("vin").joinpath("vehicle.db"))
 
 def regex(value, pattern) -> bool:
     """REGEXP shim for SQLite versions bundled with Python 3.11 and earlier"""
-    return re.match(pattern, value) is not None
+    match = re.match(pattern, value)
+    # print(f"value {value} pattern {pattern} {'match' if match else ''}")
+    return match is not None
 
 
 connection = sqlite3.connect(DATABASE_PATH, detect_types=sqlite3.PARSE_DECLTYPES)
@@ -47,27 +49,27 @@ def lookup_vehicle(wmi: str, vds: str, model_year: int) -> dict | None:
     """
     if results := query(sql=LOOKUP_VEHICLE_SQL, args=(wmi, model_year, vds)):
         details = {
-            "series": None,
-            "trim": None,
+            # "series": None,
+            # "trim": None,
             "model_year": model_year,
-            "body_style": None,
-            "electrification_level": None,
+            # "body_class": None,
+            # "electrification_level": None,
         }
         for row in results:
             details.update(
                 {
                     k: row[k]
                     for k in [
-                        "manufacturer",
+                        "body_class",
+                        "country",
+                        "electrification_level",
                         "make",
+                        "manufacturer",
                         "model",
                         "series",
                         "trim",
-                        "vehicle_type",
                         "truck_type",
-                        "country",
-                        "body_style",
-                        "electrification_level",
+                        "vehicle_type",
                     ]
                     if row[k] is not None
                 }
@@ -86,7 +88,7 @@ select
     vehicle_type.name as vehicle_type,
     truck_type.name as truck_type,
     country.name as country,
-    body_style.name as body_style,
+    body_class.name as body_class,
     electrification_level.name as electrification_level
 from
     pattern
@@ -100,7 +102,7 @@ from
     join vehicle_type on vehicle_type.id = wmi.vehicle_type_id
     left join truck_type on truck_type.id = wmi.truck_type_id
     left join country on country.alpha_2_code = wmi.country
-    left join body_style on body_style.id = pattern.body_style_id
+    left join body_class on body_class.id = pattern.body_class_id
     left join electrification_level on electrification_level.id = pattern.electrification_level_id
 where
     pattern.wmi = ?
