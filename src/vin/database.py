@@ -46,7 +46,13 @@ def lookup_vehicle(wmi: str, vds: str, model_year: int) -> dict | None:
         Vehicle: the vehicle details
     """
     if results := query(sql=LOOKUP_VEHICLE_SQL, args=(wmi, model_year, vds)):
-        details = {"series": None, "trim": None, "model_year": model_year}
+        details = {
+            "series": None,
+            "trim": None,
+            "model_year": model_year,
+            "body_style": None,
+            "electrification_level": None,
+        }
         for row in results:
             details.update(
                 {
@@ -60,6 +66,8 @@ def lookup_vehicle(wmi: str, vds: str, model_year: int) -> dict | None:
                         "vehicle_type",
                         "truck_type",
                         "country",
+                        "body_style",
+                        "electrification_level",
                     ]
                     if row[k] is not None
                 }
@@ -77,7 +85,9 @@ select
     trim.name as trim,
     vehicle_type.name as vehicle_type,
     truck_type.name as truck_type,
-    country.name as country
+    country.name as country,
+    body_style.name as body_style,
+    electrification_level.name as electrification_level
 from
     pattern
     join manufacturer on manufacturer.id = pattern.manufacturer_id
@@ -90,10 +100,12 @@ from
     join vehicle_type on vehicle_type.id = wmi.vehicle_type_id
     left join truck_type on truck_type.id = wmi.truck_type_id
     left join country on country.alpha_2_code = wmi.country
+    left join body_style on body_style.id = pattern.body_style_id
+    left join electrification_level on electrification_level.id = pattern.electrification_level_id
 where
     pattern.wmi = ?
     and ? between pattern.from_year and pattern.to_year
-    and REGEXP(?, pattern.vds);
+    and REGEXP (?, pattern.vds);
 """
 
 

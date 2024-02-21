@@ -38,7 +38,7 @@ test_decode:
   - vin: WAULFAFR6DA001366
     model_year: 2013
     make: Audi
-    model: A5 Premium Plus quattro
+    model: A5 Premium Plus Quattro
   - vin: 1G8ZH1278XZ108219
     model_year: 1999
     make: Saturn
@@ -70,7 +70,7 @@ test_decode:
   - vin: 5XYZUDLB3DG001966
     model_year: 2013
     make: Hyundai
-    model: Santa Fe Sport Popular / Sport Leather / Sport Tech / Sport Turbo / Sport Turbo leather Sport
+    model: Santa Fe Sport Popular / Sport Leather / Sport Tech / Sport Turbo / Sport Turbo leather SPORT
   - vin: 1GCEC14W6TZ228585
     model_year: 1996
     make: Chevrolet
@@ -218,7 +218,7 @@ test_decode:
   - vin: 1C4GJWAG3DL544796
     model_year: 2013
     make: Jeep
-    model: Wrangler Sport
+    model: Wrangler SPORT
   - vin: 1FMCU14T5JU402756
     model_year: 1988
     make: Ford
@@ -374,7 +374,7 @@ test_decode:
   - vin: WAULFAFR8DA002471
     model_year: 2013
     make: Audi
-    model: A5 Premium Plus quattro
+    model: A5 Premium Plus Quattro
   - vin: JH4KA3172KC019247
     model_year: 1989
     make: Acura

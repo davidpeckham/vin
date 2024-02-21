@@ -152,3 +152,12 @@ def test_raises_error_when_not_a_string() -> None:
         ValueError, match="VIN must have only these characters 0123456789ABCDEFGHJKLMNPRSTUVWXYZ"
     ):
         VIN("5FQYF5H59HBO1I946")
+
+
+def test_kia_niro_bev():
+    vin = VIN("KNDCE3LG2L5073161")
+    assert vin.model_year == 2020
+    assert vin.make == "Kia"
+    assert vin.model == "Niro"
+    assert vin.body_style == "Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)"
+    assert vin.electrification_level == "BEV (Battery Electric Vehicle)"

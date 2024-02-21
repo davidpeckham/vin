@@ -15,13 +15,13 @@
     '2020 Kia Niro EX Premium'
 
     >>> vin("5FNYF5H59HB011946").manufacturer
-    Honda
+    'Honda'
 
     >>> vin("5FNYF5H59HB011946").model_year
     2017
 
     >>> vin("YT9NN1U14KA007175").manufacturer
-    Koenigsegg
+    'Koenigsegg'
 
 ``VIN`` supports passenger vehicles manufactured since 1980:
 

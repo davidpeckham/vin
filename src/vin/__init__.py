@@ -113,87 +113,87 @@ class VIN:
             self._decode_vin()
         return
 
-    def _decode_vin(self) -> None:
-        """decode the VIN to get manufacturer, make, model, and other vehicle details
-
-        Args:
-            vin: The 17-digit Vehicle Identification Number.
-
-        Raises:
-            DecodingError: Unable to decode VIN using NHTSA vPIC.
-        """
-        model_year = self._decode_model_year()
-        if model_year > 0:
-            vehicle = lookup_vehicle(self.wmi, self.descriptor, model_year)
-        else:
-            vehicle = lookup_vehicle(self.wmi, self.descriptor, abs(model_year))
-            if not vehicle:
-                vehicle = lookup_vehicle(self.wmi, self.descriptor, abs(model_year) - 30)
-        if vehicle is None:
-            raise DecodingError()
-
-        self._manufacturer = vehicle.get("manufacturer", None)
-        self._model_year = vehicle.get("model_year", None)
-        self._make = vehicle.get("make", None)
-        self._model = vehicle.get("model", None)
-        self._series = vehicle.get("series", None)
-        self._trim = vehicle.get("trim", None)
-        self._vehicle_type = vehicle.get("vehicle_type", None)
-        self._truck_type = vehicle.get("truck_type", None)
-        self._country = vehicle.get("country", None)
-
-    @classmethod
-    def calculate_check_digit(cls, vin: str) -> str:
-        """Calculate and return the VIN check digit.
-
-        Args:
-            vin: The 17-digit Vehicle Identification Number.
-
-        Returns:
-            The calculated check digit character.
-
-        """
-        total = 0
-        for position, letter in enumerate(vin):
-            if position != VIN_CHECK_DIGIT_POSITION:
-                total += VIN_CHARACTER_VALUES[letter] * VIN_POSITION_WEIGHTS[position]
-        return VIN_CHECK_DIGIT_CHARACTERS[total % 11]
-
     @property
-    def wmi(self) -> str:
-        """The World Manufacturer Identifier (WMI) of the vehicle manufacturer.
+    def body_style(self) -> str:
+        """The body style.
 
-        Mass-market manufacturers are assigned a three-character WMI. For
-        example, some Honda cars have WMI 5FN:
+        This is one of:
 
-            5FNYF5H59HB011946
-            ^^^
-
-        Specialized manufacturers are assigned six-character WMI. For example,
-        Koenigsegg cars have WMI YT9007:
-
-            YT9NN1U14KA007175
-            ^^^        ^^^
+        * Ambulance
+        * Bus
+        * Bus - School Bus
+        * Cargo Van
+        * Convertible/Cabriolet
+        * Coupe
+        * Crossover Utility Vehicle (CUV)
+        * Fire Apparatus
+        * Hatchback/Liftback/Notchback
+        * Incomplete
+        * Incomplete - Bus Chassis
+        * Incomplete - Chassis Cab (Double Cab)
+        * Incomplete - Chassis Cab (Number of Cab Unknown)
+        * Incomplete - Chassis Cab (Single Cab)
+        * Incomplete - Commercial Bus Chassis
+        * Incomplete - Commercial Chassis
+        * Incomplete - Cutaway
+        * Incomplete - Glider
+        * Incomplete - Motor Coach Chassis
+        * Incomplete - Motor Home Chassis
+        * Incomplete - School Bus Chassis
+        * Incomplete - Shuttle Bus Chassis
+        * Incomplete - Stripped Chassis
+        * Incomplete - Trailer Chassis
+        * Incomplete - Transit Bus Chassis
+        * Limousine
+        * Low Speed Vehicle (LSV) / Neighborhood Electric Vehicle (NEV)
+        * Minivan
+        * Motorcycle - Competition
+        * Motorcycle - Cross Country
+        * Motorcycle - Cruiser
+        * Motorcycle - Custom
+        * Motorcycle - Dual Sport / Adventure / Supermoto / On/Off-road
+        * Motorcycle - Enclosed Three Wheeled or Enclosed Autocycle [1 Rear Wheel]
+        * Motorcycle - Moped
+        * Motorcycle - Scooter
+        * Motorcycle - Side Car
+        * Motorcycle - Small / Minibike
+        * Motorcycle - Sport
+        * Motorcycle - Standard
+        * Motorcycle - Street
+        * Motorcycle - Three Wheeled, Unknown Enclosure or Autocycle, Unknown Enclosure
+        * Motorcycle - Three-Wheeled Motorcycle (2 Rear Wheels)
+        * Motorcycle - Touring / Sport Touring
+        * Motorcycle - Underbone
+        * Motorcycle - Unenclosed Three Wheeled or Open Autocycle [1 Rear Wheel]
+        * Motorcycle - Unknown Body Class
+        * Motorhome
+        * Off-road Vehicle - All Terrain Vehicle (ATV) (Motorcycle-style)
+        * Off-road Vehicle - Construction Equipment
+        * Off-road Vehicle - Dirt Bike / Off-Road
+        * Off-road Vehicle - Enduro (Off-road long distance racing)
+        * Off-road Vehicle - Farm Equipment
+        * Off-road Vehicle - Go Kart
+        * Off-road Vehicle - Golf Cart
+        * Off-road Vehicle - Motocross (Off-road short distance, closed track racing)
+        * Off-road Vehicle - Multipurpose Off-Highway Utility Vehicle [MOHUV] or \
+            Recreational Off-Highway Vehicle [ROV]
+        * Off-road Vehicle - Snowmobile
+        * Pickup
+        * Roadster
+        * Sedan/Saloon
+        * Sport Utility Truck (SUT)
+        * Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+        * Step Van / Walk-in Van
+        * Street Sweeper
+        * Streetcar / Trolley
+        * Trailer
+        * Truck
+        * Truck-Tractor
+        * Van
+        * Wagon
 
         Returns:
-            The 3-character WMI for a mass-market manufacturer, or 6-character
-                WMI for a specialized manufacturer.
-
-        Examples:
-
-            >>> VIN("5FNYF5H59HB011946").wmi
-            5FN
-            >>> VIN("YT9NN1U14KA007175").wmi
-            YT9007
-        """
-        return f"{self._vin[:3]}{self._vin[11:14]}" if self._vin[2] == "9" else self._vin[:3]
-
-    @property
-    def manufacturer(self) -> str:
-        """The vehicle manufacturer name.
-
-        Returns:
-            The manufacturer name.
+            The vehicle type.
 
         Raises:
             DecodingRequiredError: This property is only available when you choose to
@@ -201,14 +201,66 @@ class VIN:
 
         Examples:
 
-            >>> VIN("5FNYF5H59HB011946").manufacturer
-            American Honda Motor Co., Inc.
-            >>> VIN("YT9NN1U14KA007175").manufacturer
-            Koenigsegg Automotive Ab
+            >>> VIN("KNDCE3LG2L5073161").body_style
+            'Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)'
         """
-        if self._manufacturer is None:
+        if self._body_style is None:
             raise DecodingRequiredError()
-        return self._manufacturer
+        return self._body_style
+
+    @property
+    def description(self) -> str:
+        """returns a one-line summary of the vehicle
+
+        Returns:
+            str: the model year, make, model, series, and trim
+        """
+        return " ".join(
+            [
+                str(getattr(self, property))
+                for property in ["_model_year", "_make", "_model", "_series", "_trim"]
+                if getattr(self, property) is not None
+            ]
+        )
+
+    @property
+    def descriptor(self) -> str:
+        """The part of the VIN used to lookup make, model, and other
+        vehicle attributes in NHTSA vPIC.
+
+        Returns:
+            str: the 14-character descriptor for this VIN
+        """
+        return f"{self._vin[3:8]}|{self._vin[9:]}"
+
+    @property
+    def electrification_level(self) -> str:
+        """The electrification level.
+
+        This is one of:
+
+        * Mild HEV (Hybrid Electric Vehicle)
+        * Strong HEV (Hybrid Electric Vehicle)
+        * PHEV (Plug-in Hybrid Electric Vehicle)
+        * BEV (Battery Electric Vehicle)
+        * FCEV (Fuel Cell Electric Vehicle)
+        * HEV (Hybrid Electric Vehicle) - Level Unknown
+
+        Returns:
+            The electrification level.
+
+        Raises:
+            DecodingRequiredError: This property is only available when you choose to
+                decode the VIN. See VIN.__init__(..., decode=True).
+
+        Examples:
+
+            >>> VIN("KNDCE3LG2L5073161").electrification_level
+            'BEV (Battery Electric Vehicle)'
+        """
+        if self._electrification_level is None:
+            raise DecodingRequiredError()
+        return self._electrification_level
 
     @property
     def make(self) -> str:
@@ -231,6 +283,28 @@ class VIN:
         if self._make is None:
             raise DecodingRequiredError()
         return self._make
+
+    @property
+    def manufacturer(self) -> str:
+        """The vehicle manufacturer name.
+
+        Returns:
+            The manufacturer name.
+
+        Raises:
+            DecodingRequiredError: This property is only available when you choose to
+                decode the VIN. See VIN.__init__(..., decode=True).
+
+        Examples:
+
+            >>> VIN("5FNYF5H59HB011946").manufacturer
+            American Honda Motor Co., Inc.
+            >>> VIN("YT9NN1U14KA007175").manufacturer
+            Koenigsegg Automotive Ab
+        """
+        if self._manufacturer is None:
+            raise DecodingRequiredError()
+        return self._manufacturer
 
     @property
     def model(self) -> str:
@@ -290,45 +364,11 @@ class VIN:
         Examples:
 
             >>> VIN("5FNYF5H59HB011946").series
-            EXL
+            'EXL'
             >>> VIN("YT9NN1U14KA007175").series
             None
         """
         return self._series
-
-    @property
-    def vehicle_type(self) -> str:
-        """The vehicle type.
-
-        This is one of:
-
-        * bus
-        * car
-        * incomplete
-        * lowspeed
-        * motorcycle
-        * mpv
-        * offroad
-        * trailer
-        * truck
-
-        Returns:
-            The vehicle type.
-
-        Raises:
-            DecodingRequiredError: This property is only available when you choose to
-                decode the VIN. See VIN.__init__(..., decode=True).
-
-        Examples:
-
-            >>> VIN("5FNYF5H59HB011946").vehicle_type
-            Pass
-            >>> VIN("YT9NN1U14KA007175").vehicle_type
-            Car
-        """
-        if self._vehicle_type is None:
-            raise DecodingRequiredError()
-        return self._vehicle_type
 
     @property
     def vds(self) -> str:
@@ -345,6 +385,40 @@ class VIN:
         return self._vin[3:8]
 
     @property
+    def vehicle_type(self) -> str:
+        """The vehicle type.
+
+        This is one of:
+
+        * Bus
+        * Incomplete Vehicle
+        * Low Speed Vehicle (LSV)
+        * Motorcycle
+        * Multipurpose Passenger Vehicle (MPV)
+        * Off Road Vehicle
+        * Passenger Car
+        * Trailer
+        * Truck
+
+        Returns:
+            The vehicle type.
+
+        Raises:
+            DecodingRequiredError: This property is only available when you choose to
+                decode the VIN. See VIN.__init__(..., decode=True).
+
+        Examples:
+
+            >>> VIN("5FNYF5H59HB011946").vehicle_type
+            'Multipurpose Passenger Vehicle (MPV)'
+            >>> VIN("YT9NN1U14KA007175").vehicle_type
+            'Passenger Car'
+        """
+        if self._vehicle_type is None:
+            raise DecodingRequiredError()
+        return self._vehicle_type
+
+    @property
     def vis(self) -> str:
         """The Vehicle Identification Section (VIS) of the VIN
 
@@ -359,14 +433,50 @@ class VIN:
         return self._vin[9:]
 
     @property
-    def descriptor(self) -> str:
-        """The part of the VIN used to lookup make, model, and other
-        vehicle attributes in NHTSA vPIC.
+    def wmi(self) -> str:
+        """The World Manufacturer Identifier (WMI) of the vehicle manufacturer.
+
+        Mass-market manufacturers are assigned a three-character WMI. For
+        example, some Honda cars have WMI 5FN:
+
+            5FNYF5H59HB011946
+            ^^^
+
+        Specialized manufacturers are assigned six-character WMI. For example,
+        Koenigsegg cars have WMI YT9007:
+
+            YT9NN1U14KA007175
+            ^^^        ^^^
 
         Returns:
-            str: the 14-character descriptor for this VIN
+            The 3-character WMI for a mass-market manufacturer, or 6-character
+                WMI for a specialized manufacturer.
+
+        Examples:
+
+            >>> VIN("5FNYF5H59HB011946").wmi
+            5FN
+            >>> VIN("YT9NN1U14KA007175").wmi
+            YT9007
         """
-        return f"{self._vin[3:8]}|{self._vin[9:]}"
+        return f"{self._vin[:3]}{self._vin[11:14]}" if self._vin[2] == "9" else self._vin[:3]
+
+    @classmethod
+    def calculate_check_digit(cls, vin: str) -> str:
+        """Calculate and return the VIN check digit.
+
+        Args:
+            vin: The 17-digit Vehicle Identification Number.
+
+        Returns:
+            The calculated check digit character.
+
+        """
+        total = 0
+        for position, letter in enumerate(vin):
+            if position != VIN_CHECK_DIGIT_POSITION:
+                total += VIN_CHARACTER_VALUES[letter] * VIN_POSITION_WEIGHTS[position]
+        return VIN_CHECK_DIGIT_CHARACTERS[total % 11]
 
     def _decode_model_year(self) -> int:
         """The model year as encoded in the VIN.
@@ -424,15 +534,36 @@ class VIN:
 
         return model_year if conclusive else -model_year
 
-    @property
-    def description(self) -> str:
-        return " ".join(
-            [
-                str(getattr(self, property))
-                for property in ["_model_year", "_make", "_model", "_series", "_trim"]
-                if getattr(self, property) is not None
-            ]
-        )
+    def _decode_vin(self) -> None:
+        """decode the VIN to get manufacturer, make, model, and other vehicle details
+
+        Args:
+            vin: The 17-digit Vehicle Identification Number.
+
+        Raises:
+            DecodingError: Unable to decode VIN using NHTSA vPIC.
+        """
+        model_year = self._decode_model_year()
+        if model_year > 0:
+            vehicle = lookup_vehicle(self.wmi, self.descriptor, model_year)
+        else:
+            vehicle = lookup_vehicle(self.wmi, self.descriptor, abs(model_year))
+            if not vehicle:
+                vehicle = lookup_vehicle(self.wmi, self.descriptor, abs(model_year) - 30)
+        if vehicle is None:
+            raise DecodingError()
+
+        self._manufacturer = vehicle.get("manufacturer", None)
+        self._model_year = vehicle.get("model_year", None)
+        self._make = vehicle.get("make", None)
+        self._model = vehicle.get("model", None)
+        self._series = vehicle.get("series", None)
+        self._trim = vehicle.get("trim", None)
+        self._vehicle_type = vehicle.get("vehicle_type", None)
+        self._truck_type = vehicle.get("truck_type", None)
+        self._country = vehicle.get("country", None)
+        self._body_style = vehicle.get("body_style", None)
+        self._electrification_level = vehicle.get("electrification_level", None)
 
     def __repr__(self) -> str:
         return f"VIN({self!s})"
