@@ -42,7 +42,7 @@ test_decode:
   - vin: WAULFAFR6DA001366
     model_year: 2013
     make: Audi
-    model: A5 Premium Plus Quattro
+    model: A5 Premium Plus quattro
     body_class:
   - vin: 1G8ZH1278XZ108219
     model_year: 1999
@@ -458,7 +458,7 @@ test_decode:
   - vin: WAULFAFR8DA002471
     model_year: 2013
     make: Audi
-    model: A5 Premium Plus Quattro
+    model: A5 Premium Plus quattro
     body_class:
   - vin: JH4KA3172KC019247
     model_year: 1989

@@ -42,7 +42,7 @@ def test_no_electrification_level() -> None:
 
 def test_missing_make() -> None:
     v = VIN("JTDBAMDE2MJ008197")
-    assert v.make == ""
+    assert v.make == "Toyota"
 
 
 def test_missing_model() -> None:
@@ -52,7 +52,7 @@ def test_missing_model() -> None:
 
 def test_vpic_data_is_incomplete() -> None:
     v = VIN("1G1F76E04K4140798")
-    assert v.make == ""
+    assert v.make == "Chevrolet"
 
 
 @pytest.mark.xfail(reason="vPIC dbo.Pattern seems to confuse the 1993 Integra and Legend trim data")
@@ -65,3 +65,44 @@ def test_vin_schema_collision() -> None:
 def test_wrong_trim_eclipse() -> None:
     v = VIN("4A3AK24F36E026691")
     assert v.trim == "LOW"
+
+
+def test_incorrect_vin():
+    v = VIN("4T1B21HK0MU016210")
+    assert v.make == "Toyota"
+
+
+def test_incomplete_vin1():
+    v = VIN("JTDBBRBE9LJ009553")
+    assert v.make == "Toyota"
+
+
+def test_incomplete_vin2():
+    assert VIN("1G1F76E04K4140798").make == "Chevrolet"
+    assert VIN("1HGCV2634LA600001").make == "Honda"
+    assert VIN("3HGGK5H8XLM725852").trim == "EX, EX-L"
+    assert VIN("4T1B21HK0MU016210").make == "Toyota"
+    assert VIN("4T1B21HK3MU015245").make == "Toyota"
+    assert VIN("4T1F31AK3LU531161").trim == "XLE"
+    assert VIN("4T1F31AK5LU535373").trim == "XLE"
+    assert VIN("4T1F31AK7LU010816").trim == "XLE"
+    assert VIN("5TDEBRCH0MS058490").series == "AXUH78L"
+    assert VIN("5TDEBRCH4MS043703").series == "AXUH78L"
+    assert VIN("5TDEBRCH8MS019761").series == "AXUH78L"
+    assert VIN("5TDEBRCH9MS031126").series == "AXUH78L"
+    assert VIN("5TDEBRCHXMS017204").series == "AXUH78L"
+    assert VIN("5TDGBRCH7MS038701").series == "AXUH78L"
+    assert VIN("5TDHBRCH0MS065999").series == "AXUH78L"
+    assert VIN("JTDBAMDE2MJ008197").make == "Toyota"
+    assert VIN("JTDBBRBE9LJ009553").make == "Toyota"
+    assert VIN("JTDBBRBE9LJ009553").make == "Toyota"
+    assert VIN("JTMFB3FV7MD049459").trim == "LE"
+    assert VIN("KMHLN4AJ3MU004776").series == "SEL"
+    assert VIN("KMHLN4AJ5MU009817").series == "SEL"
+    assert VIN("WAUHJGFF8F1120794").trim == "Prestige S-Line Auto/Technik S-Line Auto (Canada)"
+    assert VIN("WAUHJGFF9F1065644").trim == "Prestige S-Line Auto/Technik S-Line Auto (Canada)"
+
+
+@pytest.mark.xfail(reason="downloadable snapshot returns SE, online vPIC returns SE (AQ301 Trans)")
+def test_snapshot_is_behind_online_vpic():
+    assert VIN("3VW7M7BU2RM018616").trim == "SE, SE (AQ301 Trans)"

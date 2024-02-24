@@ -1,0 +1,2094 @@
+test_vin_exceptions:
+  - vin: KMTGA4SCDRU227656
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227658
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227662
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227668
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227669
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227676
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227680
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227694
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227695
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227696
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227697
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227698
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227700
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227702
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227708
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227711
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227720
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227724
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227727
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227736
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227737
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227738
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227745
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227746
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227747
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227748
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227749
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227750
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227751
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227754
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227755
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227756
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227757
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227758
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227855
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227857
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227862
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227864
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227869
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227870
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227871
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227876
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227877
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227887
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227893
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227894
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227896
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227904
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227905
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227906
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227907
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227910
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227914
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227915
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227919
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU227920
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU228016
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU228018
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU228019
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU228020
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU228028
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU228045
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU228048
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGA4SCDRU228054
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227654
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227660
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227677
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227678
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227679
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227701
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227713
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227719
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227726
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227739
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227820
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227821
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227825
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227826
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227827
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227828
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227829
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227836
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227837
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227838
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227839
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227844
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227849
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227850
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227851
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227852
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227853
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227861
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227865
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227878
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227879
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227882
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227895
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU227912
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU228015
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU228021
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU228023
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU228032
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU228033
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU228036
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU228037
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU228038
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU228040
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU228049
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU228050
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU228052
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SCDRU228057
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227655
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227657
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227659
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227661
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227663
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227664
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227665
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227666
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227667
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227670
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227671
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227672
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227674
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227675
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227681
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227682
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227683
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227684
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227685
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227687
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227688
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227689
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227690
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227691
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227692
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227693
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227703
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227704
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227705
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227706
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227709
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227710
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227712
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227714
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227715
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227716
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227717
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227718
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227721
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227722
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227723
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227725
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227728
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227729
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227730
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227731
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227732
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227733
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227734
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227735
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227740
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227741
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227742
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227743
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227744
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227753
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227819
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227822
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227823
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227824
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227830
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227831
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227832
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227833
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227834
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227835
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227840
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227841
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227842
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227843
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227845
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227846
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227847
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227848
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227854
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227856
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227858
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227859
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227860
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227863
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227866
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227867
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227868
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227872
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227873
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227874
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227875
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227880
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227881
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227883
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227884
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227885
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227886
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227888
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227889
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227890
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227891
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227892
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227897
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227898
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227899
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227900
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227901
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227902
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227903
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227908
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227909
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227911
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227913
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227916
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227917
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU227918
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228011
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228012
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228013
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228014
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228017
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228022
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228024
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228025
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228026
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228027
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228029
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228030
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228031
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228034
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228035
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228039
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228041
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228042
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228043
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228044
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228046
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228047
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228051
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228053
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228055
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228056
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228058
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228059
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228060
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGB4SDDRU228061
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008142
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008143
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008144
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008145
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008146
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008147
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008148
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008149
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008150
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008151
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008152
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008153
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008154
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008155
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008156
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008157
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008158
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008159
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008160
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008161
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008162
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008163
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008164
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008165
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008166
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008167
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008168
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008169
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008170
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008171
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008172
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008173
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008174
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008175
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008176
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008177
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008178
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008179
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008180
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008181
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008183
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008184
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008185
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008186
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008187
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)
+  - vin: KMTGE4S1PRU008188
+    model_year: 2024
+    make: Genesis
+    model: G80
+    series: Advanced, Prestige
+    body_class: Sedan/Saloon
+    electrification_level: BEV (Battery Electric Vehicle)

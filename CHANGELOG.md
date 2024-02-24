@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.42 (2024-02-24)
+
+[GitHub release](https://github.com/davidpeckham/vin/releases/tag/v0.4.2)
+
+### Fixes
+
+* Uses WMI to find vehicle make when VIN is incomplete or incorrect.
+* Series and trim decoding is more reliable
+
 ## v0.41 (2024-02-21)
 
 [GitHub release](https://github.com/davidpeckham/vin/releases/tag/v0.4.1)

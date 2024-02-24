@@ -18,7 +18,7 @@ from vin.constants import VIN_CHECK_DIGIT_POSITION
 from vin.constants import VIN_LENGTH
 from vin.constants import VIN_MODEL_YEAR_CHARACTERS
 from vin.constants import VIN_POSITION_WEIGHTS
-from vin.database import lookup_vehicle
+from vin.database import decode_vin
 
 
 class DecodingError(Exception):
@@ -568,11 +568,11 @@ class VIN:
         """
         model_year = self._decode_model_year()
         if model_year > 0:
-            vehicle = lookup_vehicle(self.wmi, self.descriptor, model_year)
+            vehicle = decode_vin(self.wmi, self.descriptor, model_year)
         else:
-            vehicle = lookup_vehicle(self.wmi, self.descriptor, abs(model_year))
+            vehicle = decode_vin(self.wmi, self.descriptor, abs(model_year))
             if not vehicle:
-                vehicle = lookup_vehicle(self.wmi, self.descriptor, abs(model_year) - 30)
+                vehicle = decode_vin(self.wmi, self.descriptor, abs(model_year) - 30)
         if vehicle is None:
             raise DecodingError()
 
