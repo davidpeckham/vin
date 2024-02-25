@@ -18,7 +18,7 @@ from vin.constants import VIN_CHECK_DIGIT_POSITION
 from vin.constants import VIN_LENGTH
 from vin.constants import VIN_MODEL_YEAR_CHARACTERS
 from vin.constants import VIN_POSITION_WEIGHTS
-from vin.database import decode_vin
+from vin.database import decode_vin, get_vpic_version
 
 
 class DecodingError(Exception):
@@ -588,8 +588,12 @@ class VIN:
         self._body_class = vehicle.get("body_class", "")
         self._electrification_level = vehicle.get("electrification_level", "")
 
+    @classmethod
+    def version(cls):
+        return get_vpic_version()
+
     def __repr__(self) -> str:
         return f"VIN({self!s})"
 
     def __str__(self) -> str:
-        return self._vin
+        return self.description

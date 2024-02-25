@@ -155,3 +155,18 @@ from
 where
     wmi.code == ?;
 """
+
+
+def get_vpic_version() -> dict:
+    return dict(query(sql=GET_VPIC_VERSION_SQL)[0])
+
+
+GET_VPIC_VERSION_SQL = """
+select
+    version,
+    released,
+    effective,
+    url
+from
+    vpic_version;
+"""
