@@ -42,7 +42,7 @@
 ## Why use VIN?
 
 - **Accurate** &mdash; Uses U.S. National Highway Traffic Safety Administration vehicle data.
-- **Fast** &mdash; Validate and decode 1,500 VINs per second.
+- **Fast** &mdash; Validate and decode hundreds of VINs per second.
 
 ## Installation
 

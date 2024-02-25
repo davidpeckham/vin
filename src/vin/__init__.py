@@ -18,7 +18,8 @@ from vin.constants import VIN_CHECK_DIGIT_POSITION
 from vin.constants import VIN_LENGTH
 from vin.constants import VIN_MODEL_YEAR_CHARACTERS
 from vin.constants import VIN_POSITION_WEIGHTS
-from vin.database import decode_vin, get_vpic_version
+from vin.database import decode_vin
+from vin.database import get_vpic_version
 
 
 class DecodingError(Exception):
@@ -589,7 +590,21 @@ class VIN:
         self._electrification_level = vehicle.get("electrification_level", "")
 
     @classmethod
-    def version(cls):
+    def vpic_version(cls) -> dict[str, str]:
+        """Return vPIC snapshot version and release date.
+
+        NHTSA releases monthly vPIC snapshots as SQL Server backups. A subset
+        of that data is bundled with this package.
+
+        Returns:
+            dict: The vPIC version, release date, effective date, and URL
+
+        Examples:
+
+            >>> VIN.vpic_version()
+            {'version': '3.44', 'released': '2024-02-17', 'effective': '2024-02-16T19:41:08+00:00',
+             'url': 'https://vpic.nhtsa.dot.gov/api/vPICList_lite_2024_02.bak.zip'}
+        """
         return get_vpic_version()
 
     def __repr__(self) -> str:

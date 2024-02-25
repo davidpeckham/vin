@@ -1,6 +1,14 @@
 # Changelog
 
-## v0.42 (2024-02-24)
+## v0.4.3 (2024-02-25)
+
+[GitHub release](https://github.com/davidpeckham/vin/releases/tag/v0.4.3)
+
+### New Features
+
+* VIN.vpic_version returns NHTSA vPIC data version and release date (https://github.com/davidpeckham/vin/issues/4).
+
+## v0.4.2 (2024-02-24)
 
 [GitHub release](https://github.com/davidpeckham/vin/releases/tag/v0.4.2)
 
@@ -9,7 +17,7 @@
 * Uses WMI to find vehicle make when VIN is incomplete or incorrect.
 * Series and trim decoding is more reliable
 
-## v0.41 (2024-02-21)
+## v0.4.1 (2024-02-21)
 
 [GitHub release](https://github.com/davidpeckham/vin/releases/tag/v0.4.1)
 
