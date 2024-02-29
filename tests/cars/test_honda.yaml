@@ -1,0 +1,1873 @@
+test_honda:
+- vin: 5FNYF5H12HA000001
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF5H11HB000002
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF5H10HC000003
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF5H17HE000004
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF5H13HG000005
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF5H12HH000006
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF5H18HL000007
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF5H17HM000008
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF5H14HS000009
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF5H18HT000010
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF5H17HU000011
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF5H10HX000012
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF5H1XHY000013
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF5H39HA000014
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF5H38HB000015
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF5H37HC000016
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF5H33HE000017
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF5H3XHG000018
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF5H39HH000019
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF5H39HL000020
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF5H38HM000021
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF5H35HS000022
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF5H34HT000023
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF5H33HU000024
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF5H37HX000025
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF5H36HY000026
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF5H46HA000027
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF5H45HB000028
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF5H44HC000029
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF5H45HE000030
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF5H41HG000031
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF5H40HH000032
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF5H46HL000033
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF5H45HM000034
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF5H42HS000035
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF5H41HT000036
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF5H40HU000037
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF5H44HX000038
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF5H43HY000039
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF5H58HA000040
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF5H57HB000041
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF5H56HC000042
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF5H52HE000043
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF5H59HG000044
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF5H58HH000045
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF5H53HL000046
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF5H52HM000047
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF5H5XHS000048
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF5H59HT000049
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF5H52HU000050
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF5H56HX000051
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF5H55HY000052
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF5H65HA000053
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF5H64HB000054
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF5H63HC000055
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF5H6XHE000056
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF5H66HG000057
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF5H65HH000058
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF5H60HL000059
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF5H64HM000060
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF5H61HS000061
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF5H60HT000062
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF5H6XHU000063
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF5H63HX000064
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF5H62HY000065
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF5H72HA000066
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF5H71HB000067
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF5H70HC000068
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF5H77HE000069
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF5H78HG000070
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF5H77HH000071
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF5H72HL000072
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF5H71HM000073
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF5H79HS000074
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF5H78HT000075
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF5H77HU000076
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF5H70HX000077
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF5H7XHY000078
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF5H8XHA000079
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF5H83HB000080
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF5H82HC000081
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF5H89HE000082
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF5H85HG000083
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF5H84HH000084
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF5H8XHL000085
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF5H89HM000086
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF5H86HS000087
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF5H85HT000088
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF5H84HU000089
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF5H82HX000090
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF5H81HY000091
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF5H91HA000092
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF5H90HB000093
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF5H9XHC000094
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF5H96HE000095
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF5H92HG000096
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF5H91HH000097
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF5H97HL000098
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF5H96HM000099
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF5H94HS000100
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF5H93HT000101
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF5H92HU000102
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF5H96HX000103
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF5H95HY000104
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF6H06HA000001
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: Elite
+  trim: null
+- vin: 5FNYF6H05HB000002
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: Elite
+  trim: null
+- vin: 5FNYF6H04HC000003
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: Elite
+  trim: null
+- vin: 5FNYF6H00HE000004
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: Elite
+  trim: null
+- vin: 5FNYF6H07HG000005
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: Elite
+  trim: null
+- vin: 5FNYF6H06HH000006
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: Elite
+  trim: null
+- vin: 5FNYF6H01HL000007
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: Elite
+  trim: null
+- vin: 5FNYF6H00HM000008
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: Elite
+  trim: null
+- vin: 5FNYF6H08HS000009
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: Elite
+  trim: null
+- vin: 5FNYF6H01HT000010
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: Elite
+  trim: null
+- vin: 5FNYF6H00HU000011
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: Elite
+  trim: null
+- vin: 5FNYF6H04HX000012
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: Elite
+  trim: null
+- vin: 5FNYF6H03HY000013
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: Elite
+  trim: null
+- vin: 5FNYF6H16HA000105
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF6H15HB000106
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF6H14HC000107
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF6H10HE000108
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF6H17HG000109
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF6H10HH000110
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF6H16HL000111
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF6H15HM000112
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF6H12HS000113
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF6H11HT000114
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF6H10HU000115
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF6H14HX000116
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF6H13HY000117
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX
+  trim: null
+- vin: 5FNYF6H22HA000014
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX w/ Sensing
+  trim: null
+- vin: 5FNYF6H21HB000015
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX w/ Sensing
+  trim: null
+- vin: 5FNYF6H20HC000016
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX w/ Sensing
+  trim: null
+- vin: 5FNYF6H27HE000017
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX w/ Sensing
+  trim: null
+- vin: 5FNYF6H23HG000018
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX w/ Sensing
+  trim: null
+- vin: 5FNYF6H22HH000019
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX w/ Sensing
+  trim: null
+- vin: 5FNYF6H22HL000020
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX w/ Sensing
+  trim: null
+- vin: 5FNYF6H21HM000021
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX w/ Sensing
+  trim: null
+- vin: 5FNYF6H29HS000022
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX w/ Sensing
+  trim: null
+- vin: 5FNYF6H28HT000023
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX w/ Sensing
+  trim: null
+- vin: 5FNYF6H27HU000024
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX w/ Sensing
+  trim: null
+- vin: 5FNYF6H20HX000025
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX w/ Sensing
+  trim: null
+- vin: 5FNYF6H2XHY000026
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: LX w/ Sensing
+  trim: null
+- vin: 5FNYF6H32HA000118
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF6H31HB000119
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF6H35HC000120
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF6H31HE000121
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF6H38HG000122
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF6H37HH000123
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF6H32HL000124
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF6H31HM000125
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF6H39HS000126
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF6H38HT000127
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF6H37HU000128
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF6H30HX000129
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF6H34HY000130
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX
+  trim: null
+- vin: 5FNYF6H44HA000131
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF6H43HB000132
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF6H42HC000133
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF6H49HE000134
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF6H45HG000135
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF6H44HH000136
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF6H4XHL000137
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF6H49HM000138
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF6H46HS000139
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF6H4XHT000140
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF6H49HU000141
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF6H42HX000142
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF6H41HY000143
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EX SENSING
+  trim: null
+- vin: 5FNYF6H51HA000144
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF6H50HB000145
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF6H5XHC000146
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF6H56HE000147
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF6H52HG000148
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF6H51HH000149
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF6H51HL000150
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF6H50HM000151
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF6H58HS000152
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF6H57HT000153
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF6H56HU000154
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF6H5XHX000155
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF6H59HY000156
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL
+  trim: null
+- vin: 5FNYF6H69HA000157
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF6H68HB000158
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF6H67HC000159
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF6H68HE000160
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF6H64HG000161
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF6H63HH000162
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF6H69HL000163
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF6H68HM000164
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF6H65HS000165
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF6H64HT000166
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF6H63HU000167
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF6H67HX000168
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF6H66HY000169
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL SENSING
+  trim: null
+- vin: 5FNYF6H70HA000170
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF6H7XHB000171
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF6H79HC000172
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF6H75HE000173
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF6H71HG000174
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF6H70HH000175
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF6H76HL000176
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF6H75HM000177
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF6H72HS000178
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF6H71HT000179
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF6H75HU000180
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF6H79HX000181
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF6H78HY000182
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-N
+  trim: null
+- vin: 5FNYF6H88HA000183
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF6H87HB000184
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF6H86HC000185
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF6H82HE000186
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF6H89HG000187
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF6H88HH000188
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF6H83HL000189
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF6H87HM000190
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF6H84HS000191
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF6H83HT000192
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF6H82HU000193
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF6H86HX000194
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF6H85HY000195
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: EXL-R
+  trim: null
+- vin: 5FNYF6H95HA000196
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF6H94HB000197
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF6H93HC000198
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF6H9XHE000199
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF6H97HG000200
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF6H96HH000201
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF6H91HL000202
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF6H90HM000203
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF6H98HS000204
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF6H97HT000205
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF6H96HU000206
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF6H9XHX000207
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null
+- vin: 5FNYF6H99HY000208
+  body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: null
+  make: HONDA
+  model: Pilot
+  model_year: 2017
+  series: TOURING
+  trim: null

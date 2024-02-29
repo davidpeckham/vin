@@ -115,7 +115,6 @@ from
     left join country on country.alpha_2_code = wmi.country
     left join make_model on make_model.model_id = pattern.model_id
     left join make on make.id = make_model.make_id
-    -- left join make as default_make on default_make.id = wmi.make_id
     left join model on model.id = pattern.model_id
     left join series on series.id = pattern.series_id
     left join trim on trim.id = pattern.trim_id
