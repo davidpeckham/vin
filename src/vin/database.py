@@ -10,7 +10,7 @@ log = logging.getLogger(__name__)
 DATABASE_PATH = str(files("vin").joinpath("vehicle.db"))
 
 
-def regex(value, pattern) -> bool:
+def regexp_shim(value, pattern) -> bool:
     """REGEXP shim for SQLite versions bundled with Python 3.11 and earlier"""
     match = re.match(pattern, value)
     # print(f"value {value} pattern {pattern} {'match' if match else ''}")
@@ -18,8 +18,10 @@ def regex(value, pattern) -> bool:
 
 
 connection = sqlite3.connect(DATABASE_PATH, detect_types=sqlite3.PARSE_DECLTYPES)
+connection.create_function("REGEXP", 2, regexp_shim)
+regex_expression_placeholder = "REGEXP(?, pattern.vds)"
+
 connection.row_factory = sqlite3.Row
-connection.create_function("REGEXP", 2, regex)
 
 
 def query(sql: str, args: tuple = ()) -> list[sqlite3.Row]:
@@ -101,7 +103,7 @@ def decode_vin(wmi: str, vds: str, model_year: int | None = None) -> dict | None
     return None
 
 
-DECODE_VIN_SQL = """
+DECODE_VIN_SQL = f"""
 select
     pattern.id,
     pattern.vds,
@@ -132,7 +134,7 @@ from
 where
     pattern.wmi = ?
     and ? between pattern.from_year and pattern.to_year
-    and REGEXP (?, pattern.vds)
+    and {regex_expression_placeholder}
 order by
     pattern.from_year desc,
     coalesce(pattern.updated, pattern.created) desc,
@@ -140,7 +142,7 @@ order by
 """
 """Sort order is important. Best match and most recent patterns on top."""
 
-DECODE_VIN_WITHOUT_MODEL_YEAR_SQL = """
+DECODE_VIN_WITHOUT_MODEL_YEAR_SQL = f"""
 select
     pattern.id,
     pattern.vds,
@@ -170,7 +172,7 @@ from
     left join electrification_level on electrification_level.id = pattern.electrification_level_id
 where
     pattern.wmi = ?
-    and REGEXP (?, pattern.vds)
+    and {regex_expression_placeholder}
 order by
     pattern.from_year desc,
     coalesce(pattern.updated, pattern.created) desc,
