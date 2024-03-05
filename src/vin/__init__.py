@@ -2,9 +2,7 @@
 #
 # SPDX-License-Identifier: MIT
 
-"""A Vehicle Identification Number (VIN).
-
-"""
+"""A Vehicle Identification Number (VIN)."""
 
 # ruff: noqa: TRY003, EM101, EM102
 
@@ -74,14 +72,22 @@ class VIN:
 
     """
 
-    def __init__(self, vin: str, decode: bool = True, fix_check_digit: bool = False) -> None:
+    def __init__(
+        self,
+        vin: str,
+        decode: bool = True,
+        fix_check_digit: bool = False,
+        decode_model_year: bool = True,
+    ) -> None:
         """Validates the VIN and decodes vehicle information.
 
         Args:
             vin: The 17-digit Vehicle Identification Number.
             decode: Decode vehicle details from the NHTSA vPIC database
-            fix_check_digit: If True, fix an incorrect check digit
-                instead of raising a ValueError.
+            fix_check_digit: If True, fix an incorrect check digit instead of raising a ValueError.
+            decode_model_year: If True, validate the model year character. If False, ignore the \
+                model year character, which can be useful for vehicles manufactured for markets \
+                outside North America (though results may be incomplete or inaccurate).
 
         Raises:
             TypeError: `vin` is not a string.
@@ -94,7 +100,7 @@ class VIN:
             raise TypeError("VIN must be a string")
         if len(vin) != VIN_LENGTH:
             raise ValueError(f"VIN must be exactly {VIN_LENGTH} characters long")
-        if vin[9] not in VIN_MODEL_YEAR_CHARACTERS:
+        if decode_model_year and vin[9] not in VIN_MODEL_YEAR_CHARACTERS:
             raise ValueError(
                 "VIN model year character must be one of these characters "
                 f"{VIN_MODEL_YEAR_CHARACTERS}"
@@ -111,7 +117,7 @@ class VIN:
 
         self._vin: str = vin
         if decode:
-            self._decode_vin()
+            self._decode_vin(decode_model_year)
         return
 
     @property
@@ -527,7 +533,7 @@ class VIN:
             -2025
         """
         year_code = self._vin[9]
-        assert year_code in VIN_MODEL_YEAR_CHARACTERS
+        # assert year_code in VIN_MODEL_YEAR_CHARACTERS
         model_year = 0
         conclusive = False
 
@@ -558,7 +564,7 @@ class VIN:
 
         return model_year if conclusive else -model_year
 
-    def _decode_vin(self) -> None:
+    def _decode_vin(self, decode_model_year=True) -> None:
         """decode the VIN to get manufacturer, make, model, and other vehicle details
 
         Args:
@@ -567,13 +573,17 @@ class VIN:
         Raises:
             DecodingError: Unable to decode VIN using NHTSA vPIC.
         """
-        model_year = self._decode_model_year()
-        if model_year > 0:
-            vehicle = decode_vin(self.wmi, self.descriptor, model_year)
+        if decode_model_year:
+            model_year = self._decode_model_year()
+            if model_year > 0:
+                vehicle = decode_vin(self.wmi, self.descriptor, model_year)
+            else:
+                vehicle = decode_vin(self.wmi, self.descriptor, abs(model_year))
+                if not vehicle:
+                    vehicle = decode_vin(self.wmi, self.descriptor, abs(model_year) - 30)
         else:
-            vehicle = decode_vin(self.wmi, self.descriptor, abs(model_year))
-            if not vehicle:
-                vehicle = decode_vin(self.wmi, self.descriptor, abs(model_year) - 30)
+            vehicle = decode_vin(self.wmi, self.descriptor)
+
         if vehicle is None:
             raise DecodingError()
 

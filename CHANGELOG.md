@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.5.0 (2024-03-04)
+
+[GitHub release](https://github.com/davidpeckham/vin/releases/tag/v0.5.0)
+
+### New Features
+
+* Decodes VINs that have an incorrect or zero model year character (partially resolves https://github.com/davidpeckham/vin/issues/2, sshane).
+* More unit tests
+
 ## v0.4.3 (2024-02-25)
 
 [GitHub release](https://github.com/davidpeckham/vin/releases/tag/v0.4.3)

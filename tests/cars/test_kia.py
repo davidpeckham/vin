@@ -3,7 +3,7 @@ from vin import VIN
 
 
 @parametrize_from_file
-def test_honda_2024(
+def test_kia_2024(
     vin: str,
     model_year: int,
     make: str,

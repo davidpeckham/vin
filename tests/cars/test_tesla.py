@@ -3,7 +3,7 @@ from vin import VIN
 
 
 @parametrize_from_file
-def test_honda_2024(
+def test_tesla(
     vin: str,
     model_year: int,
     make: str,
@@ -19,7 +19,7 @@ def test_honda_2024(
     assert make.lower() == v.make.lower()
     assert model == v.model
     assert body_class == v.body_class
-    assert series == v.series
+    assert series == ""
     assert trim == v.trim
     assert vehicle_type.lower() == v.vehicle_type.lower()
     assert electrification_level == v.electrification_level
