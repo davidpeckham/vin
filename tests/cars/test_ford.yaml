@@ -1,0 +1,3736 @@
+test_ford_2023:
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Escape
+  model_year: 2023
+  series: Active
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMCU0GA1PK000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: ST
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK7GH7PU000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Bronco
+  model_year: 2023
+  series: Heritage
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMEE4CR8PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition
+  model_year: 2023
+  series: Limited
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJU1KR0PN000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Bronco
+  model_year: 2023
+  series: Heritage
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMEE4DR9PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Platinum
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K7HCXPL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Base
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK7BCXPE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: PHEV (Plug-in Hybrid Electric Vehicle)
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: ST-Line
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K7KY9PN000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Bronco
+  model_year: 2023
+  series: Heritage Limited
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMDE4EP6PU000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: ST-Line
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK7KB5PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Timberline
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK8JC6PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Platinum
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK8HB4PN000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Bronco
+  model_year: 2023
+  series: Heritage Limited
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMDE4ER6PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Escape
+  model_year: 2023
+  series: Base
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMCU9FP9PK000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Escape
+  model_year: 2023
+  series: ST Line
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMCU9MR8PU000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: HEV (Hybrid Electric Vehicle) - Level Unknown
+  make: FORD
+  model: Escape
+  model_year: 2023
+  series: Base
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMCU9FZ3PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: HEV (Hybrid Electric Vehicle) - Level Unknown
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Platinum
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K8HW9PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: PHEV (Plug-in Hybrid Electric Vehicle)
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Platinum
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK8HY7PK000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Bronco
+  model_year: 2023
+  series: Base, Big Bend, Black Diamond, Outer Banks, Badlands, Wildtrak, Everglades
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMEE5DP4PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: HEV (Hybrid Electric Vehicle) - Level Unknown
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: ST
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K8GW8PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: ST
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK7GP5PE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Base
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK7BB5PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: ST
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK7GHXPL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Limited
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K7FH9PU000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition
+  model_year: 2023
+  series: XL
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJU1F87PK000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: PHEV (Plug-in Hybrid Electric Vehicle)
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: King Ranch
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK8LY8PK000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Bronco
+  model_year: 2023
+  series: Base, Big Bend, Black Diamond, Outer Banks, Badlands, Wildtrak
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMDE5CH6PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition
+  model_year: 2023
+  series: XL
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJU1GPXPK000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Base
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK7BCXPN000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: HEV (Hybrid Electric Vehicle) - Level Unknown
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: King Ranch
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK8LW1PE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: ST-Line
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK7KC4PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: ST
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK7GC9PE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition MAX
+  model_year: 2023
+  series: Limited
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJK1K84PE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition MAX
+  model_year: 2023
+  series: King Ranch
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJK1NR4PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Bronco
+  model_year: 2023
+  series: Base, Big Bend, Black Diamond, Outer Banks
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMDE5BH8PK000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Timberline
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK8JPXPU000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Escape
+  model_year: 2023
+  series: Platinum
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMCU0JR8PU000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: PHEV (Plug-in Hybrid Electric Vehicle)
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: King Ranch
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK8LY5PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Platinum
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK8HP5PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Bronco
+  model_year: 2023
+  series: Heritage Limited
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMDE4GR3PK000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Escape
+  model_year: 2023
+  series: ST Line Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMCU9NH6PK000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Bronco
+  model_year: 2023
+  series: Base, Big Bend, Black Diamond, Outer Banks, Badlands, Wildtrak
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMDE5CH1PE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: PHEV (Plug-in Hybrid Electric Vehicle)
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: ST
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K8GY3PU000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition
+  model_year: 2023
+  series: King Ranch
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJU1NP6PK000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Timberline
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK8JC0PN000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: PHEV (Plug-in Hybrid Electric Vehicle)
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Base
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK7BY8PU000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Base
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK8BP1PU000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Bronco
+  model_year: 2023
+  series: Heritage Limited
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMDE4GP7PE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Base
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K7BC8PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition
+  model_year: 2023
+  series: Platinum
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJU1MR2PK000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Bronco
+  model_year: 2023
+  series: Base, Big Bend, Black Diamond, Outer Banks, Badlands, Wildtrak, Everglades
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMDE5DR2PE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition MAX
+  model_year: 2023
+  series: XL
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJK1GG4PE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition MAX
+  model_year: 2023
+  series: XL
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJK1FG2PN000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Bronco
+  model_year: 2023
+  series: Heritage
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMDE4CH7PK000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Escape
+  model_year: 2023
+  series: ST Line
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMCU0MA6PK000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: PHEV (Plug-in Hybrid Electric Vehicle)
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: King Ranch
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK8LYXPE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Timberline
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K8JBXPG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition
+  model_year: 2023
+  series: XLT
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJU1H82PN000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Escape
+  model_year: 2023
+  series: ST Line Elite
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMCU9PR0PN000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: HEV (Hybrid Electric Vehicle) - Level Unknown
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: XLT
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K8DW7PE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition
+  model_year: 2023
+  series: XLT
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJU1JH5PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition
+  model_year: 2023
+  series: XL
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJU1G80PE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Escape
+  model_year: 2023
+  series: Platinum
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMCU9JRXPN000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: HEV (Hybrid Electric Vehicle) - Level Unknown
+  make: FORD
+  model: Escape
+  model_year: 2023
+  series: ST Line Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMCU9NZ7PN000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Bronco
+  model_year: 2023
+  series: Heritage
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMEE4CP9PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Escape
+  model_year: 2023
+  series: ST Line Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMCU9NR7PN000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition MAX
+  model_year: 2023
+  series: XLT
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJK1JR6PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Base
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K7BH9PN000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: King Ranch
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K7LH5PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition
+  model_year: 2023
+  series: XLT
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJU1H82PE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: ST-Line
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K7KR2PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: HEV (Hybrid Electric Vehicle) - Level Unknown
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: ST
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK8GW9PE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Bronco
+  model_year: 2023
+  series: Base, Big Bend, Black Diamond, Outer Banks
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMEE5AP9PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: HEV (Hybrid Electric Vehicle) - Level Unknown
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: ST
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK7GW6PN000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: ST
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K8GC5PE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: King Ranch
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K8LB1PU000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: ST
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK7GP0PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition
+  model_year: 2023
+  series: Limited
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJU2AR4PU000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition MAX
+  model_year: 2023
+  series: King Ranch
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJK1NR3PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Escape
+  model_year: 2023
+  series: Base
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMCU9FH5PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition
+  model_year: 2023
+  series: King Ranch
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJU1N87PN000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition MAX
+  model_year: 2023
+  series: XLT
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJK1H8XPG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Escape
+  model_year: 2023
+  series: Active
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMCU0GA9PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: PHEV (Plug-in Hybrid Electric Vehicle)
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Limited
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K7FY4PK000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Bronco
+  model_year: 2023
+  series: Heritage
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMEE4CH3PE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Platinum
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK7HP7PE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: PHEV (Plug-in Hybrid Electric Vehicle)
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Base
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK8BY3PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: HEV (Hybrid Electric Vehicle) - Level Unknown
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: XLT
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK8DW8PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: HEV (Hybrid Electric Vehicle) - Level Unknown
+  make: FORD
+  model: Escape
+  model_year: 2023
+  series: Active
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMCU0GZ1PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Bronco
+  model_year: 2023
+  series: Base, Big Bend, Black Diamond, Outer Banks, Badlands, Wildtrak, Everglades
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMEE5DH2PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Escape
+  model_year: 2023
+  series: Active
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMCU0GR4PK000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Base
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K7BC3PN000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition
+  model_year: 2023
+  series: XL
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJU1GRXPE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Escape
+  model_year: 2023
+  series: Platinum
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMCU9JN9PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Escape
+  model_year: 2023
+  series: Active
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMCU9GA8PE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: King Ranch
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK8LB5PE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: HEV (Hybrid Electric Vehicle) - Level Unknown
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Base
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K8BW9PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Base
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K7BR3PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition
+  model_year: 2023
+  series: XLT
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJU1J8XPN000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Timberline
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K8JP6PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition MAX
+  model_year: 2023
+  series: XLT
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJK1HP9PU000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Escape
+  model_year: 2023
+  series: Platinum
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMCU9JH0PE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: XLT
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K8DC4PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Base
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK7BH5PE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: ST-Line
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK8KP3PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Escape
+  model_year: 2023
+  series: Platinum
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMCU9JR8PK000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: HEV (Hybrid Electric Vehicle) - Level Unknown
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Base
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK7BW2PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition MAX
+  model_year: 2023
+  series: King Ranch
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJK1N82PU000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition
+  model_year: 2023
+  series: Limited
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJU1KR5PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition
+  model_year: 2023
+  series: Platinum
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJU1L81PK000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Police
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K8AR9PE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: PHEV (Plug-in Hybrid Electric Vehicle)
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: ST-Line
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK7KY8PU000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Timberline
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K8JB0PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Escape
+  model_year: 2023
+  series: Platinum
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMCU9JA2PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition
+  model_year: 2023
+  series: Limited
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJU2AG9PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: King Ranch
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K7LH0PE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: PHEV (Plug-in Hybrid Electric Vehicle)
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: ST-Line
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK7KY3PK000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: PHEV (Plug-in Hybrid Electric Vehicle)
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: King Ranch
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK7LY5PK000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: ST-Line
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK7KH8PU000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Base
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K7BP2PU000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: Limited
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FM5K7FR5PE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition MAX
+  model_year: 2023
+  series: King Ranch
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJK1PP4PN000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: King Ranch
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK7LC6PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition
+  model_year: 2023
+  series: King Ranch
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJU1PH0PN000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Bronco
+  model_year: 2023
+  series: Base, Big Bend, Black Diamond, Outer Banks
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMDE5BP6PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition
+  model_year: 2023
+  series: XL
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJU1GP7PL000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition
+  model_year: 2023
+  series: Platinum
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJU1MP4PK000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Escape
+  model_year: 2023
+  series: ST Line
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMCU0MH6PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Escape
+  model_year: 2023
+  series: Active
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMCU0GN4PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: ST
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK8GB2PE000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Expedition
+  model_year: 2023
+  series: XLT
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMJU1HG8PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Explorer
+  model_year: 2023
+  series: XLT
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 1FMSK8DR5PG000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Premium
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK3S77PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Premium
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK3SU6PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: California Route 1
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK2S52PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: California Route 1
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK2SS5PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK1RX4PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK1S44PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK1RM7PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: GT
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK4SX6PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK1S53PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Premium
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK3RX6PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Premium
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK3RU9PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK1SS6PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Premium
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK3S55PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK1RS9PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK1SM0PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: California Route 1
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK2SE6PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Premium
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK3RXXPM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: California Route 1
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK2S74PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: California Route 1
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK2SM3PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Premium
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK3RS4PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Premium
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK3R76PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK1RX0PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: California Route 1
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK2S43PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK1S71PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Premium
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK3SE9PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: GT
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK4SU2PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: GT
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK4S42PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK1SX8PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK1R56PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Premium
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK3SS8PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: GT
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK4SM2PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK1S40PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK1R70PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK1R43PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: GT
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK4SS4PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK1SM4PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: California Route 1
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK2SU7PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Premium
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK3RM2PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK1R47PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: GT
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK4SE1PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK1SE3PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK1S78PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK1RE6PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Premium
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK3S73PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK1SX1PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: GT
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK4SS0PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Premium
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK3R42PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: California Route 1
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK2SX0PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: California Route 1
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK2S70PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: California Route 1
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK2SE2PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: GT
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK4S58PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: GT
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK4S49PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK1RM3PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK1RE2PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: California Route 1
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK2SS9PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Premium
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK3R58PR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: Select
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK1SU4PM000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Mustang Mach-E
+  model_year: 2023
+  series: California Route 1
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 3FMTK2S56PM000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTTF4DT7PK000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-250
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTRX2AA8PW000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTRX3AT4PD000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-250
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTBW2BAXPD000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Dual Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT8F3DT1PD000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-250
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT8W2BT0PK000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Dual Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTBW3HK8PK000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT9X5GT8PE000001
+- body_class: Pickup
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTAF4CMXPD000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Dual Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTRF3DT6PD000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Dual Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT8F3GNXPF000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT0F4GA0PK000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-250
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT7F2AN1PW000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTFF5HN0PE000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Dual Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTBW3HA9PK000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT7W3FT6PK000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT7W3AA0PE000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTMF4GM5PW000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Dual Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT7X3GM8PL000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTLW5H81PF000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT8W5GT5PL000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew-Police
+  vehicle_type: TRUCK
+  vin: 1FTMW1PP4PW000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-250
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT8W2AM2PD000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT7W3AM5PF000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTRW3EAXPD000001
+- body_class: Pickup
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT9W4DM3PK000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew-Police
+  vehicle_type: TRUCK
+  vin: 1FTNW1PPXPK000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTBX3FM5PW000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew-SSV
+  vehicle_type: TRUCK
+  vin: 1FTNW1TG1PW000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew-Raptor
+  vehicle_type: TRUCK
+  vin: 1FTFW1RT0PW000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTUW5HT9PL000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTRX3EA9PK000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew-Raptor
+  vehicle_type: TRUCK
+  vin: 1FTFW1R51PE000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT7F3FN6PE000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTBX3EM3PF000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTBW3EG7PW000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT8W3EA2PE000001
+- body_class: Pickup
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTDF4DK1PF000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT0W4DA4PF000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-250
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTBX2BM0PD000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Dual Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT7F3HN8PK000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew-SSV
+  vehicle_type: TRUCK
+  vin: 1FTMW1SB0PK000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT7W3EN4PE000001
+- body_class: Pickup
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTNF4CK4PF000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT8F3BN9PL000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTRF4DN7PD000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTBW3BK6PW000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Dual Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT8W3CA6PF000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTNF5GKXPD000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT0X5GA6PF000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew-Police
+  vehicle_type: TRUCK
+  vin: 1FTFW1PN0PD000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTRX5HN8PE000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT0F4HA4PE000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTFF4CAXPW000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew-SSV
+  vehicle_type: TRUCK
+  vin: 1FTFW1SJ8PL000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Dual Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTRW3GT7PK000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTAW5GG7PD000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTRX3EN4PW000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Dual Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTBW3GT7PE000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Dual Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT7W3DN5PD000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew-Raptor
+  vehicle_type: TRUCK
+  vin: 1FTFW1R54PD000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT0F5GN7PL000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-250
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT7W2BA2PD000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTFX4GM9PK000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCab
+  vehicle_type: TRUCK
+  vin: 1FTNX1EP9PF000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew
+  vehicle_type: TRUCK
+  vin: 1FTMW1E82PE000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Dual Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTRX3HNXPW000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT0F4HM4PD000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT8X4GM8PK000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-250
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTBW2BN3PE000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTUX4GN9PK000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTRF4DT4PK000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT7F3AM8PE000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTTX4HA1PE000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTUW5HT0PW000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTSF4HKXPW000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTFF5GM2PD000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew-SSV
+  vehicle_type: TRUCK
+  vin: 1FTEW1TB6PW000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT0X4GM1PK000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Dual Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTBX3HN8PW000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTRF4CT2PK000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew-SSV
+  vehicle_type: TRUCK
+  vin: 1FTFW1T86PK000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew
+  vehicle_type: TRUCK
+  vin: 1FTFW1CN8PF000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTTW4HA3PL000001
+- body_class: Pickup
+  electrification_level: HEV (Hybrid Electric Vehicle) - Level Unknown
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew-SSV
+  vehicle_type: TRUCK
+  vin: 1FTMW1SD8PF000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-600
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT9F6LK8PW000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Dual Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT8F3HA8PE000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT9X4HM4PK000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTSF4GM9PE000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTDF5HMXPW000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCab
+  vehicle_type: TRUCK
+  vin: 1FTMX1CP6PD000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTRX4HT7PE000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCab
+  vehicle_type: TRUCK
+  vin: 1FTMX1CG0PW000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew-Police
+  vehicle_type: TRUCK
+  vin: 1FTEW1PP9PW000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew-Raptor
+  vehicle_type: TRUCK
+  vin: 1FTFW1RP7PW000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT8W5GN8PE000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Dual Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT8F3CM9PD000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTRF4HM8PL000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTBF3BN3PF000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-600
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT9F6LTXPE000001
+- body_class: Pickup
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTAF4DM6PW000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT8F4HK5PL000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT0W4HM7PL000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTAW5HK0PE000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-250
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT8X2AN8PL000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTRW3BN5PF000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTDW5GK8PL000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTBW3FG1PE000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTUF4CN8PK000001
+- body_class: Pickup
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTTF4DM5PF000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTBF4HM0PE000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-600
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT0F6KN5PE000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Dual Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTRX3HA1PL000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Dual Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTBX3HT5PD000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT0F5GK7PD000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-600
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT9F6LM7PK000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Dual Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTBX3DT2PW000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew-Raptor
+  vehicle_type: TRUCK
+  vin: 1FTEW1RJ8PW000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTFF5HA1PF000001
+- body_class: Pickup
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-250
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT7F2AM2PF000001
+- body_class: Pickup
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTTF4CK3PL000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-600
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTDF6KK9PD000001
+- body_class: Pickup
+  electrification_level: HEV (Hybrid Electric Vehicle) - Level Unknown
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCab
+  vehicle_type: TRUCK
+  vin: 1FTFX1CD3PK000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTUW4HMXPE000001
+- body_class: Pickup
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew-Raptor
+  vehicle_type: TRUCK
+  vin: 1FTNW1RM6PK000001
+- body_class: Pickup
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTEF4CK7PE000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-250
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTBF2AA8PD000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Dual Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT8F3HT3PF000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTBX3EM9PD000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTRW3EN1PK000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTRW4CA4PK000001
+- body_class: Pickup
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTSF4CK0PW000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTDW5GK0PK000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-600
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTTF6LM7PL000001
+- body_class: Pickup
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew-Raptor
+  vehicle_type: TRUCK
+  vin: 1FTMW1RM1PK000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT8W5HA9PL000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Dual Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT8X3HT8PK000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Dual Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT7W3CA2PK000001
+- body_class: Pickup
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew-Raptor
+  vehicle_type: TRUCK
+  vin: 1FTFW1RM0PK000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew
+  vehicle_type: TRUCK
+  vin: 1FTNW1EG5PF000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT0X5GA9PE000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTUW5GN2PD000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-250
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTBW2AK4PE000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTUW5GNXPE000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew-Police
+  vehicle_type: TRUCK
+  vin: 1FTEW1PP1PE000001
+- body_class: Pickup
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTFF4DM7PL000001
+- body_class: Pickup
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew
+  vehicle_type: TRUCK
+  vin: 1FTVW1EL1PE000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT8X4GA2PE000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Dual Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT8W3GNXPW000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew
+  vehicle_type: TRUCK
+  vin: 1FTFW1EG2PE000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTDF4GK5PL000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-450
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FT9W4CN2PE000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: Ranger
+  model_year: 2023
+  series: '250'
+  trim: High Roof
+  vehicle_type: TRUCK
+  vin: 1FTER1VH8PE000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTBX3AN0PD000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-250
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTBF2BT8PD000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-250
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTRF2AT3PK000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Dual Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTBF3GM9PD000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-150
+  model_year: 2023
+  series: ''
+  trim: SuperCrew-Police
+  vehicle_type: TRUCK
+  vin: 1FTNW1P50PW000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTBW5GM7PL000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTTX5HT8PL000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: F-350
+  model_year: 2023
+  series: F-Series Super Duty - Single Rear Wheel
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTRW3BA4PD000001
+- body_class: Incomplete - Chassis Cab (Single Cab)
+  electrification_level: ''
+  make: FORD
+  model: F-550
+  model_year: 2023
+  series: ''
+  trim: ''
+  vehicle_type: TRUCK
+  vin: 1FTUF5GA1PK000001
+- body_class: Hatchback/Liftback/Notchback
+  electrification_level: ''
+  make: FORD
+  model: Fiesta
+  model_year: 2023
+  series: TITANIUM
+  trim: TITANIUM
+  vehicle_type: PASSENGER CAR
+  vin: 3FAFP4FJ8PM000001
+- body_class: Hatchback/Liftback/Notchback
+  electrification_level: ''
+  make: FORD
+  model: Fiesta
+  model_year: 2023
+  series: TITANIUM
+  trim: TITANIUM
+  vehicle_type: PASSENGER CAR
+  vin: 3FADP4FX3PM000001
+- body_class: Hatchback/Liftback/Notchback
+  electrification_level: ''
+  make: FORD
+  model: Fiesta
+  model_year: 2023
+  series: TITANIUM
+  trim: TITANIUM
+  vehicle_type: PASSENGER CAR
+  vin: 3FAFP4FE4PM000001
+- body_class: Hatchback/Liftback/Notchback
+  electrification_level: ''
+  make: FORD
+  model: Fiesta
+  model_year: 2023
+  series: TITANIUM
+  trim: TITANIUM
+  vehicle_type: PASSENGER CAR
+  vin: 3FADP4FJ9PM000001
+- body_class: Hatchback/Liftback/Notchback
+  electrification_level: ''
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: SE
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3KE3PL000001
+- body_class: Coupe
+  electrification_level: ''
+  make: FORD
+  model: Mustang
+  model_year: 2023
+  series: Mach 1
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FA6P8R08P5000001
+- body_class: Hatchback/Liftback/Notchback
+  electrification_level: ''
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: BEV
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3R28PG000001
+- body_class: Sedan/Saloon
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: Titanium
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3J42PL000001
+- body_class: Sedan/Saloon
+  electrification_level: ''
+  make: FORD
+  model: Taurus
+  model_year: 2023
+  series: SEL
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FAHP2E80PG000001
+- body_class: Coupe
+  electrification_level: ''
+  make: FORD
+  model: Mustang
+  model_year: 2023
+  series: I4
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FA6P8THXP5000001
+- body_class: Hatchback/Liftback/Notchback
+  electrification_level: ''
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: ST
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3L28PL000001
+- body_class: Sedan/Saloon
+  electrification_level: ''
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: SE
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3FEXPG000001
+- body_class: Sedan/Saloon
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: S
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3E4XPL000001
+- body_class: Sedan/Saloon
+  electrification_level: ''
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: Titanium
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3J97PG000001
+- body_class: Hatchback/Liftback/Notchback
+  electrification_level: ''
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: Titanium
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3N26P5000001
+- body_class: Hatchback/Liftback/Notchback
+  electrification_level: ''
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: Titanium
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3N94PG000001
+- body_class: Sedan/Saloon
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: SE
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3F41PL000001
+- body_class: Sedan/Saloon
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: SEL
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3H4XP5000001
+- body_class: Sedan/Saloon
+  electrification_level: ''
+  make: FORD
+  model: Taurus
+  model_year: 2023
+  series: Police
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FAHP2L91P5000001
+- body_class: Sedan/Saloon
+  electrification_level: ''
+  make: FORD
+  model: Taurus
+  model_year: 2023
+  series: SHO
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FAHP2K85PG000001
+- body_class: Sedan/Saloon
+  electrification_level: ''
+  make: FORD
+  model: Taurus
+  model_year: 2023
+  series: SE
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FAHP2D84P5000001
+- body_class: Sedan/Saloon
+  electrification_level: ''
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: Titanium
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3J24PL000001
+- body_class: Sedan/Saloon
+  electrification_level: ''
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: S
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3EE3P5000001
+- body_class: Sedan/Saloon
+  electrification_level: ''
+  make: FORD
+  model: Taurus
+  model_year: 2023
+  series: SEL
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FAHP2H90P5000001
+- body_class: Hatchback/Liftback/Notchback
+  electrification_level: ''
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: SE
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3K94P5000001
+- body_class: Sedan/Saloon
+  electrification_level: ''
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: Titanium
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3JE1PL000001
+- body_class: Hatchback/Liftback/Notchback
+  electrification_level: BEV (Battery Electric Vehicle)
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: Titanium
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3N4XPL000001
+- body_class: Hatchback/Liftback/Notchback
+  electrification_level: ''
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: ST
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3L96P5000001
+- body_class: Convertible/Cabriolet
+  electrification_level: ''
+  make: FORD
+  model: Mustang
+  model_year: 2023
+  series: GT
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FATP8FF3P5000001
+- body_class: Sedan/Saloon
+  electrification_level: ''
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: SEL
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3H95P5000001
+- body_class: Coupe
+  electrification_level: ''
+  make: FORD
+  model: Mustang
+  model_year: 2023
+  series: Mach 1
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FA6P8RF7PG000001
+- body_class: Hatchback/Liftback/Notchback
+  electrification_level: ''
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: BEV
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3R97P5000001
+- body_class: Sedan/Saloon
+  electrification_level: ''
+  make: FORD
+  model: Taurus
+  model_year: 2023
+  series: Limited
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FAHP2F91PG000001
+- body_class: Sedan/Saloon
+  electrification_level: ''
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: SEL
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3H21P5000001
+- body_class: Hatchback/Liftback/Notchback
+  electrification_level: ''
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: Titanium
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3NE8PG000001
+- body_class: Sedan/Saloon
+  electrification_level: ''
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: SEL
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3HE9P5000001
+- body_class: Sedan/Saloon
+  electrification_level: ''
+  make: FORD
+  model: Taurus
+  model_year: 2023
+  series: Police
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FAHP2LT7P5000001
+- body_class: Hatchback/Liftback/Notchback
+  electrification_level: ''
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: SE
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3K20P5000001
+- body_class: Hatchback/Liftback/Notchback
+  electrification_level: ''
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: SEL
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3M29PG000001
+- body_class: Sedan/Saloon
+  electrification_level: ''
+  make: FORD
+  model: Taurus
+  model_year: 2023
+  series: Police
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FAHP2MK4PG000001
+- body_class: Sedan/Saloon
+  electrification_level: ''
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: Titanium
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3JE0PG000001
+- body_class: Sedan/Saloon
+  electrification_level: ''
+  make: FORD
+  model: Taurus
+  model_year: 2023
+  series: SEL
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FAHP2H86PG000001
+- body_class: Convertible/Cabriolet
+  electrification_level: ''
+  make: FORD
+  model: Mustang
+  model_year: 2023
+  series: I4
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FATP8UD6PG000001
+- body_class: Sedan/Saloon
+  electrification_level: ''
+  make: FORD
+  model: Taurus
+  model_year: 2023
+  series: SHO
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FAHP2K9XP5000001
+- body_class: Sedan/Saloon
+  electrification_level: ''
+  make: FORD
+  model: Focus
+  model_year: 2023
+  series: SE
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FADP3F97PL000001
+- body_class: Sedan/Saloon
+  electrification_level: ''
+  make: FORD
+  model: Taurus
+  model_year: 2023
+  series: SHO
+  trim: ''
+  vehicle_type: PASSENGER CAR
+  vin: 1FAHP2K80P5000001
+- body_class: Pickup
+  electrification_level: HEV (Hybrid Electric Vehicle) - Level Unknown
+  make: FORD
+  model: Maverick
+  model_year: 2023
+  series: XL XLT Lariat
+  trim: SUPERCREW
+  vehicle_type: TRUCK
+  vin: 3FTTW8E35PR000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: Maverick
+  model_year: 2023
+  series: XL XLT Lariat
+  trim: SUPERCREW
+  vehicle_type: TRUCK
+  vin: 3FTTW8F91PR000001
+- body_class: Pickup
+  electrification_level: HEV (Hybrid Electric Vehicle) - Level Unknown
+  make: FORD
+  model: Maverick
+  model_year: 2023
+  series: XLT Lariat
+  trim: SUPERCREW
+  vehicle_type: TRUCK
+  vin: 3FTTW8G39PR000001
+- body_class: Pickup
+  electrification_level: ''
+  make: FORD
+  model: Maverick
+  model_year: 2023
+  series: XL XLT Lariat
+  trim: SUPERCREW
+  vehicle_type: TRUCK
+  vin: 3FTTW8E9XPR000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Edge
+  model_year: 2023
+  series: Titanium
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 2FMPK4KP6PB000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Edge
+  model_year: 2023
+  series: SEL
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 2FMPK4JP4PB000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Flex
+  model_year: 2023
+  series: ''
+  trim: SEL
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 2FMGK5C8XPB000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Flex
+  model_year: 2023
+  series: ''
+  trim: SEL
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 2FMGK6C82PB000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Flex
+  model_year: 2023
+  series: ''
+  trim: Limited
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 2FMGK6D84PB000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Flex
+  model_year: 2023
+  series: ''
+  trim: SE
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 2FMHK5B82PB000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Edge
+  model_year: 2023
+  series: SE
+  trim: ''
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 2FMPK4GP5PB000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Flex
+  model_year: 2023
+  series: ''
+  trim: SEL
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 2FMHK6C87PB000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Flex
+  model_year: 2023
+  series: ''
+  trim: SEL
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 2FMHK6CT1PB000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Flex
+  model_year: 2023
+  series: ''
+  trim: Limited
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 2FMHK5D86PB000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Flex
+  model_year: 2023
+  series: ''
+  trim: Limited
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 2FMGK5DT6PB000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Flex
+  model_year: 2023
+  series: ''
+  trim: SEL
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 2FMHK5CT9PB000001
+- body_class: Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV)
+  electrification_level: ''
+  make: FORD
+  model: Flex
+  model_year: 2023
+  series: ''
+  trim: SE
+  vehicle_type: MULTIPURPOSE PASSENGER VEHICLE (MPV)
+  vin: 2FMGK5B88PB000001
