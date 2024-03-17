@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.6.0 (2024-03-16)
+
+[GitHub release](https://github.com/davidpeckham/vin/releases/tag/v0.6.0)
+
+### Fixes
+
+* No longer throws sqlite3.ProgrammingError when used in multithreaded context (https://github.com/davidpeckham/vin/issues/6, DaThresh)
+
 ## v0.5.0 (2024-03-04)
 
 [GitHub release](https://github.com/davidpeckham/vin/releases/tag/v0.5.0)
