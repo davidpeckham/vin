@@ -16,8 +16,7 @@ from vin.constants import VIN_CHECK_DIGIT_POSITION
 from vin.constants import VIN_LENGTH
 from vin.constants import VIN_MODEL_YEAR_CHARACTERS
 from vin.constants import VIN_POSITION_WEIGHTS
-from vin.database import decode_vin
-from vin.database import get_vpic_version
+from vin.database import vehicle_db
 
 
 class DecodingError(Exception):
@@ -576,13 +575,13 @@ class VIN:
         if decode_model_year:
             model_year = self._decode_model_year()
             if model_year > 0:
-                vehicle = decode_vin(self.wmi, self.descriptor, model_year)
+                vehicle = vehicle_db.decode_vin(self.wmi, self.descriptor, model_year)
             else:
-                vehicle = decode_vin(self.wmi, self.descriptor, abs(model_year))
+                vehicle = vehicle_db.decode_vin(self.wmi, self.descriptor, abs(model_year))
                 if not vehicle:
-                    vehicle = decode_vin(self.wmi, self.descriptor, abs(model_year) - 30)
+                    vehicle = vehicle_db.decode_vin(self.wmi, self.descriptor, abs(model_year) - 30)
         else:
-            vehicle = decode_vin(self.wmi, self.descriptor)
+            vehicle = vehicle_db.decode_vin(self.wmi, self.descriptor)
 
         if vehicle is None:
             raise DecodingError()
@@ -615,7 +614,7 @@ class VIN:
             {'version': '3.44', 'released': '2024-02-17', 'effective': '2024-02-16T19:41:08+00:00',
              'url': 'https://vpic.nhtsa.dot.gov/api/vPICList_lite_2024_02.bak.zip'}
         """
-        return get_vpic_version()
+        return vehicle_db.get_vpic_version()
 
     def __repr__(self) -> str:
         return f"VIN({self!s})"
