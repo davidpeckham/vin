@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.6.1 (2024-03-18)
+
+[GitHub release](https://github.com/davidpeckham/vin/releases/tag/v0.6.1)
+
+Vehicle data updated to [NHTSA vPIC 3.45](https://vpic.nhtsa.dot.gov/api/Home/Index/ReleaseNotes) effective March 16, 2024.
+
 ## v0.6.0 (2024-03-16)
 
 [GitHub release](https://github.com/davidpeckham/vin/releases/tag/v0.6.0)
