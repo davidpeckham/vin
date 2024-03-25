@@ -620,4 +620,4 @@ class VIN:
         return f"VIN({self!s})"
 
     def __str__(self) -> str:
-        return self.description
+        return self._vin

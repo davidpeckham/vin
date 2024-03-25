@@ -156,6 +156,7 @@ def test_raises_error_when_not_a_string() -> None:
 
 def test_kia_niro_bev():
     vin = VIN("KNDCE3LG2L5073161")
+    assert str(vin) == "KNDCE3LG2L5073161"
     assert vin.model_year == 2020
     assert vin.make == "Kia"
     assert vin.model == "Niro"

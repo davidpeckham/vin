@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.6.2 (2024-03-24)
+
+[GitHub release](https://github.com/davidpeckham/vin/releases/tag/v0.6.2)
+
+### Fixes
+
+* VIN.__str__ now returns the Vehicle Identification Number, not the description of the vehicle
+
 ## v0.6.1 (2024-03-18)
 
 [GitHub release](https://github.com/davidpeckham/vin/releases/tag/v0.6.1)
